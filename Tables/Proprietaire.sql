@@ -1,4 +1,4 @@
-CREATE TABLE proprietaires
+CREATE TABLE proprietaire
 (
-    Id VARCHAR2(30) PRIMARY KEY
+    id VARCHAR2(30) 
 );
