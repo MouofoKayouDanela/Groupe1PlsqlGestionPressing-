@@ -1,4 +1,4 @@
-CREATE TABLE clients 
+CREATE TABLE client 
 (
-    Id VARCHAR2(30) PRIMARY KEY
+    id VARCHAR2(30) 
 );
