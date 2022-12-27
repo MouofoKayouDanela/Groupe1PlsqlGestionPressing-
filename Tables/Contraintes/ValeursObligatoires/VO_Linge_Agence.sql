@@ -1,0 +1,4 @@
+ALTER TABLE LINGE_AGENCE
+MODIFY  id_lingeAgence VARCHAR(50)NOT NULL
+MODIFY  Date_ajout Date NOT NULL
+MODIFY  Date_retrait Date NOT NULL;
