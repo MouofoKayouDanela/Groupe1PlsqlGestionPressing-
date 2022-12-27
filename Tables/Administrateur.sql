@@ -1,4 +1,4 @@
-CREATE TABLE administrateurs
+CREATE TABLE administrateur
 (
-    Id VARCHAR2(30) PRIMARY KEY
+    id VARCHAR2(30) 
 );
