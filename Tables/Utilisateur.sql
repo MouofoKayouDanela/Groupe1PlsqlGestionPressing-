@@ -1,12 +1,12 @@
-CREATE TABLE utilisateurs
+CREATE TABLE utilisateur
 (
-    Id VARCHAR2(30) PRIMARY KEY,
-    Nom VARCHAR2(255) , 
-    Prenom VARCHAR2(255), 
-    Genre CHAR(15) ,
-    Date_Naissance  DATE,
-    Email VARCHAR2(255),
-    Telephone NUMBER ,
-    Nom_Utilisateur VARCHAR(255) ,
-    Mot_De_Passe VARCHAR2(255) 
+    id VARCHAR2(30),
+    nom VARCHAR2(255) , 
+    prenom VARCHAR2(255), 
+    genre CHAR(15) ,
+    date_naissance  DATE,
+    email VARCHAR2(255),
+    telephone NUMBER ,
+    nom_utilisateur VARCHAR(255) ,
+    mot_de_passe VARCHAR2(255) 
 );
