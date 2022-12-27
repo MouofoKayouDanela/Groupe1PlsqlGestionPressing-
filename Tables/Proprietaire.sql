@@ -1,4 +1,4 @@
 CREATE TABLE PROPRIETAIRE
 (
-    id VARCHAR2(30) 
+    id VARCHAR2(50) 
 );
