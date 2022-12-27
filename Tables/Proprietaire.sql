@@ -1,4 +1,4 @@
-CREATE TABLE proprietaire
+CREATE TABLE PROPRIETAIRE
 (
     id VARCHAR2(30) 
 );
