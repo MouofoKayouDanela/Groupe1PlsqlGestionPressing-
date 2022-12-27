@@ -1,0 +1,3 @@
+ALTER TABLE PAYS
+ADD CONSTRAINT cp_pays_id_pays
+PRIMARY KEY (id_pays);
