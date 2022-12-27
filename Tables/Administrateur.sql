@@ -1,4 +1,4 @@
-CREATE TABLE administrateur
+CREATE TABLE ADMINISTRATEUR
 (
     id VARCHAR2(30) 
 );
