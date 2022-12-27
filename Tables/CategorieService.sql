@@ -1,0 +1,4 @@
+CREATE TABLE CATEGORIESERVICE(
+    id_categorie VARCHAR(50),
+    nom VARCHAR(50)
+);
