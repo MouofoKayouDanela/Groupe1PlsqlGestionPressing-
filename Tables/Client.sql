@@ -1,4 +1,4 @@
-CREATE TABLE client 
+CREATE TABLE CLIENT 
 (
     id VARCHAR2(30) 
 );
