@@ -1,4 +1,4 @@
-CREATE TABLE utilisateur
+CREATE TABLE UTILISATEUR
 (
     id VARCHAR2(30),
     nom VARCHAR2(255) , 
