@@ -1,5 +1,4 @@
 CREATE TABLE OFFRE (
-
    id_categorielinge VARCHAR2(59),
    id_categorieService VARCHAR2(50),
    id_agenceLinge VARCHAR2  (50),
