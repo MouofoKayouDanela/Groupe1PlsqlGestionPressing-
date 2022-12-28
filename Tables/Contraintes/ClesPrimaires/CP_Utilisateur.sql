@@ -1,3 +1,3 @@
 ALTER TABLE UTILISATEUR
-ADD CONSTRAINT pk_utilisateur 
+ADD CONSTRAINT cp_utilisateur 
 PRIMARY KEY (id);
