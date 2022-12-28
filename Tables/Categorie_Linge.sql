@@ -1,0 +1,5 @@
+CREATE TABLE CATEGORIE_LINGE
+(
+    id_categorielinge VARCHAR2(50),
+    Nom VARCHAR(50)
+)
