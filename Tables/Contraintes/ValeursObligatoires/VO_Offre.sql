@@ -1,0 +1,10 @@
+ALTER  TABLE OFFRE 
+ MODIFY  id_categorielinge VARCHAR2(59) NOT NULL
+ MODIFY  id_categorieService VARCHAR2(50) NOT NULL
+ MODIFY  id_agenceLinge VARCHAR2  (50) NOT NULL
+ MODIFY  prix_unitaire FLOAT NOT NULL
+ MODIFY  dateAjoutLinge DATE NOT NULL
+ MODIFY  id_agenceService VARCHAR2(50) NOT NULL
+ MODIFY  dateAjoutservice VARCHAR2(50) NOT NULL
+ MODIFY  id_annonce VARCHAR2  (50) NOT NULL
+ ;
