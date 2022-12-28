@@ -1,0 +1,3 @@
+ALTER TABLE TYPE_SERVICE
+ADD CONSTRAINT cp_type_service_id_type
+PRIMARY KEY (id_type);
