@@ -1,0 +1,5 @@
+CREATE TABLE TYPE_LINGE
+(
+    id_typelinge VARCHAR2(50),
+    Nom VARCHAR(50)
+)
