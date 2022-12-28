@@ -1,0 +1,3 @@
+ALTER TABLE ROLE
+ADD CONSTRAINT vu_role_nom
+UNIQUE(nom);
