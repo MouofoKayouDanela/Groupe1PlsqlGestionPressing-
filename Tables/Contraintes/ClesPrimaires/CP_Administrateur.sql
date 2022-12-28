@@ -1,3 +1,3 @@
 ALTER TABLE ADMINISTRATEUR
-ADD CONSTRAINT pk_administrateur 
+ADD CONSTRAINT cp_administrateur 
 PRIMARY KEY (id);
