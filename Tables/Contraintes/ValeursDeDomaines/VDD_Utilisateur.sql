@@ -1,0 +1,3 @@
+ALTER TABLE UTILISATEUR
+ADD CONSTRAINT chk_Email
+CHECK (Email LIKE '%@%.%' AND Email NOT LIKE '@%' AND Email NOT LIKE '%@%@%');
