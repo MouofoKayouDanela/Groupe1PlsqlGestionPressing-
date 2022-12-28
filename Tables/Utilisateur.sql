@@ -1,6 +1,5 @@
 CREATE TABLE UTILISATEUR
-(
-    id VARCHAR2(50),
+(  id VARCHAR2(50),
     Nom VARCHAR2(255) , 
     Prenom VARCHAR2(255), 
     Genre CHAR(15) ,

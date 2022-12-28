@@ -1,4 +1,3 @@
 CREATE TABLE CLIENT 
-(
-    id VARCHAR2(50) 
+( id VARCHAR2(50) 
 );
