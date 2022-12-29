@@ -1,6 +1,6 @@
 ALTER TABLE QUARTIER
 ADD CONSTRAINT ce_quartier_id_ville
 FOREIGN KEY (id_ville)
-REFERENCES VILLE(id_ville);
+REFERENCES VILLE(id);
 
 

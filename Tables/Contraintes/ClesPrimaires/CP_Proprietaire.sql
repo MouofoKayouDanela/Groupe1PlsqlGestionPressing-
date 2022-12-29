@@ -1,3 +1,3 @@
 ALTER TABLE PROPRIETAIRE
-ADD CONSTRAINT pk_proprietaire 
+ADD CONSTRAINT cp_proprietaire 
 PRIMARY KEY (id);
