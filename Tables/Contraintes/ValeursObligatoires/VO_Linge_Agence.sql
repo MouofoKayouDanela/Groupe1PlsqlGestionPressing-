@@ -1,4 +1,7 @@
 ALTER TABLE LINGE_AGENCE
-MODIFY  id_lingeAgence VARCHAR2(50)NOT NULL
-MODIFY  Date_ajout Date NOT NULL
-MODIFY  Date_retrait Date NOT NULL;
+MODIFY id_categorie_linge VARCHAR2(50) NOT NULL
+MODIFY id_agence VARCHAR2(50) NOT NULL
+MODIFY Date_ajout Date NOT NULL
+MODIFY id_type_linge VARCHAR2(50) NOT NULL
+MODIFY  Date_retrait DATE NOT NULL
+;

@@ -1,8 +1,8 @@
 ALTER TABLE COMMANDE
-ADD(    CONSTRAINT ce_commande_addresseRamassage
-        FOREIGN KEY (addresseRamassage) REFERENCES QUARTIER (id_quartier),
-        CONSTRAINT ce_commande_addresseLivraison
-        FOREIGN KEY (addresseLivraison) REFERENCES QUARTIER (id_quartier)
-        CONSTRAINT ce_commande_ dateEmissionMessage
-        FOREIGN KEY (id_besoin,id_agence,dateEmissionMessage) REFERENCES MESSAGE (id_besoin,id_agence,dateEmissionMessage)    
+ADD(    CONSTRAINT ce_commande_addresse_Ramassage
+        FOREIGN KEY (addresse_Ramassage) REFERENCES QUARTIER (id_quartier),
+        CONSTRAINT ce_commande_addresse_Livraison
+        FOREIGN KEY (addresse-Livraison) REFERENCES QUARTIER (id_quartier)
+        CONSTRAINT ce_commande_ date_Emission_Message
+        FOREIGN KEY (id_besoin,id_agence,date_Emission_Message) REFERENCES MESSAGE (id_besoin,id_agence,date_Emission_Message)    
 );

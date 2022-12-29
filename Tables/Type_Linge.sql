@@ -1,4 +1,4 @@
 CREATE TABLE TYPE_LINGE
-( id_typelinge VARCHAR2(50),
+( id_type_linge VARCHAR2(50),
     Nom VARCHAR2(50)
 );
