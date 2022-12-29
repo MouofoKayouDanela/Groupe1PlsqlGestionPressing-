@@ -4,5 +4,5 @@ ADD(    CONSTRAINT ce_commande_addresse_Ramassage
         CONSTRAINT ce_commande_addresse_Livraison
         FOREIGN KEY (addresse-Livraison) REFERENCES QUARTIER (id)
         CONSTRAINT ce_commande_ date_Emission_Message
-        FOREIGN KEY (id_besoin,id_agence,date_Emission_Message) REFERENCES MESSAGE (id_besoin,id_agence,date_Emission_Message)    
+        FOREIGN KEY (id_besoin,id_agence,date_Emission_Message) REFERENCES MESSAGE (id_besoin,id_agence,date_Emission)    
 );
