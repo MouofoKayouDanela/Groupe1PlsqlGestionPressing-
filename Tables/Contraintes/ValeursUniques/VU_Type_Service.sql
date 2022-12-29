@@ -1,0 +1,2 @@
+ALTER TABLE TYPE_SERVICE
+ADD CONSTRAINT vu_type_service UNIQUE(Intitule);
