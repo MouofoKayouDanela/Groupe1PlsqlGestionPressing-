@@ -1,10 +1,9 @@
 CREATE TABLE DETAILS_BESOIN(
-    id_detail_besoin VARCHAR2(50),
+    id_besoin VARCHAR2(50),
     Quantite INT,
     Prix_unitaire FLOAT,
-    id_besoin VARCHAR(50),
-    id_categorielinge VARCHAR2(50),
-    id_categorie VARCHAR(50),
-    id_typelinge VARCHAR2(50),
-    id_type VARCHAR(50),
+    id_categorie_linge VARCHAR2(50),
+    id_categorie_service VARCHAR(50),
+    id_type_linge VARCHAR2(50),
+    id_type_service VARCHAR(50),
 );

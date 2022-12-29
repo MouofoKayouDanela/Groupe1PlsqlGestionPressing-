@@ -1,4 +1,4 @@
 CREATE TABLE LINGE
-(id_categorie_linge VARCHAR2(50),
-    id_type_linge VARCHAR2(50)
+(   id_categorie VARCHAR2(50),
+    id_type VARCHAR2(50)
 );

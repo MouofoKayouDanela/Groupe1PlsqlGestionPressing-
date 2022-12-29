@@ -1,4 +1,4 @@
 CREATE TABLE TYPE_SERVICE(
-    id_type VARCHAR2(50),
+    id VARCHAR2(50),
     Intitule VARCHAR2(50)
 );
