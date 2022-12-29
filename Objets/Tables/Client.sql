@@ -1,0 +1,3 @@
+CREATE TABLE CLIENT 
+( id VARCHAR2(50) 
+);
