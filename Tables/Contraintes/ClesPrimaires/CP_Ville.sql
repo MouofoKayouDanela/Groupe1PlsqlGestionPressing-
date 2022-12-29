@@ -1,3 +1,3 @@
 ALTER TABLE VILLE
 ADD CONSTRAINT cp_ville_id_ville
-PRIMARY KEY (id_ville);
+PRIMARY KEY (id);
