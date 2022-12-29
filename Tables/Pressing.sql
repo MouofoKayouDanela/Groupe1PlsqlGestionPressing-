@@ -1,4 +1,5 @@
 CREATE TABLE PRESSING
-(   id VARCHAR(50),
-    id_proprietaire VARCHAR(50)
+(   id VARCHAR2(50),
+    nom VARCHAR2(255),
+    id_proprietaire VARCHAR2(50)
 );

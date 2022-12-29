@@ -1,6 +1,6 @@
 CREATE TABLE QUARTIER(
-    id_quartier VARCHAR(50),
-    Nom VARCHAR(50),
-    id_ville VARCHAR(50)
+    id_quartier VARCHAR2(50),
+    Nom VARCHAR2(50),
+    id_ville VARCHAR2(50)
 );
 

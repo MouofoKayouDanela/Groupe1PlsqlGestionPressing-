@@ -1,4 +1,4 @@
 CREATE TABLE CATEGORIE_SERVICE(
-    id_categorie VARCHAR(50),
-    nom VARCHAR(50)
+    id_categorie VARCHAR2(50),
+    nom VARCHAR2(50)
 );

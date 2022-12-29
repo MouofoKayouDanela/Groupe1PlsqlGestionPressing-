@@ -1,6 +1,6 @@
 CREATE TABLE AGENT
 (
-    id VARCHAR(50),
-    id_agence VARCHAR(50),
-    id_role VARCHAR(50)
+    id VARCHAR2(50),
+    id_agence VARCHAR2(50),
+    id_role VARCHAR2(50)
 );

@@ -1,0 +1,4 @@
+ALTER TABLE PROMOTION
+ADD CONSTRAINT ce_promotion_id
+FOREIGN KEY (id_categorielinge,id_categorieService,id_agenceLinge,prix_unitaire)
+REFERENCES OFFRE (id_categorielinge,id_categorieService,id_agenceLinge,prix_unitaire);

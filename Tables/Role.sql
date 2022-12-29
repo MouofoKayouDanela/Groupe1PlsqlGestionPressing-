@@ -1,5 +1,5 @@
 CREATE TABLE ROLE
-( id VARCHAR(50),
-    nom VARCHAR(50),
-    description VARCHAR(255)
+( id VARCHAR2(50),
+    nom VARCHAR2(50),
+    description VARCHAR2(255)
 );

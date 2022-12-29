@@ -1,4 +1,4 @@
 CREATE TABLE SERVICE(
-    id_categorie VARCHAR(50),
-    id_type VARCHAR(50)
+    id_categorie VARCHAR2(50),
+    id_type VARCHAR2(50)
 );

@@ -1,4 +1,4 @@
 CREATE TABLE PAYS(
-    id_pays VARCHAR(50),
-    Nom VARCHAR(50)  
+    id_pays VARCHAR2(50),
+    Nom VARCHAR2(50)  
 );

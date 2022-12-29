@@ -6,6 +6,6 @@ CREATE TABLE UTILISATEUR
     Date_naissance  DATE,
     Email VARCHAR2(255),
     Telephone NUMBER ,
-    Nom_utilisateur VARCHAR(255) ,
+    Nom_utilisateur VARCHAR2(255) ,
     Mot_de_passe VARCHAR2(255) 
 );
