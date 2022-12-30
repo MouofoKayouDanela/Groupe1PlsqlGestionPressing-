@@ -5,6 +5,6 @@ ALTER  TABLE OFFRE
  MODIFY  prix_unitaire FLOAT NOT NULL
  MODIFY  date_Ajout_Linge DATE NOT NULL
  MODIFY  id_agence_Service VARCHAR2(50) NOT NULL
- MODIFY  date_Ajout_service VARCHAR2(50) NOT NULL
+ MODIFY  date_Ajout_service DATE NOT NULL
  MODIFY  id_annonce VARCHAR2  (50) NOT NULL
  ;
