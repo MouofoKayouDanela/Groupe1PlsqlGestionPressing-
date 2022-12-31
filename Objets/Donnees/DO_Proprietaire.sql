@@ -1,0 +1,24 @@
+INSERT INTO PROPRIETAIRE
+(
+    id 
+)
+VALUES
+(
+    'UT002'
+);
+INSERT INTO PROPRIETAIRE
+(
+    id 
+)
+VALUES
+(
+    'UT003'
+);
+INSERT INTO PROPRIETAIRE
+(
+    id 
+)
+VALUES
+(
+    'UT004'
+);
