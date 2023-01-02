@@ -1,0 +1,10 @@
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI001', 'Douala', 'PA001');
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI002', 'Yaounde', 'PA001');
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI003', 'Bafoussam', 'PA001');
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI004', 'Kribi', 'PA001');
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI005', 'Buea', 'PA001');
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI006', 'Bamenda','PA001');
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI007', 'Limbe', 'PA001');
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI008', 'Nkongsamba', 'PA001');
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI009', 'Edea', 'PA001');
+INSERT INTO VILLE (id, nom, id_pays) VALUES ('VI010', 'Bertoua', 'PA001');
