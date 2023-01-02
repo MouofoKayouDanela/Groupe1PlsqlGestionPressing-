@@ -1,0 +1,27 @@
+PROMPT CREATION DES TABLES
+@@Administrateur
+@@Agence
+@@Agent
+@@Annonce
+@@Besoin
+@@Categorie_Linge
+@@Categorie_Service
+@@Client
+@@Commande
+@@Details_Besoin
+@@Linge_Agence
+@@Linge
+@@Message
+@@Offre
+@@Pays
+@@Pressing
+@@Promotion
+@@Proprietaire
+@@Quartier
+@@Role
+@@Service_Agence
+@@Service
+@@Type_Linge
+@@Type_Service
+@@Utilisateur
+@@Ville

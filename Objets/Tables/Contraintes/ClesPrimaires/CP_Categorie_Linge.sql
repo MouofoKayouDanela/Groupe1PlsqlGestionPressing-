@@ -1,0 +1,3 @@
+ALTER TABLE CATEGORIE_LINGE
+ADD CONSTRAINT cp_categorie_linge_id_linge
+PRIMARY KEY (id);

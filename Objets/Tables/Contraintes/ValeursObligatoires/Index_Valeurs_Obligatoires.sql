@@ -1,0 +1,27 @@
+PROMPT CREATION DES CONTRAINTES DE VALEURS OBLIGATOIRES
+@@VO_Administrateur
+@@VO_Agence
+@@VO_Agent
+@@VO_Annonce
+@@VO_Besoin
+@@VO_Categorie_Linge
+@@VO_Categorie_Service
+@@VO_Client
+@@VO_Commande
+@@VO_Details_Besoin
+@@VO_Linge_Agence
+@@VO_Linge
+@@VO_Message
+@@VO_Offre
+@@VO_Pays
+@@VO_Pressing
+@@VO_Promotion
+@@VO_Proprietaire
+@@VO_Quartier
+@@VO_Role
+@@VO_Service_Agence
+@@VO_Service
+@@VO_Type_Linge
+@@VO_Type_Service
+@@VO_Utilisateur
+@@VO_Ville

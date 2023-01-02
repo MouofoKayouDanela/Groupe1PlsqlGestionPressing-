@@ -10,7 +10,7 @@ ROLE (id, nom, description)
 VALUES (
     'RO002',
     'Commande',
-    ''
+    'Charger des commandes'
 );
 INSERT INTO 
 ROLE (id, nom, description)

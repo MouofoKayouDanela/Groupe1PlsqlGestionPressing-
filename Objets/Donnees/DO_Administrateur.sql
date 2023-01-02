@@ -1,0 +1,8 @@
+INSERT INTO PROPRIETAIRE
+(
+    id 
+)
+VALUES
+(
+    'UT001'
+);
