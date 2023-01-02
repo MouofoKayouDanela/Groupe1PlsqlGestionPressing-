@@ -44,7 +44,7 @@ INSERT INTO
 AGENCE (id, id_pressing, id_quartier)
 VALUES (
     'AG007',
-    'PR003',
+    'PR005',
     'QU009'
 );
 INSERT INTO 
@@ -65,6 +65,6 @@ INSERT INTO
 AGENCE (id, id_pressing, id_quartier)
 VALUES (
     'AG010',
-    'PR002',
+    'PR007',
     'QU006'
 );
