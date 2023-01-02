@@ -1,0 +1,3 @@
+ALTER TABLE TYPE_LINGE
+ADD CONSTRAINT cp_type_linge_id_type
+PRIMARY KEY (id);

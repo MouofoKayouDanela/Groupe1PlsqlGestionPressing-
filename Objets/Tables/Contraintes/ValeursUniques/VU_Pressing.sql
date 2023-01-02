@@ -1,4 +1,2 @@
 ALTER TABLE PRESSING
-ADD(
-     CONSTRAINT vu_ pressing UNIQUE (nom)
-);
+ADD CONSTRAINT vu_pressing UNIQUE(nom);

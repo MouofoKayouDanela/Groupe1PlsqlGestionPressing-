@@ -1,6 +1,6 @@
 ALTER TABLE MESSAGE 
  MODIFY   id_besoin VARCHAR2(50)  NOT NULL
  MODIFY   id_agence VARCHAR2(50)  NOT NULL
- MODIFY   date_Emission_Message DATE NOT NULL
+ MODIFY   date_Emission DATE NOT NULL
  MODIFY   description VARCHAR2(50) NOT NULL
 ;
