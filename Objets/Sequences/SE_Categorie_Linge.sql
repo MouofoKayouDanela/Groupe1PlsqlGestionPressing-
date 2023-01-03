@@ -1,4 +1,3 @@
-DROP SEQUENCE seq_categorie_linge;
 CREATE SEQUENCE seq_categorie_linge
 MINVALUE 10
 START WITH 10

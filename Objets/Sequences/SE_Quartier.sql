@@ -1,4 +1,3 @@
-DROP SEQUENCE seq_quartier;
 CREATE SEQUENCE seq_quartier
 MINVALUE 11
 START WITH 11

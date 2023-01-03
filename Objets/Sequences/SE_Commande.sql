@@ -1,4 +1,3 @@
-DROP SEQUENCE seq_commande;
 CREATE SEQUENCE seq_commande
 MINVALUE 10
 START WITH 10

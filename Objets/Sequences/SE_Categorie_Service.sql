@@ -1,4 +1,3 @@
-DROP SEQUENCE seq_categorie_service;
 CREATE SEQUENCE seq_categorie_service
 MINVALUE 10
 START WITH 10

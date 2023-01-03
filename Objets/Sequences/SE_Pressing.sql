@@ -1,4 +1,3 @@
-DROP SEQUENCE seq_pressing;
 CREATE SEQUENCE seq_pressing
 MINVALUE 10
 START WITH 10

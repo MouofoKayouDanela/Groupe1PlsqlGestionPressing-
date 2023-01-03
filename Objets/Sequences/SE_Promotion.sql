@@ -1,4 +1,3 @@
-DROP SEQUENCE seq_promotion;
 CREATE SEQUENCE seq_promotion
 MINVALUE 10
 START WITH 10

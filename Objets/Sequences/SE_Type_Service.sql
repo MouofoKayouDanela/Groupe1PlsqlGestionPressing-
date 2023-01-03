@@ -1,4 +1,3 @@
-DROP SEQUENCE seq_type_service;
 CREATE SEQUENCE seq_type_service
 MINVALUE 10
 START WITH 10

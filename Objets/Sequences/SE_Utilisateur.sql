@@ -1,4 +1,3 @@
-DROP SEQUENCE seq_utilisateur;
 CREATE SEQUENCE seq_utilisateur
 MINVALUE 20
 START WITH 20
