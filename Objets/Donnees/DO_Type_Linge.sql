@@ -258,3 +258,53 @@ VALUES
     'TL026',
     'Valise'
 );
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL027',
+    'Robe de Mariee'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL028',
+    'Costume'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL029',
+    'Ensembles'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL030',
+    'Chapeau'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL031',
+    'Pagne'
+);
