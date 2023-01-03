@@ -1,24 +1,30 @@
 INSERT INTO PROPRIETAIRE
 (
-    id 
+    id,
+    date_enregistrement 
 )
 VALUES
 (
-    'UT002'
+    'UT002',
+    TO_DATE("17/01/2019", "dd/mm/yyyy")
 );
 INSERT INTO PROPRIETAIRE
 (
-    id 
+    id,
+    date_enregistrement 
 )
 VALUES
 (
-    'UT003'
+    'UT003',
+    TO_DATE("01/12/2019", "dd/mm/yyyy")
 );
 INSERT INTO PROPRIETAIRE
 (
-    id 
+    id,
+    date_enregistrement 
 )
 VALUES
 (
-    'UT004'
+    'UT004',
+    TO_DATE("30/04/2020", "dd/mm/yyyy")
 );
