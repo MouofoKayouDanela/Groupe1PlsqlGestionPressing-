@@ -6,7 +6,7 @@ INSERT INTO CLIENT
 VALUES
 (
     'UT010',
-    TO_DATE("25/02/2019", "dd/mm/yyyy")
+    TO_DATE('25/02/2019', 'dd/mm/yyyy')
 );
 INSERT INTO CLIENT
 (
@@ -16,7 +16,7 @@ INSERT INTO CLIENT
 VALUES
 (
     'UT011',
-    TO_DATE("25/02/2019", "dd/mm/yyyy")
+    TO_DATE('25/02/2019', 'dd/mm/yyyy')
 );
 INSERT INTO CLIENT
 (
@@ -26,7 +26,7 @@ INSERT INTO CLIENT
 VALUES
 (
     'UT012',
-    TO_DATE("30/05/2019", "dd/mm/yyyy")
+    TO_DATE('30/05/2019', 'dd/mm/yyyy')
 );
 INSERT INTO CLIENT
 (
@@ -36,7 +36,7 @@ INSERT INTO CLIENT
 VALUES
 (
     'UT013',
-    TO_DATE("31/05/2019", "dd/mm/yyyy")
+    TO_DATE('31/05/2019', 'dd/mm/yyyy')
 );
 INSERT INTO CLIENT
 (
@@ -46,7 +46,7 @@ INSERT INTO CLIENT
 VALUES
 (
     'UT014',
-    TO_DATE("13/07/2019", "dd/mm/yyyy")
+    TO_DATE('13/07/2019', 'dd/mm/yyyy')
 );
 INSERT INTO CLIENT
 (
@@ -56,5 +56,5 @@ INSERT INTO CLIENT
 VALUES
 (
     'UT015',
-    TO_DATE("19/09/2020", "dd/mm/yyyy")
+    TO_DATE('19/09/2020', 'dd/mm/yyyy')
 );
