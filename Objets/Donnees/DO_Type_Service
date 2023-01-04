@@ -5,8 +5,8 @@ INSERT INTO Type_Service
 )
 VALUES
 (
-    'A1',
-    'Nettoyage'
+    'TS001',
+    'Nettoyage '
 );
 NSERT INTO Type_Service 
 (
@@ -15,7 +15,7 @@ NSERT INTO Type_Service
 )
 VALUES
 (
-    'A2',
+    'TS002',
     'lavage'
 );
 NSERT INTO Type_Service 
@@ -25,7 +25,7 @@ NSERT INTO Type_Service
 )
 VALUES
 (
-    'A3',
+    'TS003',
     'detachage'
 );
 NSERT INTO Type_Service 
@@ -35,7 +35,7 @@ NSERT INTO Type_Service
 )
 VALUES
 (
-    'A4',
+    'TS004',
     'blanchisserie'
 );
 NSERT INTO Type_Service 
@@ -45,7 +45,7 @@ NSERT INTO Type_Service
 )
 VALUES
 (
-    'A5',
+    'TS005',
     'tinture'
 );
 NSERT INTO Type_Service 
@@ -55,7 +55,7 @@ NSERT INTO Type_Service
 )
 VALUES
 (
-    'A6',
+    'TS006',
     'traitement specifique'
 );
 NSERT INTO Type_Service 
@@ -65,7 +65,7 @@ NSERT INTO Type_Service
 )
 VALUES
 (
-    'A7',
+    'TSOO7',
     'couture/retouche'
 );
 NSERT INTO Type_Service 
@@ -75,7 +75,7 @@ NSERT INTO Type_Service
 )
 VALUES
 (
-    'A8',
+    'TS008',
     'dégraissage'
 );
 NSERT INTO Type_Service 
@@ -85,7 +85,7 @@ NSERT INTO Type_Service
 )
 VALUES
 (
-    'A9',
+    'TS009',
     'repassage'
 );
 NSERT INTO Type_Service 
@@ -95,6 +95,6 @@ NSERT INTO Type_Service
 )
 VALUES
 (
-    'A10',
+    'TS0010',
     'de boulochage'
 );

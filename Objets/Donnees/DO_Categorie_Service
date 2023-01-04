@@ -1,0 +1,97 @@
+NSERT INTO Categori_Service
+(
+    id
+    nom
+)
+VALUES
+(
+    'CS001',
+    'A eau'
+);
+NSERT INTO Categori_Service
+(
+    id
+    nom
+)
+VALUES
+(
+    'CS002',
+    'A sec'
+);
+NSERT INTO Categori_Service
+(
+    id
+    nom
+)
+VALUES
+(
+    'CS003',
+    'A simple'
+);
+NSERT INTO Categori_Service
+(
+    id
+    nom
+)
+VALUES
+(
+    'CS004',
+    'A induction'
+);
+NSERT INTO Categori_Service
+(
+    id
+    nom
+)
+VALUES
+(
+    'CS005',
+    'A froid'
+);
+NSERT INTO Categori_Service
+(
+    id
+    nom
+)
+VALUES
+(
+    'CS006',
+    'A chaud'
+);
+NSERT INTO Categori_Service
+(
+    id
+    nom
+)
+VALUES
+(
+    'CS007',
+    'Ecologique'
+);
+NSERT INTO Categori_Service
+(
+    id
+    nom
+)
+VALUES
+(
+    'CS008',
+    ' chauffant'
+);
+NSERT INTO Categori_Service
+(
+    id
+    nom
+)
+VALUES
+(
+    'CS009',
+    'A vapeur '
+);
+A
+
+
+
+
+
+
