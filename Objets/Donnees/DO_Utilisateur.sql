@@ -358,5 +358,76 @@ VALUES
     'TchindaYvana',
     'TY030114' 
 );
-
+INSERT INTO UTILISATEUR
+(
+    id ,
+    Nom, 
+    Prenom , 
+    Genre ,
+    Date_naissance ,
+    Email ,
+    Telephone,
+    Nom_utilisateur ,
+    Mot_de_passe
+)
+VALUES
+(
+    'UT016',
+    'Toko',
+    'Loic',
+    'Masculin',
+    TO_DATE('10/03/2002', 'dd/mm/yyyy'),
+    'tokoloic@gmail.com',
+    696251909,
+    'TokoLoic',
+    'TL030114' 
+);
+INSERT INTO UTILISATEUR
+(
+    id ,
+    Nom, 
+    Prenom , 
+    Genre ,
+    Date_naissance ,
+    Email ,
+    Telephone,
+    Nom_utilisateur ,
+    Mot_de_passe
+)
+VALUES
+(
+    'UT017',
+    'Raye',
+    'Malik',
+    'Masculin',
+    TO_DATE('29/08/2001', 'dd/mm/yyyy'),
+    'rayemalik@gmail.com',
+    671258888,
+    'RayeMalik',
+    'RM290114' 
+);
+INSERT INTO UTILISATEUR
+(
+    id ,
+    Nom, 
+    Prenom , 
+    Genre ,
+    Date_naissance ,
+    Email ,
+    Telephone,
+    Nom_utilisateur ,
+    Mot_de_passe
+)
+VALUES
+(
+    'UT018',
+    'Naa',
+    'Roussel',
+    'Feminin',
+    TO_DATE('17/03/2001999', 'dd/mm/yyyy'),
+    'naaroussel@gmail.com',
+    696251909,
+    'NaaRoussel',
+    'NR030114' 
+);
 
