@@ -1,6 +1,6 @@
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -10,7 +10,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -20,7 +20,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -30,7 +30,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -40,7 +40,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -50,7 +50,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -60,7 +60,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -70,7 +70,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -80,7 +80,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -90,7 +90,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -100,7 +100,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -130,7 +130,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -140,7 +140,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -150,7 +150,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -160,7 +160,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -170,17 +170,17 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
 (
     'CS003',
-    'TS009'
+    'TS009 '
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES

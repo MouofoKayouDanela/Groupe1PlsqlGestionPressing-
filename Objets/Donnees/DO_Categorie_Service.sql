@@ -1,16 +1,16 @@
-NSERT INTO Categori_Service
+INSERT INTO Categori_Service
 (
-    id
+    id,
     nom
 )
 VALUES
 (
     'CS001',
-    'A eau'
+    'A eau '
 );
-NSERT INTO Categori_Service
+INSERT INTO Categorie_Service
 (
-    id
+    id,
     nom
 )
 VALUES
@@ -18,19 +18,19 @@ VALUES
     'CS002',
     'A sec'
 );
-NSERT INTO Categori_Service
+INSERT INTO Categorie_Service
 (
-    id
+    id,
     nom
 )
 VALUES
 (
     'CS003',
-    'A simple'
+    ' simple'
 );
-NSERT INTO Categori_Service
+INSERT INTO Categorie_Service
 (
-    id
+    id,
     nom
 )
 VALUES
@@ -38,9 +38,9 @@ VALUES
     'CS004',
     'A induction'
 );
-NSERT INTO Categori_Service
+INSERT INTO Categorie_Service
 (
-    id
+    id,
     nom
 )
 VALUES
@@ -48,9 +48,9 @@ VALUES
     'CS005',
     'A froid'
 );
-NSERT INTO Categori_Service
+INSERT INTO Categorie_Service
 (
-    id
+    id,
     nom
 )
 VALUES
@@ -58,9 +58,9 @@ VALUES
     'CS006',
     'A chaud'
 );
-NSERT INTO Categori_Service
+INSERT INTO Categorie_Service
 (
-    id
+    id,
     nom
 )
 VALUES
@@ -68,9 +68,9 @@ VALUES
     'CS007',
     'Ecologique'
 );
-NSERT INTO Categori_Service
+INSERT INTO Categorie_Service
 (
-    id
+    id,
     nom
 )
 VALUES
@@ -78,9 +78,9 @@ VALUES
     'CS008',
     ' chauffant'
 );
-NSERT INTO Categori_Service
+INSERT INTO Categorie_Service
 (
-    id
+    id,
     nom
 )
 VALUES
