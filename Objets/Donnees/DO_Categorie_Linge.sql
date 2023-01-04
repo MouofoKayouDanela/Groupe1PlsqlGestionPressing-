@@ -158,6 +158,7 @@ VALUES
     'CL016',
     'Fausse Fourrure'
 );
+
 INSERT INTO CATEGORIE_LINGE
 (
     id,
@@ -166,16 +167,6 @@ INSERT INTO CATEGORIE_LINGE
 VALUES
 (
     'CL017',
-    'Lainage'
-);
-INSERT INTO CATEGORIE_LINGE
-(
-    id,
-    Nom
-)
-VALUES
-(
-    'CL018',
     'Coupe-Vent'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -185,7 +176,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL019',
+    'CL018',
     'Satin'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -195,7 +186,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL020',
+    'CL019',
     'Cachemire'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -205,7 +196,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL021',
+    'CL020',
     'Velours'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -215,7 +206,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL022',
+    'CL021',
     'Polaire'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -225,7 +216,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL023',
+    'CL022',
     'Sweat'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -235,7 +226,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL024',
+    'CL023',
     'Tulle'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -245,7 +236,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL025',
+    'CL024',
     'Voile'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -255,7 +246,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL026',
+    'CL025',
     'Doublure'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -265,7 +256,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL027',
+    'CL026',
     'Cuir'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -275,7 +266,7 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL028',
+    'CL027',
     'Textile'
 );
 INSERT INTO CATEGORIE_LINGE
@@ -285,6 +276,36 @@ INSERT INTO CATEGORIE_LINGE
 )
 VALUES
 (
-    'CL029',
+    'CL028',
     'Eva'
+);
+INSERT INTO CATEGORIE_LINGE
+(
+    id,
+    Nom
+)
+VALUES
+(
+    'CL029',
+    'Pagne'
+);
+INSERT INTO CATEGORIE_LINGE
+(
+    id,
+    Nom
+)
+VALUES
+(
+    'CL030',
+    'Mousseline'
+);
+NSERT INTO CATEGORIE_LINGE
+(
+    id,
+    Nom
+)
+VALUES
+(
+    'CL031',
+    'Din'
 );
