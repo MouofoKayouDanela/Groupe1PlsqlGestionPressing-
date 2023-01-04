@@ -1,16 +1,16 @@
 INSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
 (
     'TS001',
-    'Nettoyage '
+    'Nettoyage'
 );
 NSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
@@ -20,7 +20,7 @@ VALUES
 );
 NSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
@@ -30,7 +30,7 @@ VALUES
 );
 NSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
@@ -40,7 +40,7 @@ VALUES
 );
 NSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
@@ -60,27 +60,27 @@ VALUES
 );
 NSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
 (
     'TSOO7',
-    'couture/retouche'
+    'couture et retouche'
 );
 NSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
 (
     'TS008',
-    'dégraissage'
+    'degraissage'
 );
 NSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
@@ -90,11 +90,11 @@ VALUES
 );
 NSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
 (
-    'TS0010',
-    'de boulochage'
+    'TS010',
+    'deboulochage'
 );
