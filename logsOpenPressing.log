@@ -646,179 +646,153 @@ Séquence créée.
 
 Séquence créée.
 
-SQL> @./Objets/Donnees/DO_Linge_Agence
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+SQL> @Objets/Donnees/DO_Utilisateur
+
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
+
+SQL> @Objets/Donnees/DO_Proprietaire
+
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
+
+SQL> @Objets/Donnees/DO_Pressing
+
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+1 ligne créée.
+
+SQL> @Objets/Donnees/DO_Agence
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
 
 
-    id_categorie VARCHAR2(50),
-                 *
-ERREUR à la ligne 3 :
-ORA-00917: virgule absente
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
+
+
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
+
+
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
+
+
+INSERT INTO
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_AGENCE_ID_QUARTIER) - clé parent introuvable
 
 
 SQL> exit
