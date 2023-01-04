@@ -306,5 +306,77 @@ INSERT INTO TYPE_LINGE
 VALUES
 (
     'TL031',
-    'Pagne'
+    'Drap'
 );
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL032',
+    'Couverture'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL033',
+    'Cycliste'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL034',
+    'Jogging'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL035',
+    'Canape'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL036',
+    'Fauteil'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL037',
+    'Foulard'
+);
+INSERT INTO TYPE_LINGE
+(
+    id,
+    intitule
+)
+VALUES
+(
+    'TL038',
+    'Voile'
+);
+
+
