@@ -1,0 +1,100 @@
+INSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A1',
+    'Nettoyage'
+);
+NSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A2',
+    'lavage'
+);
+NSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A3',
+    'detachage'
+);
+NSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A4',
+    'blanchisserie'
+);
+NSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A5',
+    'tinture'
+);
+NSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A6',
+    'traitement specifique'
+);
+NSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A7',
+    'couture/retouche'
+);
+NSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A8',
+    'dégraissage'
+);
+NSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A9',
+    'repassage'
+);
+NSERT INTO Type_Service 
+(
+    id
+    intitule
+)
+VALUES
+(
+    'A10',
+    'de boulochage'
+);
