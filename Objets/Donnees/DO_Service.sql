@@ -5,7 +5,7 @@ INSERT INTO Service
 )
 VALUES
 (
-    'ACS001',
+    'CS001',
     'TS002'
 );
 INSERT INTO Service
@@ -15,7 +15,7 @@ INSERT INTO Service
 )
 VALUES
 (
-    'A03',
+    'CS003',
     'TS002'
 );
 INSERT INTO Service
@@ -25,7 +25,7 @@ INSERT INTO Service
 )
 VALUES
 (
-    'A06',
+    'CS006',
     'TS002'
 );
 INSERT INTO Service
@@ -36,7 +36,7 @@ INSERT INTO Service
 VALUES
 (
     'CS007',
-    'A2'
+    'TS002'
 );
 INSERT INTO Service
 (
@@ -45,7 +45,7 @@ INSERT INTO Service
 )
 VALUES
 (
-    'CS0O3',
+    'CS003',
     'TS002'
 );
 INSERT INTO Service
@@ -156,7 +156,7 @@ INSERT INTO Service
 VALUES
 (
     'CS008',
-    'A8'
+    'TS008'
 );
 INSERT INTO Service
 (
@@ -176,7 +176,7 @@ INSERT INTO Service
 VALUES
 (
     'CS003',
-    'TS009 '
+    'TS009'
 );
 INSERT INTO Service
 (
@@ -186,7 +186,7 @@ INSERT INTO Service
 VALUES
 (
     'CS003',
-    'TS0010'
+    'TS010'
 );
 
 

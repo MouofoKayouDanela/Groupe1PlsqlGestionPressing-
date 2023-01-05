@@ -1,4 +1,4 @@
-INSERT INTO Categori_Service
+INSERT INTO Categorie_Service
 (
     id,
     nom
@@ -76,7 +76,7 @@ INSERT INTO Categorie_Service
 VALUES
 (
     'CS008',
-    ' chauffant'
+    'chauffant'
 );
 INSERT INTO Categorie_Service
 (
@@ -86,9 +86,9 @@ INSERT INTO Categorie_Service
 VALUES
 (
     'CS009',
-    'A vapeur '
+    'A vapeur'
 );
-A
+
 
 
 
