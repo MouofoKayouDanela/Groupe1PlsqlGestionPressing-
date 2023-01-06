@@ -393,7 +393,7 @@ VALUES
      500,
      TO_DATE('09/11/2019', 'dd/mm/yyyy'),
      'AG002',
-     TO_DATE('28/04/2004', 'dd/mm/yyyy'),
+     TO_DATE('19/12/2019', 'dd/mm/yyyy'),
     'AN002'
 );
 INSERT INTO OFFRE   
