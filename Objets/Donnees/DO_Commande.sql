@@ -18,7 +18,7 @@ VALUES
     'QU001',
     'BE001',
     'AG001',
-    TO_DATE('28/02/2019', 'dd/mm/yyyy')
+    TO_DATE('17/01/2019', 'dd/mm/yyyy')
 );
 INSERT INTO COMMANDE
 (
@@ -40,7 +40,7 @@ VALUES
     'QU002',
     'BE002',
     'AG002',
-    TO_DATE('03/03/2019', 'dd/mm/yyyy')
+    TO_DATE('17/01/2019', 'dd/mm/yyyy')
 );
 INSERT INTO COMMANDE
 (
@@ -62,7 +62,7 @@ VALUES
     'QU003',
     'BE003',
     'AG003',
-    TO_DATE('05/06/2019', 'dd/mm/yyyy')
+    TO_DATE('17/01/2019', 'dd/mm/yyyy')
 );
 INSERT INTO COMMANDE
 (
@@ -84,7 +84,7 @@ VALUES
     'QU004',
     'BE004',
     'AG004',
-    TO_DATE('05/06/2019', 'dd/mm/yyyy')
+    TO_DATE('17/01/2019', 'dd/mm/yyyy')
 );
 INSERT INTO COMMANDE
 (
@@ -106,7 +106,7 @@ VALUES
     'QU005',
     'BE005',
     'AG005',
-    TO_DATE('30/07/2019', 'dd/mm/yyyy')
+    TO_DATE('17/01/2019', 'dd/mm/yyyy')
 );
 INSERT INTO COMMANDE
 (
@@ -128,5 +128,5 @@ VALUES
     'QU006',
     'BE006',
     'AG006',
-    TO_DATE('28/09/2019', 'dd/mm/yyyy')
+    TO_DATE('17/01/2019', 'dd/mm/yyyy')
 );
