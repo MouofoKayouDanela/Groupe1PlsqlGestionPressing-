@@ -45,7 +45,7 @@ INSERT INTO Service
 )
 VALUES
 (
-    'CS003',
+    'CS008',
     'TS002'
 );
 INSERT INTO Service
@@ -110,7 +110,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -120,7 +120,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
