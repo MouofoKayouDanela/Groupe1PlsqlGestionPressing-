@@ -73,7 +73,6 @@ VALUES
      'AG001',
      TO_DATE('17/01/2019', 'dd/mm/yyyy'),
     'AN001'
-
 );
 INSERT INTO OFFRE   
 ( id_categorie_linge,
@@ -88,8 +87,7 @@ INSERT INTO OFFRE
    id_annonce 
 )   
 VALUES
-(
-    'CL014',
+(  'CL014',
     'CS001',
     'TL001',
     'AG001',
