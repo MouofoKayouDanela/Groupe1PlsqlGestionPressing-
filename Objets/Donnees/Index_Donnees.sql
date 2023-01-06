@@ -3,11 +3,11 @@ PROMPT INSERTION DES DONNEES STATIQUES
 @@DO_Administrateur
 @@DO_Proprietaire
 @@DO_Pressing
-@@DO_Agence
 @@DO_Pays
 @@DO_Ville
 @@DO_Quartier
 @@DO_Role
+@@DO_Agence
 @@DO_Agent
 @@DO_Type_Linge
 @@DO_Categorie_Linge
