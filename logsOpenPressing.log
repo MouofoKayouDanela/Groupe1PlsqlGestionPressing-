@@ -1,0 +1,1972 @@
+SUPPRESSION D'UTILISATEUR POTENTIELLEMENT EXISTANT
+
+Utilisateur supprimé.
+
+*************** Creation utilisateur ***************
+
+Utilisateur créé.
+
+
+Utilisateur modifié.
+
+
+Utilisateur modifié.
+
+
+Autorisation de privilèges (GRANT) acceptée.
+
+
+Autorisation de privilèges (GRANT) acceptée.
+
+Connecté.
+
+Autorisation de privilèges (GRANT) acceptée.
+
+Connecté.
+
+Procédure PL/SQL terminée avec succès.
+
+CREATION DES TABLES
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+CREATION DES DIFFERENTES CONTRAINTES
+CREATION DES CONTRAINTES DE VALEURS OBLIGATOIRES
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+CREATION DES CONTRAINTES DE VALEURS UNIQUES
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+CREATION DES CONTRAINTES DES VALEURS DE DOMAINE
+
+Table modifiée.
+
+
+Table modifiée.
+
+CREATION DES CONTRAINTES DE CLES PRIMAIRES
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+CREATION DES CONTRAINTES DE CLES ETRANGERES
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+DROP SEQUENCE seq_agence
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_annonce
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_besoin
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_categorie_linge
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_categorie_service
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_commande
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_pays
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_pressing
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_promotion
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_quartier
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_role
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_type_linge
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_type_service
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_utilisateur
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_ville
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+CREATION DES OBJETS SEQUENCES DE TOUTES LES TABLES ELEMENTAIRES
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+INSERTION DES DONNEES STATIQUES
+de la table utilisateur
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table administtrateur
+
+1 ligne créée.
+
+de la table proprietaire
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table pressing
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table pays
+
+1 ligne créée.
+
+de la table ville
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table quartier
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table role
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table agence
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table agent
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table type_linge
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table categorie_linge
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table linge
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table type_Service
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table Categorie_Service
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table service
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table Linge_Agence
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table Service_Agence
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table annonce
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table offre
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table promotion
+de la table client
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table besoin
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table Details_Besoin
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table message
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table commande
+INSERT INTO COMMANDE
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+
+
+INSERT INTO COMMANDE
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+
+
+INSERT INTO COMMANDE
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+
+
+INSERT INTO COMMANDE
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+
+
+INSERT INTO COMMANDE
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+
+
+INSERT INTO COMMANDE
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+
+
+SQL> exit
