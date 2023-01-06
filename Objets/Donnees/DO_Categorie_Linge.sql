@@ -299,7 +299,7 @@ VALUES
     'CL030',
     'Mousseline'
 );
-NSERT INTO CATEGORIE_LINGE
+INSERT INTO CATEGORIE_LINGE
 (
     id,
     Nom
