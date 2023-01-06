@@ -1,0 +1,27 @@
+PROMPT INSERTION DES DONNEES STATIQUES
+@@DO_Utilisateur
+@@DO_Administrateur
+@@DO_Proprietaire
+@@DO_Pressing
+@@DO_Agence
+@@DO_Pays
+@@DO_Ville
+@@DO_Quartier
+@@DO_Role
+@@DO_Agent
+@@DO_Type_Linge
+@@DO_Categorie_Linge
+@@DO_Linge
+@@DO_Type_Service
+@@DO_Categorie_Service
+@@DO_Service
+@@DO_Linge_Agence
+@@DO_Service_Agence
+@@DO_Annonce
+@@DO_Offre
+@@DO_Promotion
+@@DO_Client
+@@DO_Besoin
+@@DO_Details_Besoin
+@@DO_Message
+@@DO_Commande
