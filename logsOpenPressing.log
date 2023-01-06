@@ -1,1972 +1,2710 @@
 SUPPRESSION D'UTILISATEUR POTENTIELLEMENT EXISTANT
 
-Utilisateur supprimé.
+Utilisateur supprimï¿½.
 
 *************** Creation utilisateur ***************
 
-Utilisateur créé.
+Utilisateur crï¿½ï¿½.
 
 
-Utilisateur modifié.
+Utilisateur modifiï¿½.
 
 
-Utilisateur modifié.
+Utilisateur modifiï¿½.
 
 
-Autorisation de privilèges (GRANT) acceptée.
+Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
 
 
-Autorisation de privilèges (GRANT) acceptée.
+Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
 
-Connecté.
+Connectï¿½.
 
-Autorisation de privilèges (GRANT) acceptée.
+Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
 
-Connecté.
+Connectï¿½.
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 CREATION DES TABLES
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 CREATION DES DIFFERENTES CONTRAINTES
 CREATION DES CONTRAINTES DE VALEURS OBLIGATOIRES
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 CREATION DES CONTRAINTES DE VALEURS UNIQUES
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 CREATION DES CONTRAINTES DES VALEURS DE DOMAINE
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 CREATION DES CONTRAINTES DE CLES PRIMAIRES
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 CREATION DES CONTRAINTES DE CLES ETRANGERES
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 DROP SEQUENCE seq_agence
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_annonce
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_besoin
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_categorie_linge
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_categorie_service
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_commande
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_pays
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_pressing
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_promotion
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_quartier
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_role
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_type_linge
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_type_service
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_utilisateur
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_ville
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 CREATION DES OBJETS SEQUENCES DE TOUTES LES TABLES ELEMENTAIRES
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 INSERTION DES DONNEES STATIQUES
 de la table utilisateur
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table administtrateur
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table proprietaire
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table pressing
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table pays
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table ville
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table quartier
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table role
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table agence
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table agent
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table type_linge
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table categorie_linge
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table linge
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table type_Service
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table Categorie_Service
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table service
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table Linge_Agence
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table Service_Agence
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table annonce
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table offre
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table promotion
 de la table client
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table besoin
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table Details_Besoin
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table message
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table commande
 INSERT INTO COMMANDE
 *
-ERREUR à la ligne 1 :
-ORA-02291: violation de contrainte d'intégrité
-(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+ERREUR ï¿½ la ligne 1 :
+ORA-02291: violation de contrainte d'intï¿½gritï¿½
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clï¿½ parent introuvable
 
 
 INSERT INTO COMMANDE
 *
-ERREUR à la ligne 1 :
-ORA-02291: violation de contrainte d'intégrité
-(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+ERREUR ï¿½ la ligne 1 :
+ORA-02291: violation de contrainte d'intï¿½gritï¿½
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clï¿½ parent introuvable
 
 
 INSERT INTO COMMANDE
 *
-ERREUR à la ligne 1 :
-ORA-02291: violation de contrainte d'intégrité
-(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+ERREUR ï¿½ la ligne 1 :
+ORA-02291: violation de contrainte d'intï¿½gritï¿½
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clï¿½ parent introuvable
 
 
 INSERT INTO COMMANDE
 *
-ERREUR à la ligne 1 :
-ORA-02291: violation de contrainte d'intégrité
-(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+ERREUR ï¿½ la ligne 1 :
+ORA-02291: violation de contrainte d'intï¿½gritï¿½
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clï¿½ parent introuvable
 
 
 INSERT INTO COMMANDE
 *
-ERREUR à la ligne 1 :
-ORA-02291: violation de contrainte d'intégrité
-(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+ERREUR ï¿½ la ligne 1 :
+ORA-02291: violation de contrainte d'intï¿½gritï¿½
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clï¿½ parent introuvable
 
 
 INSERT INTO COMMANDE
 *
-ERREUR à la ligne 1 :
-ORA-02291: violation de contrainte d'intégrité
-(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clé parent introuvable
+ERREUR ï¿½ la ligne 1 :
+ORA-02291: violation de contrainte d'intï¿½gritï¿½
+(OPENPRESSING.CE_COMMANDE_DATE_EMISSION_MESSAGE) - clï¿½ parent introuvable
 
 
 SQL> exit
+
+1 ligne crï¿½ï¿½e.
+
+
+1 ligne crï¿½ï¿½e.
+
+
+1 ligne crï¿½ï¿½e.
+
+
+1 ligne crï¿½ï¿½e.
+
+
+1 ligne crï¿½ï¿½e.
+
+
+1 ligne crï¿½ï¿½e.
+
+SQL> select * from cat;
+
+TABLE_NAME
+--------------------------------------------------------------------------------
+TABLE_TYPE
+-----------
+SEQ_AGENCE
+SEQUENCE
+
+SEQ_ANNONCE
+SEQUENCE
+
+SEQ_BESOIN
+SEQUENCE
+
+SEQ_CATEGORIE_LINGE
+SEQUENCE
+
+SEQ_CATEGORIE_SERVICE
+SEQUENCE
+
+SEQ_COMMANDE
+SEQUENCE
+
+SEQ_PAYS
+SEQUENCE
+
+SEQ_PRESSING
+SEQUENCE
+
+SEQ_PROMOTION
+SEQUENCE
+
+SEQ_QUARTIER
+SEQUENCE
+
+SEQ_ROLE
+SEQUENCE
+
+SEQ_TYPE_LINGE
+SEQUENCE
+
+SEQ_TYPE_SERVICE
+SEQUENCE
+
+SEQ_UTILISATEUR
+SEQUENCE
+
+SEQ_VILLE
+SEQUENCE
+
+AGENT
+TABLE
+
+ADMINISTRATEUR
+TABLE
+
+AGENCE
+TABLE
+
+ANNONCE
+TABLE
+
+BESOIN
+TABLE
+
+CATEGORIE_LINGE
+TABLE
+
+CATEGORIE_SERVICE
+TABLE
+
+CLIENT
+TABLE
+
+COMMANDE
+TABLE
+
+DETAILS_BESOIN
+TABLE
+
+LINGE_AGENCE
+TABLE
+
+LINGE
+TABLE
+
+MESSAGE
+TABLE
+
+OFFRE
+TABLE
+
+PAYS
+TABLE
+
+PRESSING
+TABLE
+
+PROMOTION
+TABLE
+
+TABLE_NAME
+--------------------------------------------------------------------------------
+TABLE_TYPE
+-----------
+
+PROPRIETAIRE
+TABLE
+
+QUARTIER
+TABLE
+
+ROLE
+TABLE
+
+SERVICE_AGENCE
+TABLE
+
+SERVICE
+TABLE
+
+TYPE_LINGE
+TABLE
+
+TYPE_SERVICE
+TABLE
+
+UTILISATEUR
+TABLE
+
+VILLE
+TABLE
+
+
+41 lignes sï¿½lectionnï¿½es.
+
+SQL> set linesize 300
+SQL> 
+SQL> select * from cat;
+
+TABLE_NAME                                                                                                                       TABLE_TYPE
+-------------------------------------------------------------------------------------------------------------------------------- -----------
+SEQ_AGENCE                                                                                                                       SEQUENCE
+SEQ_ANNONCE                                                                                                                      SEQUENCE
+SEQ_BESOIN                                                                                                                       SEQUENCE
+SEQ_CATEGORIE_LINGE                                                                                                              SEQUENCE
+SEQ_CATEGORIE_SERVICE                                                                                                            SEQUENCE
+SEQ_COMMANDE                                                                                                                     SEQUENCE
+SEQ_PAYS                                                                                                                         SEQUENCE
+SEQ_PRESSING                                                                                                                     SEQUENCE
+SEQ_PROMOTION                                                                                                                    SEQUENCE
+SEQ_QUARTIER                                                                                                                     SEQUENCE
+SEQ_ROLE                                                                                                                         SEQUENCE
+SEQ_TYPE_LINGE                                                                                                                   SEQUENCE
+SEQ_TYPE_SERVICE                                                                                                                 SEQUENCE
+SEQ_UTILISATEUR                                                                                                                  SEQUENCE
+SEQ_VILLE                                                                                                                        SEQUENCE
+AGENT                                                                                                                            TABLE
+ADMINISTRATEUR                                                                                                                   TABLE
+AGENCE                                                                                                                           TABLE
+ANNONCE                                                                                                                          TABLE
+BESOIN                                                                                                                           TABLE
+CATEGORIE_LINGE                                                                                                                  TABLE
+CATEGORIE_SERVICE                                                                                                                TABLE
+CLIENT                                                                                                                           TABLE
+COMMANDE                                                                                                                         TABLE
+DETAILS_BESOIN                                                                                                                   TABLE
+LINGE_AGENCE                                                                                                                     TABLE
+LINGE                                                                                                                            TABLE
+MESSAGE                                                                                                                          TABLE
+OFFRE                                                                                                                            TABLE
+PAYS                                                                                                                             TABLE
+PRESSING                                                                                                                         TABLE
+PROMOTION                                                                                                                        TABLE
+PROPRIETAIRE                                                                                                                     TABLE
+QUARTIER                                                                                                                         TABLE
+ROLE                                                                                                                             TABLE
+SERVICE_AGENCE                                                                                                                   TABLE
+SERVICE                                                                                                                          TABLE
+TYPE_LINGE                                                                                                                       TABLE
+TYPE_SERVICE                                                                                                                     TABLE
+UTILISATEUR                                                                                                                      TABLE
+VILLE                                                                                                                            TABLE
+
+41 lignes sï¿½lectionnï¿½es.
+
+SQL> select * from service;
+
+ID_CATEGORIE                                       ID_TYPE
+-------------------------------------------------- --------------------------------------------------
+CS001                                              TS001
+CS001                                              TS002
+CS002                                              TS001
+CS003                                              TS002
+CS003                                              TS003
+CS003                                              TS004
+CS003                                              TS005
+CS003                                              TS006
+CS003                                              TS007
+CS003                                              TS009
+CS003                                              TS010
+CS004                                              TS001
+CS006                                              TS002
+CS007                                              TS002
+CS008                                              TS002
+CS008                                              TS004
+CS008                                              TS005
+CS008                                              TS008
+CS009                                              TS009
+
+19 lignes sï¿½lectionnï¿½es.
+
+SQL> select * from agence;
+
+ID                                                 DATE_CRE ID_PRESSING                                        ID_QUARTIER
+-------------------------------------------------- -------- -------------------------------------------------- --------------------------------------------------
+AG001                                              17/01/19 PR001                                              QU002
+AG002                                              09/11/19 PR001                                              QU008
+AG003                                              01/12/19 PR002                                              QU008
+AG004                                              26/04/20 PR002                                              QU004
+AG005                                              30/04/20 PR003                                              QU001
+AG006                                              31/08/20 PR003                                              QU004
+AG007                                              23/03/21 PR005                                              QU009
+AG008                                              03/02/21 PR003                                              QU007
+AG009                                              24/05/22 PR001                                              QU010
+AG010                                              13/09/22 PR007                                              QU006
+
+10 lignes sï¿½lectionnï¿½es.
+
+SQL> select * from annonce;
+
+ID
+--------------------------------------------------
+DESIGNATION
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AN001
+NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBE
+
+AN002
+NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBE
+
+AN003
+NOUS OFFRONS UN NETTOYAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBR
+
+AN004
+NOUS OFFRONS UN LAVAGE A SEC POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBR
+
+AN005
+NOUS OFFRONS UN REPASSAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBR
+
+AN006
+NOUS OFFRONS UN NETTOYAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBR
+
+AN007
+NOUS OFFRONS UN NETTOYAGE A CHAUD POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBR
+
+AN008
+NOUS OFFRONS UN NETTOYAGE A SEC POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBR
+
+AN009
+NOUS OFFRONS UN REPASSAGE A VAPEUR POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBE
+
+AN010
+NOUS OFFRONS UN LAVAGE A VAPEUR POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET ROBE
+
+
+10 lignes sï¿½lectionnï¿½es.
+
+SQL> select * from type_linge;
+
+ID                                                 INTITULE
+-------------------------------------------------- --------------------------------------------------
+TL005                                              BouBou
+TL016                                              Cabas
+TL035                                              Canape
+TL030                                              Chapeau
+TL018                                              Chaussettes
+TL014                                              Chaussure
+TL001                                              Chemises
+TL008                                              Chemisette
+TL028                                              Costume
+TL032                                              Couverture
+TL004                                              Culotte
+TL033                                              Cycliste
+TL031                                              Drap
+TL029                                              Ensembles
+TL036                                              Fauteil
+TL037                                              Foulard
+TL009                                              Gang
+TL024                                              Housse
+TL034                                              Jogging
+TL007                                              Jupe
+TL021                                              Manteau
+TL023                                              Matelas
+TL017                                              Nappe
+TL025                                              Oreillers
+TL003                                              Pantalon
+TL013                                              Penoir
+TL015                                              Revetement Canape
+TL011                                              Rideau
+TL006                                              Robe
+TL027                                              Robe de Mariee
+TL012                                              Serviette
+TL010                                              Tapis
+TL022                                              Trench
+TL002                                              Tricot
+TL026                                              Valise
+TL019                                              Veste
+TL020                                              Vestons
+TL038                                              Voile
+
+38 lignes sï¿½lectionnï¿½es.
+
+SQL> select nom, intitule
+  2  from type_linge tl
+  3  join categorie_linge cl
+  4  ;
+
+*
+ERREUR ï¿½ la ligne 4 :
+ORA-00905: mot-clï¿½ absent
+
+
+SQL> select nom, intitule
+  2  from type_linge tl
+  3  join linge l
+  4  on(l.id_type = tl.id)
+  5  join categorie_linge cl
+  6  on(l.id_categorie = cl.id);
+
+NOM                                                INTITULE
+-------------------------------------------------- --------------------------------------------------
+Coton                                              Chemises
+Coton                                              Tricot
+Coton                                              Pantalon
+Coton                                              Culotte
+Coton                                              Robe
+Coton                                              Jupe
+Coton                                              Chemisette
+Coton                                              Gang
+Coton                                              Tapis
+Coton                                              Rideau
+Coton                                              Serviette
+Coton                                              Penoir
+Coton                                              Revetement Canape
+Coton                                              Cabas
+Coton                                              Costume
+Coton                                              Ensembles
+Coton                                              Chapeau
+Coton                                              Drap
+Coton                                              Couverture
+Coton                                              Cycliste
+Coton                                              Jogging
+Lin                                                Chemises
+Lin                                                Pantalon
+Lin                                                Chemisette
+Lin                                                Rideau
+Lin                                                Robe de Mariee
+Lin                                                Costume
+Lin                                                Ensembles
+Lin                                                Drap
+Lin                                                Couverture
+Laine                                              Tricot
+Laine                                              Culotte
+Laine                                              Robe de Mariee
+Laine                                              Costume
+Laine                                              Chapeau
+Laine                                              Couverture
+Soie                                               Robe
+Soie                                               Jupe
+Soie                                               Rideau
+Soie                                               Robe de Mariee
+Soie                                               Costume
+Viscose                                            Jupe
+Polyamide                                          Tricot
+Polyamide                                          Couverture
+Polyamide                                          Cycliste
+Polyacrylique                                      Couverture
+Polyacrylique                                      Cycliste
+Polyester                                          Jupe
+Polyester                                          Costume
+Polyester                                          Couverture
+Polyester                                          Cycliste
+Polyester                                          Jogging
+Elasthanne                                         Tricot
+Elasthanne                                         Couverture
+Elasthanne                                         Cycliste
+Crepe                                              Robe
+Crepe                                              Jupe
+Crepe                                              Robe de Mariee
+Dentele                                            Chemises
+Dentele                                            Robe
+Dentele                                            Jupe
+Dentele                                            Chemisette
+Dentele                                            Robe de Mariee
+Jeans                                              Chemises
+Jeans                                              Robe
+Jeans                                              Jupe
+Jeans                                              Chemisette
+Jersey                                             Jupe
+Satin                                              Chemises
+Satin                                              Robe
+Satin                                              Jupe
+Satin                                              Chemisette
+Satin                                              Robe de Mariee
+Satin                                              Drap
+Cachemire                                          Tapis
+Cachemire                                          Couverture
+Velours                                            Pantalon
+Velours                                            Culotte
+Velours                                            Robe
+Velours                                            Jupe
+Velours                                            Tapis
+Velours                                            Rideau
+Velours                                            Revetement Canape
+Tulle                                              Robe de Mariee
+Cuir                                               Chaussure
+Cuir                                               Revetement Canape
+Textile                                            Chaussure
+Pagne                                              Chemises
+Pagne                                              Pantalon
+Pagne                                              Culotte
+Pagne                                              BouBou
+Pagne                                              Robe
+Pagne                                              Jupe
+Pagne                                              Chemisette
+Pagne                                              Gang
+Pagne                                              Rideau
+Pagne                                              Revetement Canape
+
+NOM                                                INTITULE
+-------------------------------------------------- --------------------------------------------------
+Pagne                                              Cabas
+Pagne                                              Robe de Mariee
+Pagne                                              Costume
+Pagne                                              Ensembles
+Pagne                                              Chapeau
+Mousseline                                         Robe
+Mousseline                                         Robe de Mariee
+Din                                                Chaussure
+Din                                                Couverture
+
+106 lignes sï¿½lectionnï¿½es.
+
+SQL> select nom, intitule
+  2  from type_service ts
+  3  join service s
+  4  on(s.id_type = ts.id)
+  5  join categorie_service cs
+  6  on(s.id_categorie = cs.id);
+
+NOM                                                INTITULE
+-------------------------------------------------- --------------------------------------------------
+A eau                                              Nettoyage
+A eau                                              lavage
+A sec                                              Nettoyage
+ simple                                            lavage
+ simple                                            detachage
+ simple                                            blanchisserie
+ simple                                            tinture
+ simple                                            traitement specifique
+ simple                                            couture et retouche
+ simple                                            repassage
+ simple                                            deboulochage
+A induction                                        Nettoyage
+A chaud                                            lavage
+Ecologique                                         lavage
+chauffant                                          lavage
+chauffant                                          blanchisserie
+chauffant                                          tinture
+chauffant                                          degraissage
+A vapeur                                           repassage
+
+19 lignes sï¿½lectionnï¿½es.
+
+SQL> select * from message;
+
+ID_BESOIN                                          ID_AGENCE                                          DATE_EMI DESCRIPTION
+-------------------------------------------------- -------------------------------------------------- -------- --------------------------------------------------
+BE001                                              AG001                                              17/01/19 NOUS VOUS AVONS CHOISIT
+BE002                                              AG002                                              17/01/19 NOUS VOUS AVONS CHOISIT
+BE003                                              AG003                                              17/01/19 NOUS VOUS AVONS CHOISIT
+BE004                                              AG004                                              17/01/19 NOUS VOUS AVONS CHOISIT
+BE005                                              AG005                                              17/01/19 NOUS VOUS AVONS CHOISIT
+BE006                                              AG006                                              17/01/19 NOUS VOUS AVONS CHOISIT
+
+6 lignes sï¿½lectionnï¿½es.
+
+SQL> select * from commande;
+
+ID
+--------------------------------------------------
+DESCRIPTION
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ADRESSE_PAYEMENT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ADRESSE_RAMASSAGE                                  ADRESSE_LIVRAISON                                  ID_BESOIN                                          ID_AGENCE                                          DATE_EMI
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- --------
+C001
+Lavage a sec
+675800345
+QU001                                              QU001                                              BE001                                              AG001                                              17/01/19
+
+C002
+Lavage a eau
+680457900
+QU002                                              QU002                                              BE002                                              AG002                                              17/01/19
+
+C003
+Lavage simple
+654637896
+QU003                                              QU003                                              BE003                                              AG003                                              17/01/19
+
+C004
+Lavage a froid
+699465220
+QU004                                              QU004                                              BE004                                              AG004                                              17/01/19
+
+C005
+Lavage a induction
+662066781
+QU005                                              QU005                                              BE005                                              AG005                                              17/01/19
+
+C006
+Lavage a sec
+652345890
+QU006                                              QU006                                              BE006                                              AG006                                              17/01/19
+
+
+6 lignes sï¿½lectionnï¿½es.
+
+SQL> select * from utilisateur
+  2  join client
+  3  using(id);
+
+ID
+--------------------------------------------------
+NOM
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PRENOM                                                                                                                                                                                                                                                          GENRE           DATE_NAI
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------- --------
+EMAIL                                                                                                                                                                                                                                                            TELEPHONE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------
+NOM_UTILISATEUR
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MOT_DE_PASSE                                                                               DATE_INS
+------------------------------------------------------------------------------------------ --------
+UT010
+Malonju
+Laure                                                                                                                                                                                                                                                           Feminin         30/08/00
+malonjulaure@gmail.com                                                                                                                                                                                                                                           655205137
+MalonjuLaure
+ML081255                                                                                   25/02/19
+
+UT011
+Djouda
+Patric                                                                                                                                                                                                                                                          Masculin        14/07/00
+djoudapatric@gmail.com                                                                                                                                                                                                                                           690456484
+DjoudaPatric
+DP071021                                                                                   25/02/19
+
+UT012
+Tanko
+Leila                                                                                                                                                                                                                                                           Feminin         07/04/03
+tankoleila@gmail.com                                                                                                                                                                                                                                             655204455
+TankoLeila
+TL060920                                                                                   30/05/19
+
+UT013
+Nguiakam
+Angele                                                                                                                                                                                                                                                          Feminin         20/09/01
+nguiakamangele@gmail.com                                                                                                                                                                                                                                         655221209
+NguiakamAngele
+NA050810                                                                                   31/05/19
+
+UT014
+Mbah
+Jenny                                                                                                                                                                                                                                                           Feminin         20/09/05
+mbahjenny@gmail.com                                                                                                                                                                                                                                              651291009
+MbahJenny
+MJ040211                                                                                   13/07/19
+
+UT015
+Tchinda
+Yvana                                                                                                                                                                                                                                                           Feminin         20/09/02
+tchindayvana@gmail.com                                                                                                                                                                                                                                           656231909
+TchindaYvana
+TY030114                                                                                   19/09/20
+
+
+6 lignes sï¿½lectionnï¿½es.
+
+SQL> select * from utilisateur
+  2  join administrateur
+  3  using(id);
+
+ID
+--------------------------------------------------
+NOM
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PRENOM                                                                                                                                                                                                                                                          GENRE           DATE_NAI
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------- --------
+EMAIL                                                                                                                                                                                                                                                            TELEPHONE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------
+NOM_UTILISATEUR
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MOT_DE_PASSE
+------------------------------------------------------------------------------------------
+UT001
+Mouofo
+Danela                                                                                                                                                                                                                                                          Feminin         28/04/04
+Mouofodanela@gmail.com                                                                                                                                                                                                                                           650634979
+MouofoDanela
+MD171983
+
+
+1 ligne sï¿½lectionnï¿½e.
+
+SQL> select * from utilisateur
+  2  join proprietaire
+  3  using(id);
+
+ID
+--------------------------------------------------
+NOM
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PRENOM                                                                                                                                                                                                                                                          GENRE           DATE_NAI
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------- --------
+EMAIL                                                                                                                                                                                                                                                            TELEPHONE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------
+NOM_UTILISATEUR
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MOT_DE_PASSE                                                                               DATE_ENR
+------------------------------------------------------------------------------------------ --------
+UT002
+Kengni
+Johan                                                                                                                                                                                                                                                           Masculin        17/05/05
+Kengnijohan@gmail.com                                                                                                                                                                                                                                            694044194
+KengniJohan
+KJ161882                                                                                   17/01/19
+
+UT003
+Tedongmo
+Valdez                                                                                                                                                                                                                                                          Feminin         16/08/00
+tedongmovaldez@gmail.com                                                                                                                                                                                                                                         698792449
+Tedongmovaldez
+TV151781                                                                                   01/12/19
+
+UT004
+Zebaze
+Bravel                                                                                                                                                                                                                                                          Masculin        21/01/03
+zebazebravel@gmail.com                                                                                                                                                                                                                                           695536865
+ZebazeBravel
+Zb141680                                                                                   30/04/20
+
+
+3 lignes sï¿½lectionnï¿½es.
+
+SQL> select * from utilisateur
+  2  join agent
+  3  using(id);
+
+ID
+--------------------------------------------------
+NOM
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PRENOM                                                                                                                                                                                                                                                          GENRE           DATE_NAI
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------- --------
+EMAIL                                                                                                                                                                                                                                                            TELEPHONE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------
+NOM_UTILISATEUR
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MOT_DE_PASSE                                                                               DATE_EMB ID_AGENCE                                          ID_ROLE
+------------------------------------------------------------------------------------------ -------- -------------------------------------------------- --------------------------------------------------
+UT005
+Nikiledji
+Aurore                                                                                                                                                                                                                                                          Feminin         21/04/01
+nikiledjiaurore@gmail.com                                                                                                                                                                                                                                        695523865
+NikiledjiAurore
+NA131573                                                                                   17/01/19 AG001                                              RO001
+
+UT006
+Bavoua
+Borel                                                                                                                                                                                                                                                           Masculin        11/09/00
+bavouaborel@gmail.com                                                                                                                                                                                                                                            695523123
+BavouaBorel
+BB121463                                                                                   18/01/19 AG007                                              RO003
+
+UT007
+Tchantchou
+Jordan                                                                                                                                                                                                                                                          Masculin        11/12/00
+tchantchoujordan@gmail.com                                                                                                                                                                                                                                       695523190
+TchantchouJordan
+TC111923                                                                                   18/01/19 AG001                                              RO004
+
+UT008
+Fossa
+Maxime                                                                                                                                                                                                                                                          Masculin        11/08/00
+fossamaxime@gmail.com                                                                                                                                                                                                                                            690223190
+FossaMaxime
+FM101951                                                                                   18/01/19 AG005                                              RO002
+
+UT009
+Tiam
+Daniel                                                                                                                                                                                                                                                          Masculin        21/02/00
+tiamdaniel@gmail.com                                                                                                                                                                                                                                             690294190
+TiamDaniel
+TD091852                                                                                   09/11/19 AG002                                              RO003
+
+UT016
+Toko
+Loic                                                                                                                                                                                                                                                            Masculin        10/03/02
+tokoloic@gmail.com                                                                                                                                                                                                                                               696251909
+TokoLoic
+TL030114                                                                                   09/11/19 AG002                                              RO001
+
+UT017
+Raye
+Malik                                                                                                                                                                                                                                                           Masculin        29/08/01
