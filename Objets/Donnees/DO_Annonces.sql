@@ -1,0 +1,10 @@
+INSERT INTO ANNONCE (id, description) VALUES ('AN001', '');
+INSERT INTO ANNONCE (id, description) VALUES ('AN002', '');
+INSERT INTO ANNONCE (id, description) VALUES ('AN003', '');
+INSERT INTO ANNONCE (id, description) VALUES ('AN004', '');
+INSERT INTO ANNONCE (id, description) VALUES ('AN005', '');
+INSERT INTO ANNONCE (id, description) VALUES ('AN006', '');
+INSERT INTO ANNONCE (id, description) VALUES ('AN007', '');
+INSERT INTO ANNONCE (id, description) VALUES ('AN008', '');
+INSERT INTO ANNONCE (id, description) VALUES ('AN009', '');
+INSERT INTO ANNONCE (id, description) VALUES ('AN010', '');
