@@ -10,14 +10,15 @@ INSERT ALL
 INTO UTILISATEUR (id,Nom,Prenom,Genre,Date_naissance,Email,Telephone,Nom_utilisateur,Mot_de_passe)
         VALUES (
             V_ID_PROP ||seq.nexval,
-            '&Nom',
-            '&Prenom',
-            '&Genre',
-            '&Date_naissance',
-            '&Email',
-            '&Telephone',
-            '&Nom_utilisateur',
-            '&Mot_de_passe'
+            DBMS_OUTPUT.PUT_LINE('Entrez votre Nom :' &Nom),
+            DBMS_OUTPUT.PUT_LINE('Entrez votre Prenom :' &Prenom),
+            DBMS_OUTPUT.PUT_LINE('Entrez votre genre/sexe :' &Genre),
+            DBMS_OUTPUT.PUT_LINE('Entrez votre date de naissance :' &Date_naissance),
+            DBMS_OUTPUT.PUT_LINE('Entrez votre adresse mail :' &Email),
+            DBMS_OUTPUT.PUT_LINE('Entrez votre contact telephonique :' &Telephone),
+            DBMS_OUTPUT.PUT_LINE('Entrez votre nom d utilisateur :' &Nom_utilisateur),
+            DBMS_OUTPUT.PUT_LINE('Entrez votre mot de passe :' &Mot_de_passe),
+            DBMS_OUTPUT.PUT_LINE('Creation reussie !'),
         );  
 INTO PROPRIETAIRE (id,date_enregistrement)     
         VALUES(
