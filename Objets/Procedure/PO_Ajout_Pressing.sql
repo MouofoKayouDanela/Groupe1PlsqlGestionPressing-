@@ -9,7 +9,7 @@ V_Sysdate_PRES = SYSDATE;
 INSERT INTO PRESSING (id,nom,date_creation,id_proprietaire)
         VALUES (
                 seq,
-                '&nom',
+                DBMS_OUTPUT.PUT_LINE('Entrez le nom de votre pressing:' &Nom),
                 V_Sysdate_PRES,
                 id
             );
