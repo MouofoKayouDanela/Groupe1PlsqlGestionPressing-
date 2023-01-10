@@ -8,10 +8,12 @@ V_ID_PRES = 'PR0'
 V_Sysdate_PRES = SYSDATE;
 INSERT INTO PRESSING (id,nom,date_creation,id_proprietaire)
         VALUES (
-                seq,
+                V_ID_PRES||seq_pressing.nexval,
                 DBMS_OUTPUT.PUT_LINE('Entrez le nom de votre pressing:' &Nom),
                 V_Sysdate_PRES,
-                id
+                seq_utilisateur.nexval
             );
 END;
 /
+                DBMS_OUTPUT.PUT_LINE('Creation reussie !'); 
+SELECT * FROM PRESSING;

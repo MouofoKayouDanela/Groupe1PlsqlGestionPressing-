@@ -9,7 +9,7 @@ V_Sysdate_PROP = SYSDATE;
 INSERT ALL
 INTO UTILISATEUR (id,Nom,Prenom,Genre,Date_naissance,Email,Telephone,Nom_utilisateur,Mot_de_passe)
         VALUES (
-            V_ID_PROP ||seq.nexval,
+            V_ID_PROP ||seq_utilisateur.nexval,
             DBMS_OUTPUT.PUT_LINE('Entrez votre Nom :' &Nom),
             DBMS_OUTPUT.PUT_LINE('Entrez votre Prenom :' &Prenom),
             DBMS_OUTPUT.PUT_LINE('Entrez votre genre/sexe :' &Genre),
@@ -17,13 +17,15 @@ INTO UTILISATEUR (id,Nom,Prenom,Genre,Date_naissance,Email,Telephone,Nom_utilisa
             DBMS_OUTPUT.PUT_LINE('Entrez votre adresse mail :' &Email),
             DBMS_OUTPUT.PUT_LINE('Entrez votre contact telephonique :' &Telephone),
             DBMS_OUTPUT.PUT_LINE('Entrez votre nom d utilisateur :' &Nom_utilisateur),
-            DBMS_OUTPUT.PUT_LINE('Entrez votre mot de passe :' &Mot_de_passe),
-            DBMS_OUTPUT.PUT_LINE('Creation reussie !'),
+            DBMS_OUTPUT.PUT_LINE('Entrez votre mot de passe :' &Mot_de_passe)
         );  
 INTO PROPRIETAIRE (id,date_enregistrement)     
         VALUES(
-           V_ID_PROP ||seq.nexval,
+           V_ID_PROP||seq_utilisateur.nexval,
            V_Sysdate_PROP 
         );    
 END;
 /
+           DBMS_OUTPUT.PUT_LINE('Creation reussie !');                    
+SELECT * FROM UTILISATEUR U JOIN PROPRIETAIRE P ON (U.id=P.id);
+
