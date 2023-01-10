@@ -1,11 +1,10 @@
 SET SERVEROUTPUT ON;
 CREATE OR REPLACE PROCEDURE Ajout_proprietaire IS 
-DECLARE
 V_ID_PROP PROPRIETAIRE.id%TYPE;
 V_Sysdate_PROP PROPRIETAIRE.date_enregistrement%TYPE;
 BEGIN
-V_ID_PROP = 'UT0';
-V_Sysdate_PROP = SYSDATE;
+V_ID_PROP := 'UT0';
+V_Sysdate_PROP := SYSDATE;
 INSERT ALL
 INTO UTILISATEUR (id,Nom,Prenom,Genre,Date_naissance,Email,Telephone,Nom_utilisateur,Mot_de_passe)
         VALUES (
@@ -25,7 +24,6 @@ INTO PROPRIETAIRE (id,date_enregistrement)
            V_Sysdate_PROP 
         );    
 END;
-/
-           DBMS_OUTPUT.PUT_LINE('Creation reussie !');                    
+/                    
 SELECT * FROM UTILISATEUR U JOIN PROPRIETAIRE P ON (U.id=P.id);
 
