@@ -27,6 +27,7 @@ ALTER USER OpenPressing TEMPORARY TABLESPACE &ttbs;
 
 GRANT CREATE SESSION, CREATE VIEW, ALTER SESSION, CREATE SEQUENCE TO OpenPressing;
 GRANT CREATE SYNONYM, CREATE DATABASE LINK, RESOURCE , UNLIMITED TABLESPACE TO OpenPressing;
-CONNECT sys/&pass_sys@&connect_string AS SYSDBA;
+PROMPT ***************************************************************************************************
+CONNECT sys/&pass_sys AS SYSDBA;
 GRANT execute ON sys.dbms_stats TO OpenPressing;
-CONNECT OpenPressing/&pass@&connect_string
+CONNECT OpenPressing/&pass@&connect_string XEPDB1;

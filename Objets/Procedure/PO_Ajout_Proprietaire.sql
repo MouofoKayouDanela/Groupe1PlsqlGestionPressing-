@@ -3,8 +3,8 @@ CREATE OR REPLACE PROCEDURE Ajout_proprietaire IS
 V_ID_PROP PROPRIETAIRE.id%TYPE;
 V_Sysdate_PROP PROPRIETAIRE.date_enregistrement%TYPE;
 BEGIN
-V_ID_PROP := 'UT0';
-V_Sysdate_PROP := SYSDATE;
+        V_ID_PROP := 'UT0';
+
 INSERT ALL
 INTO UTILISATEUR (id,Nom,Prenom,Genre,Date_naissance,Email,Telephone,Nom_utilisateur,Mot_de_passe)
         VALUES (
@@ -17,7 +17,11 @@ INTO UTILISATEUR (id,Nom,Prenom,Genre,Date_naissance,Email,Telephone,Nom_utilisa
             DBMS_OUTPUT.PUT_LINE('Entrez votre contact telephonique :' &Telephone),
             DBMS_OUTPUT.PUT_LINE('Entrez votre nom d utilisateur :' &Nom_utilisateur),
             DBMS_OUTPUT.PUT_LINE('Entrez votre mot de passe :' &Mot_de_passe)
-        );  
+        ); 
+END;
+BEGIN   
+        V_Sysdate_PROP := SYSDATE; 
+        Ajout_proprietaire;     
 INTO PROPRIETAIRE (id,date_enregistrement)     
         VALUES(
            V_ID_PROP||seq_utilisateur.nexval,
