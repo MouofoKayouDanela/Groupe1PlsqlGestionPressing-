@@ -17,13 +17,15 @@ CREATE OR REPLACE PROCEDURE PO_LISTE_AGENCES (id_pressing PRESSING.id%TYPE)
             ON     (vi.id_pays = pa.id)
             WHERE  ag.id_pressing = PO_LISTE_AGENCES.id_pressing
         ;
+        compteur PLS_INTEGER := 1;
     BEGIN
         FOR une_agence IN agences_dispo LOOP
-            DBMS_OUTPUT.PUT_LINE(une_agence."pays"||', '||
+            DBMS_OUTPUT.PUT_LINE(compteur||' - '||une_agence."pays"||', '||
                                  une_agence."ville"||', '||
                                  une_agence."quartier"||', '||
                                  une_agence."date_creation"
                                 );
+            compteur := compteur + 1;
             EXIT WHEN agences_dispo%NOTFOUND;
         END LOOP;
     END;
