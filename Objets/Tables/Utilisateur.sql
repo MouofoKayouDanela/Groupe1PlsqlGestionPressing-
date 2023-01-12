@@ -7,5 +7,6 @@ CREATE TABLE UTILISATEUR
     Email VARCHAR2(255),
     Telephone NUMBER ,
     Nom_utilisateur VARCHAR2(255) ,
-    Mot_de_passe VARCHAR2(255) 
+    Mot_de_passe VARCHAR2(255),
+    Statut VARCHAR2 (255) 
 );

@@ -1,6 +1,6 @@
 SET serveroutput on;
-CREATE OR REPLACE FUNCTION Pro(username VARCHAR2, password VARCHAR2)
-RETURN int IS 
+CREATE OR REPLACE FUNCTION Pro(username UTILISATEUR.Nom_utilisateur%TYPE, password UTILISATEUR.mot_de_passe%TYPE)
+RETURN VARCHAR2 IS 
 CURSOR pointe IS 
 SELECT Prop.id 
 FROM PROPRIETAIRE Prop
@@ -9,44 +9,26 @@ ON (Prop.id=Util.id)
 WHERE Util.Nom_utilisateur =username
 AND 
 Util.Mot_de_passe=password;
-ValCur int;
+ValCur VARCHAR2 (255);
 BEGIN
-OPEN pointe;
-FETCH pointe
-INTO  ValCur;
-RETURN ValCur;
-END;
-/
-
-DECLARE 
-result int := Pro('&username','&mot_de_passe');
-
-BEGIN
-
-IF result IS NULL THEN 
-DBMS_OUTPUT.PUT_LINE('Veuillez vous inscrire');
-ELSE
-DBMS_OUTPUT.PUT_LINE('Connexion avez succes');
+IF Cons_Status(username, password)='actif' THEN
+    OPEN pointe;
+    FETCH pointe
+    INTO  ValCur;
+    IF pointe%NOTFOUND THEN
+        DBMS_OUTPUT.PUT_LINE('Vous ne pouvez pas vous connecteZ');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Connexion avez succes');
+    END IF;
+    RETURN ValCur;
+ELSE 
+    RETURN 'Desole vous ne pouvez pas vous connecté votre compte est inactif';
 END IF;
 END;
 /
-
-
-SET DEFINE ON
-
-SELECT CASE 
-            WHEN(SELECT(Prop.id)
-             FROM PROPRIETAIRE prop
-             JOIN UTILISATEUR util 
-             ON (Prop.id=util.id)
-             WHERE util.Nom_utilisateur='&username'
-             AND
-             util.Mot_de_passe='&mot de passe')>=1
-             THEN
-             'connexion reussie'
-             ELSE 
-             'veuillez entrer les infos correctes'
-             END AS Connexion
-FROM Dual;
-
-set term on
+DECLARE 
+result VARCHAR2 (255) := Pro('&username', '&password');
+BEGIN
+DBMS_OUTPUT.PUT_LINE(result);
+END;
+/
