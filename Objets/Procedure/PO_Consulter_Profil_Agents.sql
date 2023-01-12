@@ -1,5 +1,5 @@
 SET SERVEROUTPUT ON;
-CREATE OR REPLACE PROCEDURE PO_CONSULTER_PROFILS_AGENTS(id_agent AGENT.id%TYPE)
+CREATE OR REPLACE PROCEDURE PO_CONSULTER_PROFILS_AGENTS(id_agent AGENT.id%TYPE, id_agence AGENCE.id%TYPE)
     AS
         CURSOR les_agents IS SELECT  ut.nom "nom",
                                     ut.prenom "prenom",
@@ -16,6 +16,7 @@ CREATE OR REPLACE PROCEDURE PO_CONSULTER_PROFILS_AGENTS(id_agent AGENT.id%TYPE)
                             JOIN    ROLE ro
                             ON      (at.id_role = ro.id)
                             WHERE   at.id = id_agent
+                            AND     at.id_agence = PO_CONSULTER_PROFILS_AGENTS.id_agence
         ;
     BEGIN
         FOR un_agent IN les_agents LOOP
