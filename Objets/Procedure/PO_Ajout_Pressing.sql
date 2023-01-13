@@ -8,12 +8,12 @@ BEGIN
 V_Sysdate_PROP := SYSDATE;
 INSERT INTO PRESSING (id,nom,date_creation,id_proprietaire)
         VALUES (
-                TO_CHAR(seq_pressing.nexval),
-                '&V_NOM_PRES',
-                V_Sysdate_PROP,
-                TO_CHAR(seq_utilisateur.nexval)
+                V_ID_PRES,
+                DBMS_OUTPUT.PUT_LINE('Entrez le nom de votre pressing :' &Prenom),
+                V_Sysdate_PRES,
+                id
             );
 END;
-/ 
+/
+                DBMS_OUTPUT.PUT_LINE('Creation reussie !'); 
 SELECT * FROM PRESSING;
-DBMS_OUTPUT.PUT_LINE('Creation Reussie !');
