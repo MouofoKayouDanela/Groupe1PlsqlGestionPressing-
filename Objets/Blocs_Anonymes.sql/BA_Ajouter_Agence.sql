@@ -16,7 +16,6 @@ DECLARE
     index_posi PLS_INTEGER := 1;
     dern_posi PLS_INTEGER := 0;
     compteur PLS_INTEGER := 0;
-    choix CHAR(1);
     ident_pays PAYS.id%TYPE;
     voir_plus BOOLEAN := FALSE;
 BEGIN
@@ -45,7 +44,7 @@ BEGIN
         END IF;
     END LOOP;
     DBMS_OUTPUT.PUT_LINE('Veuillez entrer le caractere symbolisant votre choix : ');
-    choix := '&choix';
+    ACCEPT choix CHAR PROMPT 'Veuillez entrer votre choix : ';
     IF choix = 'B' THEN 
         sortir := TRUE;
     ELSIF choix = 'A' AND voir_plus THEN
@@ -58,4 +57,3 @@ BEGIN
   END LOOP;
 END;
 /
-    
