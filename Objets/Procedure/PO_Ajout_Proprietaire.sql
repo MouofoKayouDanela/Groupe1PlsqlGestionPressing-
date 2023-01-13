@@ -30,4 +30,6 @@ INTO PROPRIETAIRE (id,date_enregistrement)
 END;
 /                    
 SELECT * FROM UTILISATEUR U JOIN PROPRIETAIRE P ON (U.id=P.id);
+PROMPT ********************************************************
+DBMS_OUTPUT.PUT_LINE('Creation Reussie !');
 
