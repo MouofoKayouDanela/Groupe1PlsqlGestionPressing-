@@ -24,6 +24,6 @@ INTO PROPRIETAIRE (id,date_enregistrement)
            V_Sysdate_PROP 
         );    
 END;
-/                    
+/                  
 SELECT * FROM UTILISATEUR U JOIN PROPRIETAIRE P ON (U.id=P.id);
 
