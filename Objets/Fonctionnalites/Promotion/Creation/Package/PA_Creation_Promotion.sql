@@ -1,47 +1,46 @@
 CREATE OR REPLACE PACKAGE PA_PROMOTE AS
- FUNCTION VERIFIER(
-    qte VARCHAR2,
-    pourcentageRetrait VARCHAR2,
-    dateCreation VARCHAR2
-    dateExpiration VARCHAR2,
-    idCategorieLinge Promotion.id_categorie_linge%TYPE,
-    idCategorieService Promotion.id_categorie_Service%TYPE,
-    idTypeLinge Promotion.id_type_linge%TYPE,
-    idTypeService Promotion.id_type_service%TYPE,
-    idAgenceLinge Promotion.id_agence_Linge%TYPE,
-    prixUnitaire VARCHAR2
-    )
-  RETURN VARCHAR2;
- PROCEDURE Add_promotion(
-    Num Promotion.id%TYPE,
-    qte Promotion.quantite%TYPE,
-    pourcentageRetrait Promotion.pourcentage_Retrait%TYPE,
-    dateCreation Promotion.date_Creation%TYPE,
-    dateExpiration Promotion.date_Expiration%TYPE,
-    idCategorieLinge Promotion.id_categorie_linge%TYPE,
-    idCategorieService Promotion.id_categorie_Service%TYPE,
-    idTypeLinge Promotion.id_type_linge%TYPE,
-    idTypeService Promotion.id_type_service%TYPE,
-    idAgenceLinge Promotion.id_agence_Linge%TYPE,
-    prixUnitaire Promotion.prix_unitaire%TYPE  
- );
+    FUNCTION VERIFIER(
+        qte VARCHAR2,
+        pourcentageRetrait VARCHAR2,
+        dateCreation VARCHAR2,
+        dateExpiration VARCHAR2,
+        idCategorieLinge Promotion.id_categorie_linge%TYPE,
+        idCategorieService Promotion.id_categorie_Service%TYPE,
+        idTypeLinge Promotion.id_type_linge%TYPE,
+        idTypeService Promotion.id_type_service%TYPE,
+        idAgenceLinge Promotion.id_agence_Linge%TYPE,
+        prixUnitaire VARCHAR2
+        )
+    RETURN VARCHAR2;
+    PROCEDURE Add_promotion(
+        qte VARCHAR2,
+        pourcentageRetrait VARCHAR2,
+        dateCreation date,
+        dateExpiration VARCHAR2,
+        idCategorieLinge Promotion.id_categorie_linge%TYPE,
+        idCategorieService Promotion.id_categorie_Service%TYPE,
+        idTypeLinge Promotion.id_type_linge%TYPE,
+        idTypeService Promotion.id_type_service%TYPE,
+        idAgenceLinge Promotion.id_agence_Linge%TYPE,
+        prixUnitaire VARCHAR2
+    );
 END PA_PROMOTE;
 /
 CREATE OR REPLACE PACKAGE BODY PA_PROMOTE AS 
     FUNCTION VERIFIER ( 
-    qte VARCHAR2,
-    pourcentageRetrait VARCHAR2,
-    dateCreation VARCHAR2,
-    dateExpiration VARCHAR2,
-    idCategorieLinge Promotion.id_categorie_linge%TYPE,
-    idCategorieService Promotion.id_categorie_Service%TYPE,
-    idTypeLinge Promotion.id_type_linge%TYPE,
-    idTypeService Promotion.id_type_service%TYPE,
-    idAgenceLinge Promotion.id_agence_Linge%TYPE,
-    prixUnitaire VARCHAR2
-    )
-        RETURN VARCHAR2 IS
-        Cur VARCHAR2(255);
+            qte VARCHAR2,
+            pourcentageRetrait VARCHAR2,
+            dateCreation VARCHAR2,
+            dateExpiration VARCHAR2,
+            idCategorieLinge Promotion.id_categorie_linge%TYPE,
+            idCategorieService Promotion.id_categorie_Service%TYPE,
+            idTypeLinge Promotion.id_type_linge%TYPE,
+            idTypeService Promotion.id_type_service%TYPE,
+            idAgenceLinge Promotion.id_agence_Linge%TYPE,
+            prixUnitaire VARCHAR2
+        )
+    RETURN VARCHAR2 IS
+    Cur VARCHAR2(255);
         CURSOR Curs IS
             SELECT Promo.id
             FROM PROMOTION Promo
@@ -69,20 +68,67 @@ CREATE OR REPLACE PACKAGE BODY PA_PROMOTE AS
                 Promo.prix_unitaire=prixUnitaire;
         val VARCHAR2 (255);
         BEGIN
-            OPEN Curs;
-            FETCH Curs
-            INTO Val;
+        OPEN Curs;
+        FETCH Curs
+        INTO Val;
             IF Curs%NOTFOUND THEN
                     DBMS_OUTPUT.PUT_LINE('promotion existe pas');
                 ELSE
                     DBMS_OUTPUT.PUT_LINE('promotion existe');
                 END IF;
-            CLOSE Curs;
+        CLOSE Curs;
         RETURN val;
     RETURN (Cur);  
     END VERIFIER;
+
+    PROCEDURE Add_promotion(
+        qte VARCHAR2,
+        pourcentageRetrait VARCHAR2,
+        dateCreation date,
+        dateExpiration VARCHAR2,
+        idCategorieLinge Promotion.id_categorie_linge%TYPE,
+        idCategorieService Promotion.id_categorie_Service%TYPE,
+        idTypeLinge Promotion.id_type_linge%TYPE,
+        idTypeService Promotion.id_type_service%TYPE,
+        idAgenceLinge Promotion.id_agence_Linge%TYPE,
+        prixUnitaire VARCHAR2
+    )
+    IS
+        promo_id varchar2;
+    BEGIN
+        promo_id:="PO0"||seq_promotion.NEXTVAL;
+        dateCreation:= SYSDATE;
+            INSERT INTO PROMOTION(
+                id,
+                quantite,
+                pourcentage_Retrait,
+                date_Creation,
+                date_Expiration,
+                id_categorie_linge,
+                id_categorie_Service,
+                id_type_linge,
+                id_type_service,
+                id_agence_Linge,
+                prix_unitaire
+            )
+            VALUES
+            (
+                promo_id,
+                qte,
+                pourcentageRetrait,
+                dateCreation,
+                dateExpiration,
+                idCategorieLinge,
+                idCategorieService ,
+                idTypeLinge,
+                idTypeService,
+                idAgenceLinge,
+                prixUnitaire
+            );   
+    END Add_promotion;
 END PA_PROMOTE;
 /
+
 DECLARE 
     Resultat VARCHAR2 (255) :=PA_PROMOTE.VERIFIER(
         '&qte',
