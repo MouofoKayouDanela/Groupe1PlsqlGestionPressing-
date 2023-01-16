@@ -1,21 +1,21 @@
 CREATE OR REPLACE PACKAGE PA_PRESSING AS
     PROCEDURE Add_pressing
     (
-        ID_PRESS id.PRESSING%TYPE,
-        NOM_PRESS nom.PRESSING%TYPE,
-        DateCreation_PRESS date_creation.PRESSING%TYPE,
-        IdProprietaire_PRESS id_proprietaire.PRESSING%TYPE);
+        ID_PRESS PRESSING.id%TYPE,
+        NOM_PRESS PRESSING.nom%TYPE,
+        DateCreation_PRESS PRESSING.date_creation%TYPE,
+        IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE);
     FUNCTION Verif_nom_pres 
-    (NomPressing nom.PRESSING%TYPE) RETURN VARCHAR2;   
+    (NomPressing PRESSING.nom%TYPE) RETURN VARCHAR2;   
 END PA_PRESSING;
 /  
 CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS 
     PROCEDURE Add_pressing
     (
-    ID_PRESS id.PRESSING%TYPE,
-    NOM_PRESS nom.PRESSING%TYPE,
-    DateCreation_PRESS date_creation.PRESSING%TYPE,
-    IdProprietaire_PRESS id_proprietaire.PRESSING%TYPE)       
+    ID_PRESS PRESSING.id%TYPE,
+    NOM_PRESS PRESSING.nom%TYPE,
+    DateCreation_PRESS PRESSING.date_creation%TYPE,
+    IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE)       
     IS 
     BEGIN
     ID_PRESS := "PR0";
@@ -33,7 +33,7 @@ CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS
         CURSOR Curseur IS
             SELECT nom
             FROM PRESSING
-            WHERE (Pr.Nom=NomPressing);
+            WHERE (nom=NomPressing);
         Valeur VARCHAR2 (255);
         BEGIN
             OPEN Curseur;
