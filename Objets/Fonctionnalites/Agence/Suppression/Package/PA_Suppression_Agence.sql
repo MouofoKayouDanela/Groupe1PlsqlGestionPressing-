@@ -34,7 +34,7 @@ CREATE PACKAGE BODY PACK_AGENCES AS
 END PACK_AGENCES;
 /
 DECLARE 
-    Resultat VARCHAR2 (255) := VERIFY('&Nom_Pressing','&Lieu');
+    Resultat VARCHAR2 (255) :=VERIFY('&Nom_Pressing','&Lieu');
 BEGIN
     DBMS_OUTPUT.PUT_LINE('');
 END;

@@ -80,7 +80,7 @@ CREATE OR REPLACE PACKAGE BODY PA_PROMOTE AS
         RETURN val;
     RETURN (Cur);  
     END VERIFIER;
-
+    /
     PROCEDURE Add_promotion(
         qte VARCHAR2,
         pourcentageRetrait VARCHAR2,
@@ -94,10 +94,8 @@ CREATE OR REPLACE PACKAGE BODY PA_PROMOTE AS
         prixUnitaire VARCHAR2
     )
     IS
-        promo_id varchar2;
+        promo_id Promotion.id%TYPE:='PO'||seq_promotion.NEXTVAL;
     BEGIN
-        promo_id:="PO0"||seq_promotion.NEXTVAL;
-        dateCreation:= SYSDATE;
             INSERT INTO PROMOTION(
                 id,
                 quantite,
@@ -116,7 +114,7 @@ CREATE OR REPLACE PACKAGE BODY PA_PROMOTE AS
                 promo_id,
                 qte,
                 pourcentageRetrait,
-                dateCreation,
+                Current_date,
                 dateExpiration,
                 idCategorieLinge,
                 idCategorieService ,
