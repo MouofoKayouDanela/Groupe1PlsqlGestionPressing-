@@ -1,7 +1,6 @@
 CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
     PROCEDURE Add_user
     (
-        ID_USER UTILISATEUR.id%TYPE,
         NOM_USER UTILISATEUR.nom%TYPE,
         PRENOM_USER UTILISATEUR.Prenom%TYPE,
         GENRE_USER UTILISATEUR.Genre%TYPE,
@@ -21,7 +20,6 @@ END PA_UTILISATEUR;
 CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS 
     PROCEDURE Add_user
     (
-        ID_USER UTILISATEUR.id%TYPE,
         NOM_USER UTILISATEUR.nom%TYPE,
         PRENOM_USER UTILISATEUR.Prenom%TYPE,
         GENRE_USER UTILISATEUR.Genre%TYPE,
@@ -32,8 +30,8 @@ CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
         PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
         STATUT_USER UTILISATEUR.Statut%TYPE)       
     IS 
+    ID_USER := 'UT'||seq_utilisateur.NEXTVAL;
     BEGIN
-    ID_USER := "UT0";
     INSERT INTO UTILISATEUR (id, 
                             nom, 
                             Prenom, 
@@ -80,8 +78,9 @@ CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
     FUNCTION Cryptage
         (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2
     IS
+    result VARCHAR2(255);
     BEGIN
-    *****************************************
+    result := DBMS_OBFUSCATION_TOOLKIT.Cryptage(pasword);
     END Cryptage;      
 END PA_UTILISATEUR;
 / 

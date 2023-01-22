@@ -1,7 +1,6 @@
 CREATE OR REPLACE PACKAGE PA_PRESSING AS
     PROCEDURE Add_pressing
     (
-        ID_PRESS PRESSING.id%TYPE,
         NOM_PRESS PRESSING.nom%TYPE,
         DateCreation_PRESS PRESSING.date_creation%TYPE,
         IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE);
@@ -12,18 +11,21 @@ END PA_PRESSING;
 CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS 
     PROCEDURE Add_pressing
     (
-    ID_PRESS PRESSING.id%TYPE,
-    NOM_PRESS PRESSING.nom%TYPE,
-    DateCreation_PRESS PRESSING.date_creation%TYPE,
-    IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE)       
+        NOM_PRESS PRESSING.nom%TYPE,
+        DateCreation_PRESS PRESSING.date_creation%TYPE,
+        IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE
+    )       
     IS 
+        ID_PRESS PRESSING.id%TYPE := 'PR'||seq_pressing.NEXTVAL;
     BEGIN
-    ID_PRESS := "PR0";
     INSERT INTO PRESSING (id, nom, date_creation, id_proprietaire)
-    VALUES (ID_PRESS, 
+    VALUES
+        (
+            ID_PRESS, 
             NOM_PRESS, 
             DateCreation_PRESS, 
-            IdProprietaire_PRESS);
+            IdProprietaire_PRESS
+        );
     END Add_pressing; 
     FUNCTION Verif_nom_pressing 
     (NomPressing PRESSING.nom%TYPE) RETURN VARCHAR2
@@ -42,7 +44,7 @@ CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS
                 IF Curseur%NOTFOUND THEN
                     DBMS_OUTPUT.PUT_LINE('Nom de pressing valide');
                 ELSE
-                    DBMS_OUTPUT.PUT_LINE('Desole un pressing exixte deja sous ce nom');
+                    DBMS_OUTPUT.PUT_LINE('Desole un pressing existe deja sous ce nom');
                 END IF;
             CLOSE Curseur;
         RETURN Valeur;
@@ -50,9 +52,9 @@ CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS
 END PA_PRESSING;
 / 
 DECLARE
-    Rendu VARCHAR2 (255) := VERIFY('&NomPressing');
+    Rendu VARCHAR2 (255) := PA_PRESSING.Verif_nom_pressing('&NomPressing');
 BEGIN
-    PA_PRESSING.Add_pressing("PR020",&NomDePressing,SYSDATE,"UT005");
+    DBMS_OUTPUT.PUT_LINE('');
     PA_PRESSING.Verif_nom_pressing(Rendu);
 END;
 /        
