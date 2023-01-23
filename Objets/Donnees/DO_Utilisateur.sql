@@ -8,7 +8,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe ,
+    Statut
 )
 VALUES
 (
@@ -20,7 +21,8 @@ VALUES
     'Mouofodanela@gmail.com',
     650634979,
     'MouofoDanela',
-    'MD171983'  
+    'MD171983' ,
+    'actif' 
 );
 INSERT INTO UTILISATEUR
 (
@@ -32,7 +34,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe ,
+    Statut
 )
 VALUES
 (
@@ -44,7 +47,8 @@ VALUES
     'Kengnijohan@gmail.com',
     694044194,
     'KengniJohan',
-    'KJ161882' 
+    'KJ161882',
+    'actif' 
 );
 INSERT INTO UTILISATEUR
 (
@@ -56,7 +60,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe,
+    Statut  
 )
 VALUES
 (
@@ -68,7 +73,8 @@ VALUES
     'tedongmovaldez@gmail.com',
     698792449,
     'Tedongmovaldez',
-    'TV151781' 
+    'TV151781' ,
+    'actif'
 );
 INSERT INTO UTILISATEUR
 (
@@ -80,7 +86,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe,
+    Statut  
 )
 VALUES
 (
@@ -92,7 +99,8 @@ VALUES
     'zebazebravel@gmail.com',
     695536865,
     'ZebazeBravel',
-    'Zb141680' 
+    'Zb141680',
+    'actif' 
 );
 INSERT INTO UTILISATEUR
 (
@@ -104,7 +112,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe,
+    Statut
 )
 VALUES
 (
@@ -116,7 +125,8 @@ VALUES
     'nikiledjiaurore@gmail.com',
     695523865,
     'NikiledjiAurore',
-    'NA131573' 
+    'NA131573' ,
+    'actif'
 );
 INSERT INTO UTILISATEUR
 (
@@ -128,7 +138,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe,
+    Statut
 )
 VALUES
 (
@@ -140,7 +151,8 @@ VALUES
     'bavouaborel@gmail.com',
     695523123,
     'BavouaBorel',
-    'BB121463' 
+    'BB121463' ,
+    'actif'
 );
 INSERT INTO UTILISATEUR
 (
@@ -152,7 +164,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe,
+    Statut
 )
 VALUES
 (
@@ -164,7 +177,8 @@ VALUES
     'tchantchoujordan@gmail.com',
     695523190,
     'TchantchouJordan',
-    'TC111923' 
+    'TC111923' ,
+    'actif'
 );
 INSERT INTO UTILISATEUR
 (
@@ -176,7 +190,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe,
+    Statut
 )
 VALUES
 (
@@ -188,7 +203,8 @@ VALUES
     'fossamaxime@gmail.com',
     690223190,
     'FossaMaxime',
-    'FM101951' 
+    'FM101951',
+    'actif' 
 );
 INSERT INTO UTILISATEUR
 (
@@ -200,7 +216,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe,
+    Statut
 )
 VALUES
 (
@@ -212,7 +229,8 @@ VALUES
     'tiamdaniel@gmail.com',
     690294190,
     'TiamDaniel',
-    'TD091852' 
+    'TD091852',
+    'actif' 
 );
 INSERT INTO UTILISATEUR
 (
@@ -224,7 +242,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe,
+    Statut
 )
 VALUES
 (
@@ -236,7 +255,8 @@ VALUES
     'malonjulaure@gmail.com',
     655205137,
     'MalonjuLaure',
-    'ML081255' 
+    'ML081255' ,
+    'actif'
 );
 INSERT INTO UTILISATEUR
 (
@@ -248,7 +268,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe ,
+    Statut
 )
 VALUES
 (
@@ -260,7 +281,8 @@ VALUES
     'djoudapatric@gmail.com',
     690456484,
     'DjoudaPatric',
-    'DP071021' 
+    'DP071021' ,
+    'actif'
 );
 INSERT INTO UTILISATEUR
 (
@@ -272,7 +294,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe ,
+    Statut
 )
 VALUES
 (
@@ -284,7 +307,8 @@ VALUES
     'tankoleila@gmail.com',
     655204455,
     'TankoLeila',
-    'TL060920' 
+    'TL060920' ,
+    'actif'
 );
 INSERT INTO UTILISATEUR
 (
@@ -296,7 +320,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe ,
+    Statut  
 )
 VALUES
 (
@@ -308,7 +333,8 @@ VALUES
     'nguiakamangele@gmail.com',
     655221209,
     'NguiakamAngele',
-    'NA050810' 
+    'NA050810' ,
+    'actif'
 );
 INSERT INTO UTILISATEUR
 (
@@ -320,7 +346,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe ,
+    Statut
 )
 VALUES
 (
@@ -332,7 +359,8 @@ VALUES
     'mbahjenny@gmail.com',
     651291009,
     'MbahJenny',
-    'MJ040211' 
+    'MJ040211' ,
+    'actif'
 );
 INSERT INTO UTILISATEUR
 (
@@ -344,7 +372,8 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe
+    Mot_de_passe ,
+    Statut
 )
 VALUES
 (
@@ -356,7 +385,85 @@ VALUES
     'tchindayvana@gmail.com',
     656231909,
     'TchindaYvana',
-    'TY030114' 
+    'TY030114' ,
+    'actif'
 );
-
+INSERT INTO UTILISATEUR
+(
+    id ,
+    Nom, 
+    Prenom , 
+    Genre ,
+    Date_naissance ,
+    Email ,
+    Telephone,
+    Nom_utilisateur ,
+    Mot_de_passe,
+   Statut
+)
+VALUES
+(
+    'UT016',
+    'Toko',
+    'Loic',
+    'Masculin',
+    TO_DATE('10/03/2002', 'dd/mm/yyyy'),
+    'tokoloic@gmail.com',
+    696251909,
+    'TokoLoic',
+    'TL030114' ,
+    'actif'
+);
+INSERT INTO UTILISATEUR
+(
+    id ,
+    Nom, 
+    Prenom , 
+    Genre ,
+    Date_naissance ,
+    Email ,
+    Telephone,
+    Nom_utilisateur ,
+    Mot_de_passe,
+   Statut
+)
+VALUES
+(
+    'UT017',
+    'Raye',
+    'Malik',
+    'Masculin',
+    TO_DATE('29/08/2001', 'dd/mm/yyyy'),
+    'rayemalik@gmail.com',
+    671258888,
+    'RayeMalik',
+    'RM290114' ,
+    'actif'
+);
+INSERT INTO UTILISATEUR
+(
+    id ,
+    Nom, 
+    Prenom , 
+    Genre ,
+    Date_naissance ,
+    Email ,
+    Telephone,
+    Nom_utilisateur ,
+    Mot_de_passe ,
+    Statut
+)
+VALUES
+(
+    'UT018',
+    'Naa',
+    'Roussel',
+    'Feminin',
+    TO_DATE('17/03/2001', 'dd/mm/yyyy'),
+    'naaroussel@gmail.com',
+    696251909,
+    'NaaRoussel',
+    'NR030114' ,
+    'actif'
+);
 

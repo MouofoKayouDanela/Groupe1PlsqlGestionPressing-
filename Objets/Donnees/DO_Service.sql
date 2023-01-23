@@ -5,7 +5,7 @@ INSERT INTO Service
 )
 VALUES
 (
-    'ACS001',
+    'CS001',
     'TS002'
 );
 INSERT INTO Service
@@ -15,7 +15,7 @@ INSERT INTO Service
 )
 VALUES
 (
-    'A03',
+    'CS003',
     'TS002'
 );
 INSERT INTO Service
@@ -25,7 +25,7 @@ INSERT INTO Service
 )
 VALUES
 (
-    'A06',
+    'CS006',
     'TS002'
 );
 INSERT INTO Service
@@ -45,7 +45,7 @@ INSERT INTO Service
 )
 VALUES
 (
-    'CS0O3',
+    'CS008',
     'TS002'
 );
 INSERT INTO Service
@@ -110,7 +110,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -120,7 +120,7 @@ VALUES
 );
 INSERT INTO Service
 (
-    id_Categorie
+    id_Categorie,
     id_Type 
 )
 VALUES
@@ -176,7 +176,7 @@ INSERT INTO Service
 VALUES
 (
     'CS003',
-    'TS009 '
+    'TS009'
 );
 INSERT INTO Service
 (

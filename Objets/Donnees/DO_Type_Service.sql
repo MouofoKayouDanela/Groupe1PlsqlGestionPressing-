@@ -50,7 +50,7 @@ VALUES
 );
 INSERT INTO Type_Service 
 (
-    id
+    id,
     intitule
 )
 VALUES
@@ -65,7 +65,7 @@ INSERT INTO Type_Service
 )
 VALUES
 (
-    'TSOO7',
+    'TS007',
     'couture et retouche'
 );
 INSERT INTO Type_Service 
