@@ -2099,32 +2099,263 @@ de la table commande
 
 1 ligne créée.
 
-SQL> @./Objets/Fonctionnalites/Agent/Agence/Consultation/PA_Consultation_Profil
-SP2-0310: impossible d'ouvrir le fichier "./Objets/Fonctionnalites/Agent/Agence/Consultation/PA_Consultation_Profil.sql"
-SQL> @./Objets/Fonctionnalites/Agent/Consultation/PA_Consultation_Profil
+SQL> @Objets/Fonctionnalites/Agence/Consultation/PA_Consulter_Agence
 
 Package créé.
 
 
 Corps de package créé.
 
-SQL> set serveroutput on
-SQL> BEGIN
-  2  PA_CONSULTATION_PROFIL.PO_PROFIL_AGENT('UT005', 'AG001');
-  3  END;
-  4  /
-Nom                   :Nikiledji
-Prenom                :Aurore
-Genre                 :Feminin
-Date de naissance     :21/04/01
-Adresse electronique  :nikiledjiaurore@gmail.com
-Adresse telephonique  :695523865
-Nom d'utilisateur    :NikiledjiAurore
-Date d'embauche      :17/01/19
-Role                  :Marketing
-Description           :Charger de gerer les annonces en ajout, suppression et
-modification
+SQL> accept my_var char prompt 'please : '
+please : Objets/Fonctionnalites/Agence/Consultation/EX_ListeAgence.sql
+SQL> @&my_var
+BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE(id_pressing); END;
 
-Procédure PL/SQL terminée avec succès.
+                                                 *
+ERREUR à la ligne 1 :
+ORA-06550: Ligne 1, colonne 50 :
+PLS-00201: l'identificateur 'ID_PRESSING' doit être déclaré
+ORA-06550: Ligne 1, colonne 7 :
+PL/SQL: Statement ignored
 
+
+A - Retour
+Veuillez entrer le caractere correspondant Ã  votre choix : A
+
+CASE
+------------------------------------------------
+@./././Fonctionalites/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+SQL> accept my_var char prompt 'please : '
+please : 'Objets/Fonctionnalites/Agence/Consultation/EX_ListeAgence.sql'
+SQL> @&my_var
+BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE(id_pressing); END;
+
+                                                 *
+ERREUR à la ligne 1 :
+ORA-06550: Ligne 1, colonne 50 :
+PLS-00201: l'identificateur 'ID_PRESSING' doit être déclaré
+ORA-06550: Ligne 1, colonne 7 :
+PL/SQL: Statement ignored
+
+
+A - Retour
+Veuillez entrer le caractere correspondant Ã  votre choix : u
+
+CASE
+------------------------------------------------
+@./Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+SQL> @Objets/Fonctionnalites/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant Ã  votre choix : D
+
+SCRIPT
+-------------------------------------------------------------
+Objets/Fonctionnalites/Agence/Consultation/ERR_Choix.sql
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez opÃ©rer un choix se trouvant dans la liste qui vous a Ã©tÃ© proposÃ© !
+A - retour
+Veuillez entrer le caractere correspondant Ã  votre choix : A
+
+CASE
+------------------------------
+@./Consultation/EX_ListeAgence
+
+1 ligne sélectionnée.
+
+SQL> @Objets/Fonctionnalites/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant Ã  votre choix : B
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+-------------------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix.sql
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez opÃ©rer un choix se trouvant dans la liste qui vous a Ã©tÃ© proposÃ© !
+A - retour
+Veuillez entrer le caractere correspondant Ã  votre choix : N
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+-------------------------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/Pressing/Consultation/Consultation/ERR_Choix.sql"
+SQL> @Objets/Fonctionnalites/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant Ã  votre choix : K
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+-------------------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix.sql
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : S
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+--------------------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : d
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+--------------------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : A
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+--------------------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/Consultation/Menu
+
+1 ligne sélectionnée.
+
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/Pressing/Consultation/Consultation/Menu.sql"
+SQL> @Objets/Fonctionnalites/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : D
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+-------------------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix.sql
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : K
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+------------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : K
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+------------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : A
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+-------------------------------------------------
+Objets/Fonctionnalites/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+-------------------------------------------------------------
+Objets/Fonctionnalites/Agence/Consultation/EX_ListeAgence.sql
+
+1 ligne sélectionnée.
+
+BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE(id_pressing); END;
+
+                                                 *
+ERREUR à la ligne 1 :
+ORA-06550: Ligne 1, colonne 50 :
+PLS-00201: l'identificateur 'ID_PRESSING' doit être déclaré
+ORA-06550: Ligne 1, colonne 7 :
+PL/SQL: Statement ignored
+
+
+A - Retour
+Veuillez entrer le caractere correspondant Ã  votre choix : K
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+----------------------------------------------------------------
+Objets/Fonctionnalite/Agence/Consultation/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalite/Agence/Consultation/Consultation/ERR_Choix.sql"
 SQL> exit
