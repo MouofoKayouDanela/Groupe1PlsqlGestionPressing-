@@ -25,7 +25,41 @@ CREATE PACKAGE BODY PACK_AGENCES AS
                 IF Curs%NOTFOUND THEN
                     DBMS_OUTPUT.PUT_LINE('agence existe pas');
                 ELSE
-                    DBMS_OUTPUT.PUT_LINE('agence existe');
+                    
+                    DELETE FROM PROMOTION
+                    WHERE id_agence_Linge=Valeur;
+
+                    DELETE FROM OFFRE
+                    WHERE id_agence_Linge=Valeur;
+
+                    DELETE FROM LINGE_AGENCE
+                    WHERE id_agence=Valeur;
+
+                    DELETE FROM SERVICE_AGENCE
+                    WHERE id_agence=Valeur;
+                    
+                    DELETE FROM COMMANDE
+                    WHERE id_agence=Valeur;
+                    
+                    DELETE FROM MESSAGE
+                    WHERE id_agence=Valeur;
+                    
+                    DELETE FROM AGENT
+                    WHERE id_agence=Valeur;
+                    
+                    DELETE FROM Agence
+                    WHERE id=Valeur;
+                   
+                    DBMS_OUTPUT.PUT_LINE('agence supprimée');
+                    DBMS_OUTPUT.PUT_LINE('les differences agences du pressing sont: ');
+                    SELECT Qu.nom,Pr.nom
+                    FROM QUARTIER Qu
+                    JOIN AGENCE ag
+                    ON (ag.id_quartier=Qu.id)
+                    JOIN PRESSING Pr
+                    ON(Pr.id=ag.id_pressing)
+                    WHERE Pr.nom='&&Nom_Pressing';
+                    
                 END IF;
             CLOSE Curs;
             RETURN Valeur;
