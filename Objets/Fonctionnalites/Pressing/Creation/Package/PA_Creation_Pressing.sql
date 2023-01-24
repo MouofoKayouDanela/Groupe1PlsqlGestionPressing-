@@ -17,6 +17,9 @@ CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS
     )       
     IS 
         ID_PRESS PRESSING.id%TYPE := 'PR'||seq_pressing.NEXTVAL;
+        NOM_PRESS PRESSING.nom%TYPE := '&Nom_du_pressing';
+        DateCreation_PRESS PRESSING.date_creation%TYPE := SYSDATE;
+        IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
     BEGIN
     INSERT INTO PRESSING (id, nom, date_creation, id_proprietaire)
     VALUES

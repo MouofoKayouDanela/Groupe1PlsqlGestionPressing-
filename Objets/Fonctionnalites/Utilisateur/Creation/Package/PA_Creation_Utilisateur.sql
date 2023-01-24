@@ -31,6 +31,15 @@ CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
         STATUT_USER UTILISATEUR.Statut%TYPE)       
     IS 
     ID_USER := 'UT'||seq_utilisateur.NEXTVAL;
+    NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+    PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+    GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+    DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+    MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+    PHONE_USER UTILISATEUR.Telephone%TYPE := ;
+    USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+    PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+    STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
     BEGIN
     INSERT INTO UTILISATEUR (id, 
                             nom, 
