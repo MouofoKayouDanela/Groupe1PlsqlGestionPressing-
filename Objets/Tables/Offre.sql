@@ -9,5 +9,5 @@ CREATE TABLE OFFRE (
    id_agence_Service VARCHAR2(50),
    date_Ajout_service DATE,
    id_annonce VARCHAR2  (50),
-   OPTION BOOLEAN 
+   OPTION VARCHAR2(50)
 );
