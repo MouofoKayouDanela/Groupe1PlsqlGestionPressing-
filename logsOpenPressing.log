@@ -187,29 +187,11 @@ Table créée.
 
 Table créée.
 
+    OPTION VARCHAR2(50)
+    *
+ERREUR à la ligne 7 :
+ORA-00904:  : identificateur non valide
 
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
 
 
 Table créée.
@@ -226,11 +208,44 @@ Table créée.
 
 Table créée.
 
+    OPTION VARCHAR2(50)
+    *
+ERREUR à la ligne 10 :
+ORA-00904:  : identificateur non valide
+
+
 
 Table créée.
 
 
 Table créée.
+
+
+Table créée.
+
+    OPTION VARCHAR2(50)
+    *
+ERREUR à la ligne 6 :
+ORA-00904:  : identificateur non valide
+
+
+   OPTION VARCHAR2(50)
+   *
+ERREUR à la ligne 12 :
+ORA-00904:  : identificateur non valide
+
+
+
+Table créée.
+
+
+Table créée.
+
+    OPTION VARCHAR2(50)
+    *
+ERREUR à la ligne 13 :
+ORA-00904:  : identificateur non valide
+
 
 
 Table créée.
@@ -267,29 +282,11 @@ Table modifiée.
 
 Table modifiée.
 
+ALTER TABLE AGENT
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
 
 
 Table modifiée.
@@ -306,11 +303,44 @@ Table modifiée.
 
 Table modifiée.
 
+ALTER  TABLE COMMANDE
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
 
 Table modifiée.
 
 
 Table modifiée.
+
+
+Table modifiée.
+
+ALTER TABLE MESSAGE
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+ALTER  TABLE OFFRE
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+ALTER  TABLE PROMOTION
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
 
 
 Table modifiée.
@@ -384,29 +414,11 @@ Table modifiée.
 
 Table modifiée.
 
+ALTER TABLE AGENT
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
 
 
 Table modifiée.
@@ -423,11 +435,44 @@ Table modifiée.
 
 Table modifiée.
 
+ALTER TABLE COMMANDE
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
 
 Table modifiée.
 
 
 Table modifiée.
+
+
+Table modifiée.
+
+ALTER TABLE MESSAGE
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+ALTER TABLE OFFRE
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+ALTER TABLE PROMOTION
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
 
 
 Table modifiée.
@@ -475,26 +520,11 @@ Table modifiée.
 
 Table modifiée.
 
+ALTER TABLE AGENT
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
 
 
 Table modifiée.
@@ -508,8 +538,38 @@ Table modifiée.
 
 Table modifiée.
 
+ALTER TABLE OFFRE
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+ALTER TABLE PROMOTION
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
 
 Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+ALTER TABLE MESSAGE
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+ALTER TABLE COMMANDE
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
 
 DROP SEQUENCE seq_agence
               *
@@ -850,29 +910,53 @@ de la table agence
 1 ligne créée.
 
 de la table agent
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
+AGENT (id, date_embauche, id_agence, id_role)
+*
+ERREUR à la ligne 2 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+AGENT (id, date_embauche, id_agence, id_role)
+*
+ERREUR à la ligne 2 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+AGENT (id, date_embauche, id_agence, id_role)
+*
+ERREUR à la ligne 2 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+AGENT (id, date_embauche, id_agence, id_role)
+*
+ERREUR à la ligne 2 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+AGENT (id, date_embauche, id_agence, id_role)
+*
+ERREUR à la ligne 2 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+AGENT (id, date_embauche, id_agence, id_role)
+*
+ERREUR à la ligne 2 :
+ORA-00942: Table ou vue inexistante
+
+
+AGENT (id, date_embauche, id_agence, id_role)
+*
+ERREUR à la ligne 2 :
+ORA-00942: Table ou vue inexistante
+
+
+AGENT (id, date_embauche, id_agence, id_role)
+*
+ERREUR à la ligne 2 :
+ORA-00942: Table ou vue inexistante
+
 
 de la table type_linge
 
@@ -1928,80 +2012,155 @@ de la table annonce
 1 ligne créée.
 
 de la table offre
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+INSERT INTO OFFRE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
 
 de la table promotion
 de la table client
@@ -2062,41 +2221,107 @@ de la table Details_Besoin
 1 ligne créée.
 
 de la table message
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
+INSERT INTO MESSAGE (id_Besoin, id_Agence, Date_Emission, description) VALUES ('BE001', 'AG001', TO_DATE('17/01/2019', 'dd/mm/yyyy'), 'NOUS VOUS AVONS CHOISIT')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO MESSAGE (id_Besoin, id_Agence, Date_Emission, description) VALUES ('BE002', 'AG002', TO_DATE('17/01/2019', 'dd/mm/yyyy'), 'NOUS VOUS AVONS CHOISIT')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO MESSAGE (id_Besoin, id_Agence, Date_Emission, description) VALUES ('BE003', 'AG003', TO_DATE('17/01/2019', 'dd/mm/yyyy'), 'NOUS VOUS AVONS CHOISIT')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO MESSAGE (id_Besoin, id_Agence, Date_Emission, description) VALUES ('BE004', 'AG004', TO_DATE('17/01/2019', 'dd/mm/yyyy'), 'NOUS VOUS AVONS CHOISIT')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+INSERT INTO MESSAGE (id_Besoin, id_Agence, Date_Emission, description) VALUES ('BE005', 'AG005', TO_DATE('17/01/2019', 'dd/mm/yyyy'), 'NOUS VOUS AVONS CHOISIT')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+INSERT INTO MESSAGE (id_Besoin, id_Agence, Date_Emission, description) VALUES ('BE006', 'AG006', TO_DATE('17/01/2019', 'dd/mm/yyyy'), 'NOUS VOUS AVONS CHOISIT')
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
 
 de la table commande
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
+INSERT INTO COMMANDE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO COMMANDE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO COMMANDE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
 
-1 ligne créée.
+INSERT INTO COMMANDE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
 
+
+INSERT INTO COMMANDE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+INSERT INTO COMMANDE
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Agence/COnsultation/EX_Liste_Agence.sql PR001
+Entrez une valeur pour id_pressing : PR001
+BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE('PR001'); END;
+
+      *
+ERREUR à la ligne 1 :
+ORA-06550: Ligne 1, colonne 7 :
+PLS-00201: l'identificateur 'PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE' doit
+être déclaré
+ORA-06550: Ligne 1, colonne 7 :
+PL/SQL: Statement ignored
+
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : K
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+-----------------------------------------------------------
+Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+SP2-0735: option SET inconnue au début de "--Deblocka..."
+Entrez une valeur pour v_script : ,
+SP2-0310: impossible d'ouvrir le fichier ",.sql"
 SQL> exit
