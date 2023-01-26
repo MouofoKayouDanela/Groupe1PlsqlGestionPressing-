@@ -9,5 +9,6 @@ CREATE TABLE PROMOTION (
     id_type_linge VARCHAR2(50),
     id_type_service VARCHAR2(50),    
     id_agence_Linge  VARCHAR2(50),
-    prix_unitaire FLOAT    
+    prix_unitaire FLOAT,
+    OPTION VARCHAR2(50)    
 );

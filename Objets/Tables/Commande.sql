@@ -6,5 +6,6 @@ CREATE TABLE COMMANDE (
     adresse_Livraison VARCHAR2(50),
     id_besoin VARCHAR2(50),
     id_agence VARCHAR2(50),
-    date_Emission_Message DATE
+    date_Emission_Message DATE,
+    OPTION VARCHAR2(50) 
 );

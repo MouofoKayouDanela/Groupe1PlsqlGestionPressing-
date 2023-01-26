@@ -25,7 +25,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONNEXION_UTILISATEUR AS
        IF CUR%NOTFOUND THEN
           DBMS_OUTPUT.PUT_LINE('Nom d''utilisateur ou mot de passe incorrect');
        ELSE
-             DBMS_OUTPUT.PUT_LINE('vous êtes connecté');
+             DBMS_OUTPUT.PUT_LINE(' vous êtes connecté');
            END IF;
         CLOSE CUR   ;
         RETURN IDENTIFIANT;
@@ -35,7 +35,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONNEXION_UTILISATEUR AS
 DECLARE 
     IdActif VARCHAR2 (255) :=PA_CONNEXION_UTILISATEUR.Verif_utilisateur('&nomUtilisateur','&motPasse');
 BEGIN
-    DBMS_OUTPUT.PUT_LINE(IdActif);
+    DBMS_OUTPUT.PUT_LINE('');
 END;
 /
 
