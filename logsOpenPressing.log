@@ -1,0 +1,2582 @@
+SUPPRESSION D'UTILISATEUR POTENTIELLEMENT EXISTANT
+
+Utilisateur supprimé.
+
+*************** Creation utilisateur ***************
+
+Utilisateur créé.
+
+
+Utilisateur modifié.
+
+
+Utilisateur modifié.
+
+
+Autorisation de privilèges (GRANT) acceptée.
+
+
+Autorisation de privilèges (GRANT) acceptée.
+
+***************************************************************************************************
+Connecté.
+
+Autorisation de privilèges (GRANT) acceptée.
+
+Connecté.
+DROP TABLE Administrateur CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Agence CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Agent CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Annonce CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Besoin CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Categorie_Linge CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Categorie_Service CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Client CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Commande CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Details_Besoin CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Linge CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Linge_Agence CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Message CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Offre CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Pays CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Pressing CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Promotion CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Proprietaire CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Quartier CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Role CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Service CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Service_Agence CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Type_Linge CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Type_Service CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Utilisateur CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+DROP TABLE Ville CASCADE CONSTRAINTS
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante
+
+
+CREATION DES TABLES
+Administrateur
+
+Table créée.
+
+Agence
+
+Table créée.
+
+Agent
+
+Table créée.
+
+Annonce
+
+Table créée.
+
+Besoin
+
+Table créée.
+
+Categorie_Linge
+
+Table créée.
+
+Categorie_Service
+
+Table créée.
+
+Client
+
+Table créée.
+
+Commande
+
+Table créée.
+
+Details_Besoin
+
+Table créée.
+
+Linge_Agence
+
+Table créée.
+
+Linge
+
+Table créée.
+
+Message
+
+Table créée.
+
+Offre
+
+Table créée.
+
+Pays
+
+Table créée.
+
+Pressing
+
+Table créée.
+
+Promotion
+
+Table créée.
+
+Proprietaire
+
+Table créée.
+
+Quartier
+
+Table créée.
+
+Role
+
+Table créée.
+
+Service_Agence
+
+Table créée.
+
+Service
+
+Table créée.
+
+Type_Linge
+
+Table créée.
+
+Type_Service
+
+Table créée.
+
+Utilisateur
+
+Table créée.
+
+Ville
+
+Table créée.
+
+CREATION DES DIFFERENTES CONTRAINTES
+CREATION DES CONTRAINTES DE VALEURS OBLIGATOIRES
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+CREATION DES CONTRAINTES DE VALEURS UNIQUES
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+CREATION DES CONTRAINTES DES VALEURS DE DOMAINE
+
+Table modifiée.
+
+
+Table modifiée.
+
+CREATION DES CONTRAINTES DE CLES PRIMAIRES
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+CREATION DES CONTRAINTES DE CLES ETRANGERES
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+DROP SEQUENCE seq_agence
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_annonce
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_besoin
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_categorie_linge
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_categorie_service
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_commande
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_pays
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_pressing
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_promotion
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_quartier
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_role
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_type_linge
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_type_service
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_utilisateur
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+DROP SEQUENCE seq_ville
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
+
+
+CREATION DES OBJETS SEQUENCES DE TOUTES LES TABLES ELEMENTAIRES
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+INSERTION DES DONNEES STATIQUES
+de la table utilisateur
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table administtrateur
+
+1 ligne créée.
+
+de la table proprietaire
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table pressing
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table pays
+
+1 ligne créée.
+
+de la table ville
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table quartier
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table role
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table agence
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table agent
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table type_linge
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table categorie_linge
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table linge
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table type_Service
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table Categorie_Service
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table service
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table Linge_Agence
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table Service_Agence
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table annonce
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table offre
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table promotion
+de la table client
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table besoin
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table Details_Besoin
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table message
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+de la table commande
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @FOnctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+SP2-0310: impossible d'ouvrir le fichier "FOnctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence.sql"
+SQL> @Objets/FOnctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
+2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
+3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------
+Objet/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+SP2-0310: impossible d'ouvrir le fichier "Objet/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents.sql"
+SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
+2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
+3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+Cet agence ne contient pas d'agent
+Cet agence ne contient pas d'agent
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
+2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
+3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : Eboum_Dja
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix.sql"
+SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
+2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
+3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : Abobogo
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+----------------------------------------------------------------
+Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix.sql"
+SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
+2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
+3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+Cet agence ne contient pas d'agent
+Cet agence ne contient pas d'agent
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
+2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
+3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionalites/SQLPLUS/Pressing/Consultation/Menu.sql"
+SQL> CREATE OR REPLACE PACKAGE PA_CONSULTATION_AGENT AS
+  2      PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE);
+  3      PROCEDURE  PO_LISTE_AGENT(nom_quartier QUARTIER.nom%TYPE);
+  4  END PA_CONSULTATION_AGENT;
+  5  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
+  2      PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE) IS
+  3          BEGIN
+  4              FOR un_agent IN (
+  5                                  SELECT  ut.Nom "nom",
+  6                                          ut.Prenom "prenom",
+  7                                          ut.genre "genre",
+  8                                          ut.Date_naissance "date_naissance",
+  9                                          ut.Email "email",
+ 10                                          ut.Telephone "telephone",
+ 11                                          ut.Nom_utilisateur "nom_util",
+ 12                                          at.date_embauche "date_emb",
+ 13                                          ro.nom "role",
+ 14                                          ro.description "describtion"
+ 15                                  FROM    AGENT at
+ 16                                  JOIN    UTILISATEUR ut
+ 17                                  ON      (at.id = ut.id)
+ 18                                  JOIN    ROLE ro
+ 19                                  ON      (at.id_role = ro.id)
+ 20                                  JOIN    AGENCE ag
+ 21                                  ON      (at.id_agence = ag.id)
+ 22                                  JOIN    QUARTIER qu
+ 23                                  ON      (ag.id_quartier = qu.id)
+ 24                                  WHERE   ut.Nom_utilisateur = PO_PROFIL_AGENT.nom_u
+ 25                                  AND     qu.nom = PO_PROFIL_AGENT.nom_quartier
+ 26                              )
+ 27              LOOP
+ 28                  DBMS_OUTPUT.PUT_LINE('Nom                   :'||un_agent."nom");
+ 29                  DBMS_OUTPUT.PUT_LINE('Prenom                :'||un_agent."prenom");
+ 30                  DBMS_OUTPUT.PUT_LINE('Genre                 :'||un_agent."genre");
+ 31                  DBMS_OUTPUT.PUT_LINE('Date de naissance     :'||un_agent."date_naissance");
+ 32                  DBMS_OUTPUT.PUT_LINE('Adresse electronique  :'||un_agent."email");
+ 33                  DBMS_OUTPUT.PUT_LINE('Adresse telephonique  :'||un_agent."telephone");
+ 34                  DBMS_OUTPUT.PUT_LINE('Nom d''utilisateur    :'||un_agent."nom_util");
+ 35                  DBMS_OUTPUT.PUT_LINE('Date d''embauche      :'||un_agent."date_emb");
+ 36                  DBMS_OUTPUT.PUT_LINE('Role                  :'||un_agent."role");
+ 37                  DBMS_OUTPUT.PUT_LINE('Description           :'||un_agent."describtion");
+ 38              END LOOP;
+ 39          END;
+ 40  
+ 41          PROCEDURE PO_LISTE_AGENT(nom_quartier QUARTIER.nom%TYPE) IS
+ 42              compteur PLS_INTEGER := 1;
+ 43          BEGIN
+ 44              FOR un_agent IN (
+ 45                  SELECT  ut.Nom_utilisateur "nom_utilis"
+ 46                  FROM    UTILISATEUR ut
+ 47                  JOIN    AGENT at
+ 48                  ON   (ut.id = at.id)
+ 49                  JOIN    AGENCE ag
+ 50                  ON      (at.id_agence = ag.id)
+ 51                  JOIN    QUARTIER qu
+ 52                  ON      (ag.id_quartier = qu.id)
+ 53                  WHERE   qu.nom = PO_LISTE_AGENT.nom_quartier
+ 54              )LOOP
+ 55                  DBMS_OUTPUT.PUT_LINE(compteur||' - '||un_agent."nom_utilis");
+ 56                  compteur := compteur + 1;
+ 57              END LOOP;
+ 58          END;
+ 59  END PA_CONSULTATION_AGENT;
+ 60  /
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
+2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
+3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Bodomo
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Profil_Agent
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom de l'agent dont vous voulez consulter le profil : Danela
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : PO
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/ERR_Choix.sql
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : A
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+---------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
+2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
+3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+1 - NikiledjiAurore
+2 - TchantchouJordan
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Profil_Agent
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom de l'agent dont vous voulez consulter le profil : NikiledjiAurore
+Nom                   :Nikiledji
+Prenom                :Aurore
+Genre                 :Feminin
+Date de naissance     :21/04/01
+Adresse electronique  :nikiledjiaurore@gmail.com
+Adresse telephonique  :695523865
+Nom d'utilisateur    :NikiledjiAurore
+Date d'embauche      :17/01/19
+Role                  :Marketing
+Description           :Charger de gerer les annonces en ajout, suppression et
+modification
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> exit
