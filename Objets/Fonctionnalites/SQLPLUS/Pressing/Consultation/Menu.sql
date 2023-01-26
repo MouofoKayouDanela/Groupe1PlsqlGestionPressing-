@@ -9,12 +9,12 @@ SET TERM OFF --Blockage de l'affichage du resultat de l'instruction select
 SET SERVEROUTPUT ON
 COLUMN script NEW_VALUE v_script --Conservation de la valeur de la variable script dans la variable v_script
 SELECT CASE '&mon_choix'
-            WHEN '1' THEN 'Objets/Fonctionnalites/Agence/Consultation/EX_ListeAgence.sql'
+            WHEN '1' THEN 'Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence.sql'
             WHEN '2' THEN ''
             WHEN '3' THEN ''
             WHEN '4' THEN ''
             WHEN 'A' THEN ''
-            ELSE 'Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix.sql'
+            ELSE 'Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/ERR_Choix.sql'
         END AS script -- recuperation du chemin d'accès menant à la fonctionnalité recherché
 FROM DUAL;
 SET TERM ON
