@@ -1,4 +1,4 @@
-EXECUTE PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE('&id_pressing')
+EXECUTE PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE('&&id_pressing')
 PROMPT              1 - la liste des agents
 PROMPT              2 - la liste des services d'une agence
 PROMPT              3 - la liste des annonces d'un agence
