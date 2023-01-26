@@ -2294,34 +2294,90 @@ ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
-SQL> @Objets/Fonctionnalites/SQLPLUS/Agence/COnsultation/EX_Liste_Agence.sql PR001
-Entrez une valeur pour id_pressing : PR001
-BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE('PR001'); END;
-
-      *
-ERREUR à la ligne 1 :
-ORA-06550: Ligne 1, colonne 7 :
-PLS-00201: l'identificateur 'PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE' doit
-être déclaré
-ORA-06550: Ligne 1, colonne 7 :
-PL/SQL: Statement ignored
-
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un agence
-A - Retour
+SQL> @Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix.sql
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
 Veuillez entrer le caractere correspondant a votre choix : K
 SP2-0158: option SET inconnue "--Blockage"
 SP2-0735: option COLUMN inconnue au début de "--Conserva..."
 
 SCRIPT
------------------------------------------------------------
+----------------------------------------------------------------
 Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix
 
 1 ligne sélectionnée.
 
-SP2-0735: option SET inconnue au début de "--Deblocka..."
-Entrez une valeur pour v_script : ,
-SP2-0310: impossible d'ouvrir le fichier ",.sql"
+Entrez une valeur pour v_script : d
+SP2-0310: impossible d'ouvrir le fichier "d.sql"
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : O
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+---------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/ERR_Choix.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour v_script : LLO
+SP2-0310: impossible d'ouvrir le fichier "LLO.sql"
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : O
+SP2-0158: option SET inconnue "--Blockage"
+Entrez une valeur pour v_script : 
+SP2-0310: impossible d'ouvrir le fichier "--Execution.sql"
+ 11  
+SQL> 
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+---------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/ERR_Choix.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour v_script : 
+SP2-0310: impossible d'ouvrir le fichier "--Execution.sql"
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+---------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour v_script : o
+SP2-0310: impossible d'ouvrir le fichier "o.sql"
 SQL> exit
