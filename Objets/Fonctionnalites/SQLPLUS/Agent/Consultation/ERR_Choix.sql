@@ -6,7 +6,7 @@ SET TERM OFF
 SET SERVEROUTPUT ON
 COLUMN script NEW_VALUE v_script
 SELECT CASE '&mon_choix'
-            WHEN 'A' THEN 'Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/EX_ListeAgence'
+            WHEN 'A' THEN 'Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence'
             ELSE 'Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/ERR_Choix'
         END  AS script
 FROM DUAL;
