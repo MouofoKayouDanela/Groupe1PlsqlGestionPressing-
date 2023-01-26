@@ -19,2343 +19,3409 @@ Autorisation de privilèges (GRANT) acceptée.
 Autorisation de privilèges (GRANT) acceptée.
 
 ***************************************************************************************************
-Connecté.
+SP2-0306: Option non valide.
+Syntaxe : CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM|SYSBACKUP|SYSDG|SYSKM|SYSRAC}] [edition=value]]
+où <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
 
 Autorisation de privilèges (GRANT) acceptée.
 
-Connecté.
-DROP TABLE Administrateur CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Agence CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Agent CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Annonce CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Besoin CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Categorie_Linge CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Categorie_Service CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Client CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Commande CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Details_Besoin CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Linge CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Linge_Agence CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Message CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Offre CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Pays CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Pressing CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Promotion CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Proprietaire CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Quartier CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Role CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Service CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Service_Agence CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Type_Linge CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Type_Service CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Utilisateur CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-DROP TABLE Ville CASCADE CONSTRAINTS
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante
-
-
-CREATION DES TABLES
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-
-Table créée.
-
-CREATION DES DIFFERENTES CONTRAINTES
-CREATION DES CONTRAINTES DE VALEURS OBLIGATOIRES
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-CREATION DES CONTRAINTES DE VALEURS UNIQUES
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-CREATION DES CONTRAINTES DES VALEURS DE DOMAINE
-
-Table modifiée.
-
-
-Table modifiée.
-
-CREATION DES CONTRAINTES DE CLES PRIMAIRES
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-CREATION DES CONTRAINTES DE CLES ETRANGERES
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-DROP SEQUENCE seq_agence
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_annonce
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_besoin
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_categorie_linge
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_categorie_service
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_commande
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_pays
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_pressing
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_promotion
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_quartier
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_role
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_type_linge
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_type_service
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_utilisateur
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-DROP SEQUENCE seq_ville
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
-
-CREATION DES OBJETS SEQUENCES DE TOUTES LES TABLES ELEMENTAIRES
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-
-Séquence créée.
-
-INSERTION DES DONNEES STATIQUES
-de la table utilisateur
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table administtrateur
-
-1 ligne créée.
-
-de la table proprietaire
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table pressing
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table pays
-
-1 ligne créée.
-
-de la table ville
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table quartier
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table role
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table agence
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table agent
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table type_linge
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table categorie_linge
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table linge
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table type_Service
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table Categorie_Service
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table service
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table Linge_Agence
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table Service_Agence
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table annonce
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table offre
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table promotion
-de la table client
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table besoin
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table Details_Besoin
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table message
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-de la table commande
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-SQL> @Objets/Fonctionnalites/Agence/Consultation/PA_Consulter_Agence
+SP2-0306: Option non valide.
+Syntaxe : CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM|SYSBACKUP|SYSDG|SYSKM|SYSRAC}] [edition=value]]
+où <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13          );
+ 14      FUNCTION Verify_mail
+ 15          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 16      FUNCTION Cryptage
+ 17          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2;
+ 18  END PA_UTILISATEUR;
+ 19  /
 
 Package créé.
 
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE)
+ 13      IS
+ 14      ID_USER := 'UT'||seq_utilisateur.NEXTVAL;
+ 15      NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 16      PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 17      GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 18      DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 19      MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 20      PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 21      USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 22      PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 23      STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 24      BEGIN
+ 25      INSERT INTO UTILISATEUR (id,
+ 26                              nom,
+ 27                              Prenom,
+ 28                              Genre,
+ 29                              Date_naissance,
+ 30                              Email,
+ 31                              Telephone,
+ 32                              Nom_utilisateur,
+ 33                              Mot_de_passe,
+ 34                              Statut)
+ 35      VALUES (ID_USER,
+ 36              NOM_USER,
+ 37              PRENOM_USER,
+ 38              GENRE_USER,
+ 39              DateNais_USER,
+ 40              MAIL_USER,
+ 41              PHONE_USER,
+ 42              USERNAME,
+ 43              PASSWORDS,
+ 44              STATUT_USER);
+ 45      END Add_user;
+ 46      FUNCTION Verify_mail
+ 47      (mail UTILISATEUR.Email%TYPE)
+ 48      RETURN VARCHAR2 IS
+ 49      BEGIN
+ 50      Curseur VARCHAR2 (255);
+ 51          CURSOR Curseur IS
+ 52              SELECT Email
+ 53              FROM UTILISATEUR
+ 54              WHERE (Email=mail);
+ 55          Valeur VARCHAR2 (255);
+ 56          BEGIN
+ 57              OPEN Curseur;
+ 58              FETCH Curseur
+ 59              INTO Valeur;
+ 60                  IF Curseur%NOTFOUND THEN
+ 61                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 62                  ELSE
+ 63                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 64                  END IF;
+ 65              CLOSE Curseur;
+ 66          RETURN Valeur;
+ 67          RETURN Curseur;
+ 68      END Verify_mail;
+ 69      FUNCTION Cryptage
+ 70          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2
+ 71      IS
+ 72      result VARCHAR2(255);
+ 73      BEGIN
+ 74      result := DBMS_OBFUSCATION_TOOLKIT.Cryptage(pasword);
+ 75      END Cryptage;
+ 76  END PA_UTILISATEUR;
+ 77  /
+Entrez une valeur pour votre_nom : DECLARE
+Entrez une valeur pour votre_prenom :     Rendu VARCHAR2 (255) := VERIFY('&NomPressing');
+Entrez une valeur pour votre_genre : BEGIN
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Add_user("PR020",&NomDePressing,SYSDATE,"UT005");
+Entrez une valeur pour email_utilisateur :     PA_UTILISATEUR.Verify_mail(Rendu);
+Entrez une valeur pour votre_telephone :     PA_UTILISATEUR.Cryptage();
+Entrez une valeur pour nom_utilisateur : END;
+Entrez une valeur pour mot_de_passe : /        
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> 
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+14/13    PLS-00103: Symbole "=" rencontré à la place d'un des symboles
+         suivants :
+         constant exception <identificateur>
+         <identificateur entre guillemets> table columns long double
+         ref char standard time timestamp interval date binary
+         national character nchar
+         Symbole "<identificateur>" a été substitué à "=" pour continuer.
+
+16/81    PLS-00103: Symbole "&" rencontré à la place d'un des symboles
+         suivants :
+         * & = - + ; < / > at in is mod remainder not rem
+         <exposant (**)> <> or != or ~= >= <= <> and or like like2
+         like4 likec between || multiset member submultiset
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13          );
+ 14      FUNCTION Verify_mail
+ 15          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 16      FUNCTION Cryptage
+ 17          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2;
+ 18  END PA_UTILISATEUR;
+ 19  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE)
+ 13      IS
+ 14      ID_USER := 'UT'||seq_utilisateur.NEXTVAL;
+ 15      NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 16      PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 17      GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 18      DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 19      MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 20      PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 21      USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 22      PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 23      STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 24      BEGIN
+ 25      INSERT INTO UTILISATEUR (id,
+ 26                              nom,
+ 27                              Prenom,
+ 28                              Genre,
+ 29                              Date_naissance,
+ 30                              Email,
+ 31                              Telephone,
+ 32                              Nom_utilisateur,
+ 33                              Mot_de_passe,
+ 34                              Statut)
+ 35      VALUES (ID_USER,
+ 36              NOM_USER,
+ 37              PRENOM_USER,
+ 38              GENRE_USER,
+ 39              DateNais_USER,
+ 40              MAIL_USER,
+ 41              PHONE_USER,
+ 42              USERNAME,
+ 43              PASSWORDS,
+ 44              STATUT_USER);
+ 45      END Add_user;
+ 46      FUNCTION Verify_mail
+ 47      (mail UTILISATEUR.Email%TYPE)
+ 48      RETURN VARCHAR2 IS
+ 49      BEGIN
+ 50      Curseur VARCHAR2 (255);
+ 51          CURSOR Curseur IS
+ 52              SELECT Email
+ 53              FROM UTILISATEUR
+ 54              WHERE (Email=mail);
+ 55          Valeur VARCHAR2 (255);
+ 56          BEGIN
+ 57              OPEN Curseur;
+ 58              FETCH Curseur
+ 59              INTO Valeur;
+ 60                  IF Curseur%NOTFOUND THEN
+ 61                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 62                  ELSE
+ 63                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 64                  END IF;
+ 65              CLOSE Curseur;
+ 66          RETURN Valeur;
+ 67          RETURN Curseur;
+ 68      END Verify_mail;
+ 69      FUNCTION Cryptage
+ 70          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2
+ 71      IS
+ 72      result VARCHAR2(255);
+ 73      BEGIN
+ 74      result := DBMS_OBFUSCATION_TOOLKIT.Cryptage(pasword);
+ 75      END Cryptage;
+ 76  END PA_UTILISATEUR;
+ 77  /
+Entrez une valeur pour votre_nom : DECLARE
+Entrez une valeur pour votre_prenom :     
+Entrez une valeur pour votre_genre : BEGIN
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Add_user();
+Entrez une valeur pour email_utilisateur :     PA_UTILISATEUR.Verify_mail();
+Entrez une valeur pour votre_telephone :     PA_UTILISATEUR.Cryptage();
+Entrez une valeur pour nom_utilisateur : END;
+Entrez une valeur pour mot_de_passe : /        
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> 
+SQL> shows errors
+SP2-0734: commande inconnue au début de "shows erro..." - le reste de la ligne est ignoré.
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+14/13    PLS-00103: Symbole "=" rencontré à la place d'un des symboles
+         suivants :
+         constant exception <identificateur>
+         <identificateur entre guillemets> table columns long double
+         ref char standard time timestamp interval date binary
+         national character nchar
+         Symbole "<identificateur>" a été substitué à "=" pour continuer.
+
+50/13    PLS-00103: Symbole "VARCHAR2" rencontré à la place d'un des
+         symboles suivants :
+         := . ( @ % ;
+         Symbole ":=" a été substitué à "VARCHAR2" pour continuer.
+
+51/16    PLS-00103: Symbole "CURSEUR" rencontré à la place d'un des
+         symboles suivants :
+         := . ( @ % ;
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13          );
+ 14      FUNCTION Verify_mail
+ 15          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 16      FUNCTION Cryptage
+ 17          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2;
+ 18  END PA_UTILISATEUR;
+ 19  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE)
+ 13      IS
+ 14      ID_USER := 'UT'||seq_utilisateur.NEXTVAL;
+ 15      NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 16      PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 17      GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 18      DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 19      MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 20      PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 21      USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 22      PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 23      STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 24      BEGIN
+ 25      INSERT INTO UTILISATEUR (id,
+ 26                              nom,
+ 27                              Prenom,
+ 28                              Genre,
+ 29                              Date_naissance,
+ 30                              Email,
+ 31                              Telephone,
+ 32                              Nom_utilisateur,
+ 33                              Mot_de_passe,
+ 34                              Statut)
+ 35      VALUES (ID_USER,
+ 36              NOM_USER,
+ 37              PRENOM_USER,
+ 38              GENRE_USER,
+ 39              DateNais_USER,
+ 40              MAIL_USER,
+ 41              PHONE_USER,
+ 42              USERNAME,
+ 43              PASSWORDS,
+ 44              STATUT_USER);
+ 45      END Add_user;
+ 46      FUNCTION Verify_mail
+ 47      (mail UTILISATEUR.Email%TYPE)
+ 48      RETURN VARCHAR2 IS
+ 49      BEGIN
+ 50          CURSOR Curseur IS
+ 51              SELECT Email
+ 52              FROM UTILISATEUR
+ 53              WHERE (Email=mail);
+ 54          Valeur VARCHAR2 (255);
+ 55          BEGIN
+ 56              OPEN Curseur;
+ 57              FETCH Curseur
+ 58              INTO Valeur;
+ 59                  IF Curseur%NOTFOUND THEN
+ 60                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 61                  ELSE
+ 62                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 63                  END IF;
+ 64              CLOSE Curseur;
+ 65          RETURN Valeur;
+ 66          RETURN Curseur;
+ 67      END Verify_mail;
+ 68      FUNCTION Cryptage
+ 69          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2
+ 70      IS
+ 71      result VARCHAR2(255);
+ 72      BEGIN
+ 73      result := DBMS_OBFUSCATION_TOOLKIT.Cryptage(pasword);
+ 74      END Cryptage;
+ 75  END PA_UTILISATEUR;
+ 76  /
+Entrez une valeur pour votre_nom : DECLARE
+Entrez une valeur pour votre_prenom :     
+Entrez une valeur pour votre_genre : BEGIN
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Add_user();
+Entrez une valeur pour email_utilisateur :     PA_UTILISATEUR.Verify_mail();
+Entrez une valeur pour votre_telephone :     PA_UTILISATEUR.Cryptage();
+Entrez une valeur pour nom_utilisateur : END;
+Entrez une valeur pour mot_de_passe : /        
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> 
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+14/13    PLS-00103: Symbole "=" rencontré à la place d'un des symboles
+         suivants :
+         constant exception <identificateur>
+         <identificateur entre guillemets> table columns long double
+         ref char standard time timestamp interval date binary
+         national character nchar
+         Symbole "<identificateur>" a été substitué à "=" pour continuer.
+
+50/16    PLS-00103: Symbole "CURSEUR" rencontré à la place d'un des
+         symboles suivants :
+         := . ( @ % ;
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13          );
+ 14      FUNCTION Verify_mail
+ 15          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 16      FUNCTION Cryptage
+ 17          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2;
+ 18  END PA_UTILISATEUR;
+ 19  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE)
+ 13      IS
+ 14      ID_USER UTILISATEUR.id%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 15      NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 16      PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 17      GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 18      DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 19      MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 20      PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 21      USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 22      PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 23      STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 24      BEGIN
+ 25      INSERT INTO UTILISATEUR (id,
+ 26                              nom,
+ 27                              Prenom,
+ 28                              Genre,
+ 29                              Date_naissance,
+ 30                              Email,
+ 31                              Telephone,
+ 32                              Nom_utilisateur,
+ 33                              Mot_de_passe,
+ 34                              Statut)
+ 35      VALUES (ID_USER,
+ 36              NOM_USER,
+ 37              PRENOM_USER,
+ 38              GENRE_USER,
+ 39              DateNais_USER,
+ 40              MAIL_USER,
+ 41              PHONE_USER,
+ 42              USERNAME,
+ 43              PASSWORDS,
+ 44              STATUT_USER);
+ 45      END Add_user;
+ 46      FUNCTION Verify_mail
+ 47      (mail UTILISATEUR.Email%TYPE)
+ 48      RETURN VARCHAR2 IS
+ 49      BEGIN
+ 50          CURSOR Curseur IS
+ 51              SELECT Email
+ 52              FROM UTILISATEUR
+ 53              WHERE (Email=mail);
+ 54          Valeur VARCHAR2 (255);
+ 55          BEGIN
+ 56              OPEN Curseur;
+ 57              FETCH Curseur
+ 58              INTO Valeur;
+ 59                  IF Curseur%NOTFOUND THEN
+ 60                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 61                  ELSE
+ 62                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 63                  END IF;
+ 64              CLOSE Curseur;
+ 65          RETURN Valeur;
+ 66          RETURN Curseur;
+ 67      END Verify_mail;
+ 68      FUNCTION Cryptage
+ 69          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2
+ 70      IS
+ 71      result VARCHAR2(255);
+ 72      BEGIN
+ 73      result := DBMS_OBFUSCATION_TOOLKIT.Cryptage(pasword);
+ 74      END Cryptage;
+ 75  END PA_UTILISATEUR;
+ 76  /
+Entrez une valeur pour votre_nom : DECLARE
+Entrez une valeur pour votre_prenom :     
+Entrez une valeur pour votre_genre : BEGIN
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Add_user();
+Entrez une valeur pour email_utilisateur :     PA_UTILISATEUR.Verify_mail();
+Entrez une valeur pour votre_telephone :     PA_UTILISATEUR.Cryptage();
+Entrez une valeur pour nom_utilisateur : END;
+Entrez une valeur pour mot_de_passe : /        
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> 
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+50/16    PLS-00103: Symbole "CURSEUR" rencontré à la place d'un des
+         symboles suivants :
+         := . ( @ % ;
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13          );
+ 14      FUNCTION Verify_mail
+ 15          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 16      FUNCTION Cryptage
+ 17          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2;
+ 18  END PA_UTILISATEUR;
+ 19  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE)
+ 13      IS
+ 14      ID_USER UTILISATEUR.id%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 15      NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 16      PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 17      GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 18      DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 19      MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 20      PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 21      USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 22      PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 23      STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 24      BEGIN
+ 25      INSERT INTO UTILISATEUR (id,
+ 26                              nom,
+ 27                              Prenom,
+ 28                              Genre,
+ 29                              Date_naissance,
+ 30                              Email,
+ 31                              Telephone,
+ 32                              Nom_utilisateur,
+ 33                              Mot_de_passe,
+ 34                              Statut)
+ 35      VALUES (ID_USER,
+ 36              NOM_USER,
+ 37              PRENOM_USER,
+ 38              GENRE_USER,
+ 39              DateNais_USER,
+ 40              MAIL_USER,
+ 41              PHONE_USER,
+ 42              USERNAME,
+ 43              PASSWORDS,
+ 44              STATUT_USER);
+ 45      END Add_user;
+ 46      FUNCTION Verify_mail
+ 47      (mail UTILISATEUR.Email%TYPE)
+ 48      RETURN VARCHAR2 IS
+ 49      BEGIN
+ 50          CURSOR Cur IS
+ 51              SELECT Email
+ 52              FROM UTILISATEUR
+ 53              WHERE (Email=mail);
+ 54          Valeur VARCHAR2 (255);
+ 55          BEGIN
+ 56              OPEN Cur;
+ 57              FETCH Cur
+ 58              INTO Valeur;
+ 59                  IF Cur%NOTFOUND THEN
+ 60                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 61                  ELSE
+ 62                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 63                  END IF;
+ 64              CLOSE Cur;
+ 65          RETURN Valeur;
+ 66          RETURN Cur;
+ 67      END Verify_mail;
+ 68      FUNCTION Cryptage
+ 69          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2
+ 70      IS
+ 71      result VARCHAR2(255);
+ 72      BEGIN
+ 73      result := DBMS_OBFUSCATION_TOOLKIT.Cryptage(pasword);
+ 74      END Cryptage;
+ 75  END PA_UTILISATEUR;
+ 76  /
+Entrez une valeur pour votre_nom : DECLARE
+Entrez une valeur pour votre_prenom :     
+Entrez une valeur pour votre_genre : BEGIN
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Add_user();
+Entrez une valeur pour email_utilisateur :     PA_UTILISATEUR.Verify_mail();
+Entrez une valeur pour votre_telephone :     PA_UTILISATEUR.Cryptage();
+Entrez une valeur pour nom_utilisateur : END;
+Entrez une valeur pour mot_de_passe : /        
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> 
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+50/16    PLS-00103: Symbole "CUR" rencontré à la place d'un des symboles
+         suivants :
+         := . ( @ % ;
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13          );
+ 14      FUNCTION Verify_mail
+ 15          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 16      FUNCTION Cryptage
+ 17          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2;
+ 18  END PA_UTILISATEUR;
+ 19  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE)
+ 13      IS
+ 14      ID_USER UTILISATEUR.id%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 15      NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 16      PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 17      GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 18      DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 19      MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 20      PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 21      USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 22      PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 23      STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 24      BEGIN
+ 25      INSERT INTO UTILISATEUR (id,
+ 26                              nom,
+ 27                              Prenom,
+ 28                              Genre,
+ 29                              Date_naissance,
+ 30                              Email,
+ 31                              Telephone,
+ 32                              Nom_utilisateur,
+ 33                              Mot_de_passe,
+ 34                              Statut)
+ 35      VALUES (ID_USER,
+ 36              NOM_USER,
+ 37              PRENOM_USER,
+ 38              GENRE_USER,
+ 39              DateNais_USER,
+ 40              MAIL_USER,
+ 41              PHONE_USER,
+ 42              USERNAME,
+ 43              PASSWORDS,
+ 44              STATUT_USER);
+ 45      END Add_user;
+ 46      FUNCTION Verify_mail
+ 47      (mail UTILISATEUR.Email%TYPE)
+ 48      RETURN VARCHAR2
+ 49      IS
+ 50          CURSOR Cur IS
+ 51              SELECT Email
+ 52              FROM UTILISATEUR
+ 53              WHERE (Email=mail);
+ 54          Valeur VARCHAR2 (255);
+ 55          BEGIN
+ 56              OPEN Cur;
+ 57              FETCH Cur
+ 58              INTO Valeur;
+ 59                  IF Cur%NOTFOUND THEN
+ 60                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 61                  ELSE
+ 62                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 63                  END IF;
+ 64              CLOSE Cur;
+ 65          RETURN Valeur;
+ 66          RETURN Cur;
+ 67      END Verify_mail;
+ 68      FUNCTION Cryptage
+ 69          (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2
+ 70      IS
+ 71      result VARCHAR2(255);
+ 72      BEGIN
+ 73      result := DBMS_OBFUSCATION_TOOLKIT.Cryptage(pasword);
+ 74      END Cryptage;
+ 75  END PA_UTILISATEUR;
+ 76  /
+Entrez une valeur pour votre_nom : DECLARE
+Entrez une valeur pour votre_prenom :     
+Entrez une valeur pour votre_genre : BEGIN
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Add_user();
+Entrez une valeur pour email_utilisateur :     PA_UTILISATEUR.Verify_mail();
+Entrez une valeur pour votre_telephone :     PA_UTILISATEUR.Cryptage();
+Entrez une valeur pour nom_utilisateur : END;
+Entrez une valeur pour mot_de_passe : /        
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> 
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/5      PL/SQL: Item ignored
+2/5      PLS-00410: champs en double interdits dans RECORD ou TABLE
+2/15     PLS-00323: Sous-programme ou curseur 'ADD_USER' déclaré dans les
+         spécifications; doit être défini dans le corps.
+
+66/9     PL/SQL: Statement ignored
+66/16    PLS-00382: expression du mauvais type
+73/5     PL/SQL: Statement ignored
+73/15    PLS-00201: l'identificateur 'DBMS_OBFUSCATION_TOOLKIT.CRYPTAGE'
+         doit être déclaré
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13          );
+ 14      FUNCTION Verify_mail
+ 15          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 16  END PA_UTILISATEUR;
+ 17  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13      )
+ 14      IS
+ 15      ID_USER UTILISATEUR.id%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 16      NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 17      PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 18      GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 19      DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 20      MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 21      PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 22      USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 23      PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 24      STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 25      BEGIN
+ 26      INSERT INTO UTILISATEUR (id,
+ 27                              nom,
+ 28                              Prenom,
+ 29                              Genre,
+ 30                              Date_naissance,
+ 31                              Email,
+ 32                              Telephone,
+ 33                              Nom_utilisateur,
+ 34                              Mot_de_passe,
+ 35                              Statut)
+ 36      VALUES (ID_USER,
+ 37              NOM_USER,
+ 38              PRENOM_USER,
+ 39              GENRE_USER,
+ 40              DateNais_USER,
+ 41              MAIL_USER,
+ 42              PHONE_USER,
+ 43              USERNAME,
+ 44              PASSWORDS,
+ 45              STATUT_USER);
+ 46      END Add_user;
+ 47      FUNCTION Verify_mail
+ 48      (mail UTILISATEUR.Email%TYPE)
+ 49      RETURN VARCHAR2
+ 50      IS
+ 51          CURSOR Cur IS
+ 52              SELECT Email
+ 53              FROM UTILISATEUR
+ 54              WHERE (Email=mail);
+ 55          Valeur VARCHAR2 (255);
+ 56          BEGIN
+ 57              OPEN Cur;
+ 58              FETCH Cur
+ 59              INTO Valeur;
+ 60                  IF Cur%NOTFOUND THEN
+ 61                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 62                  ELSE
+ 63                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 64                  END IF;
+ 65              CLOSE Cur;
+ 66          RETURN Valeur;
+ 67          RETURN Cur;
+ 68      END Verify_mail;
+ 69  END PA_UTILISATEUR;
+ 70  /
+Entrez une valeur pour votre_nom : DECLARE
+Entrez une valeur pour votre_prenom :     
+Entrez une valeur pour votre_genre : BEGIN
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Add_user();
+Entrez une valeur pour email_utilisateur :     PA_UTILISATEUR.Verify_mail();
+Entrez une valeur pour votre_telephone : END;
+Entrez une valeur pour nom_utilisateur : /        
+Entrez une valeur pour mot_de_passe : 
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/5      PL/SQL: Item ignored
+2/5      PLS-00410: champs en double interdits dans RECORD ou TABLE
+2/15     PLS-00323: Sous-programme ou curseur 'ADD_USER' déclaré dans les
+         spécifications; doit être défini dans le corps.
+
+67/9     PL/SQL: Statement ignored
+67/16    PLS-00382: expression du mauvais type
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13          );
+ 14      FUNCTION Verify_mail
+ 15          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 16  END PA_UTILISATEUR;
+ 17  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13      )
+ 14      IS
+ 15      ID_USER UTILISATEUR.id%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 16      NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 17      PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 18      GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 19      DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 20      MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 21      PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 22      USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 23      PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 24      STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 25      BEGIN
+ 26      INSERT INTO UTILISATEUR (id,
+ 27                              nom,
+ 28                              Prenom,
+ 29                              Genre,
+ 30                              Date_naissance,
+ 31                              Email,
+ 32                              Telephone,
+ 33                              Nom_utilisateur,
+ 34                              Mot_de_passe,
+ 35                              Statut)
+ 36      VALUES (ID_USER,
+ 37              NOM_USER,
+ 38              PRENOM_USER,
+ 39              GENRE_USER,
+ 40              DateNais_USER,
+ 41              MAIL_USER,
+ 42              PHONE_USER,
+ 43              USERNAME,
+ 44              PASSWORDS,
+ 45              STATUT_USER);
+ 46      END Add_user;
+ 47      FUNCTION Verify_mail
+ 48      (mail UTILISATEUR.Email%TYPE)
+ 49      RETURN VARCHAR2
+ 50      IS
+ 51          CURSOR Cur IS
+ 52              SELECT Email
+ 53              FROM UTILISATEUR
+ 54              WHERE (Email=mail);
+ 55          Valeur VARCHAR2 (255);
+ 56          BEGIN
+ 57              OPEN Cur;
+ 58              FETCH Cur
+ 59              INTO Valeur;
+ 60                  IF Cur%NOTFOUND THEN
+ 61                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 62                  ELSE
+ 63                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 64                  END IF;
+ 65              CLOSE Cur;
+ 66          RETURN Valeur;
+ 67      END Verify_mail;
+ 68  END PA_UTILISATEUR;
+ 69  /
+Entrez une valeur pour votre_nom : DECLARE
+Entrez une valeur pour votre_prenom :     
+Entrez une valeur pour votre_genre : BEGIN
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Add_user();
+Entrez une valeur pour email_utilisateur :     PA_UTILISATEUR.Verify_mail();
+Entrez une valeur pour votre_telephone : END;
+Entrez une valeur pour nom_utilisateur : /        
+Entrez une valeur pour mot_de_passe : 
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/5      PL/SQL: Item ignored
+2/5      PLS-00410: champs en double interdits dans RECORD ou TABLE
+2/15     PLS-00323: Sous-programme ou curseur 'ADD_USER' déclaré dans les
+         spécifications; doit être défini dans le corps.
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13          );
+ 14      FUNCTION Verify_mail
+ 15          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 16  END PA_UTILISATEUR;
+ 17  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          NOM_USER UTILISATEUR.nom%TYPE,
+  5          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  6          GENRE_USER UTILISATEUR.Genre%TYPE,
+  7          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  8          MAIL_USER UTILISATEUR.Email%TYPE,
+  9          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 10          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 11          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 12          STATUT_USER UTILISATEUR.Statut%TYPE
+ 13      )
+ 14      IS
+ 15      ID_USER UTILISATEUR.id%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 16      NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 17      PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 18      GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 19      DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 20      MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 21      PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 22      USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 23      PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 24      STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 25      BEGIN
+ 26      INSERT INTO UTILISATEUR (id,
+ 27                              nom,
+ 28                              Prenom,
+ 29                              Genre,
+ 30                              Date_naissance,
+ 31                              Email,
+ 32                              Telephone,
+ 33                              Nom_utilisateur,
+ 34                              Mot_de_passe,
+ 35                              Statut)
+ 36      VALUES (ID_USER,
+ 37              NOM_USER,
+ 38              PRENOM_USER,
+ 39              GENRE_USER,
+ 40              DateNais_USER,
+ 41              MAIL_USER,
+ 42              PHONE_USER,
+ 43              USERNAME,
+ 44              PASSWORDS,
+ 45              STATUT_USER);
+ 46      END Add_user;
+ 47      FUNCTION Verify_mail
+ 48      (mail UTILISATEUR.Email%TYPE)
+ 49      RETURN VARCHAR2
+ 50      IS
+ 51          CURSOR Cur IS
+ 52              SELECT Email
+ 53              FROM UTILISATEUR
+ 54              WHERE (Email=mail);
+ 55          Valeur VARCHAR2 (255);
+ 56          BEGIN
+ 57              OPEN Cur;
+ 58              FETCH Cur
+ 59              INTO Valeur;
+ 60                  IF Cur%NOTFOUND THEN
+ 61                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 62                  ELSE
+ 63                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 64                  END IF;
+ 65              CLOSE Cur;
+ 66          RETURN Valeur;
+ 67      END Verify_mail;
+ 68  END PA_UTILISATEUR;
+ 69  /
+Entrez une valeur pour votre_nom : DECLARE  
+Entrez une valeur pour votre_prenom : BEGIN
+Entrez une valeur pour votre_genre :     PA_UTILISATEUR.Add_user();
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Verify_mail();
+Entrez une valeur pour email_utilisateur : END;
+Entrez une valeur pour votre_telephone : /        
+Entrez une valeur pour nom_utilisateur : 
+Entrez une valeur pour mot_de_passe : 2
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/5      PL/SQL: Item ignored
+2/5      PLS-00410: champs en double interdits dans RECORD ou TABLE
+2/15     PLS-00323: Sous-programme ou curseur 'ADD_USER' déclaré dans les
+         spécifications; doit être défini dans le corps.
+
+SQL> FUNCTION Verify_mail
+SP2-0734: commande inconnue au début de "FUNCTION V..." - le reste de la ligne est ignoré.
+SQL>     (mail UTILISATEUR.Email%TYPE)
+  2      RETURN VARCHAR2
+  3      IS
+  4          CURSOR Cur IS
+  5              SELECT Email
+  6              FROM UTILISATEUR
+  7              WHERE (Email=mail);
+    (mail UTILISATEUR.Email%TYPE)
+     *
+ERREUR à la ligne 1 :
+ORA-00928: mot-clé SELECT absent
+
+
+SQL>         Valeur VARCHAR2 (255);
+SP2-0734: commande inconnue au début de "Valeur VAR..." - le reste de la ligne est ignoré.
+SQL>         BEGIN
+  2              OPEN Cur;
+  3              FETCH Cur
+  4              INTO Valeur;
+  5                  IF Cur%NOTFOUND THEN
+  6                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+  7                  ELSE
+  8                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+  9                  END IF;
+ 10              CLOSE Cur;
+ 11          RETURN Valeur;
+ 12      END Verify_mail;
+ 13  
+ 14  
+ 15  
+ 16  
+ 17  
+ 18  nfng
+ 19  
+ 20  
+ 21  
+ 22  
+ 23  /
+nfng
+*
+ERREUR à la ligne 18 :
+ORA-06550: Ligne 18, colonne 1 :
+PLS-00103: Symbole "NFNG" rencontré Symbole "NFNG" n'a pas été pris en compte.
+
+
+SQL> FUNCTION Verify_mail
+SP2-0734: commande inconnue au début de "FUNCTION V..." - le reste de la ligne est ignoré.
+SQL>     (mail UTILISATEUR.Email%TYPE)
+  2      RETURN VARCHAR2
+  3      IS
+  4          CURSOR Cur IS
+  5              SELECT Email
+  6              FROM UTILISATEUR
+  7              WHERE (Email=mail);
+    (mail UTILISATEUR.Email%TYPE)
+     *
+ERREUR à la ligne 1 :
+ORA-00928: mot-clé SELECT absent
+
+
+SQL>         Valeur VARCHAR2 (255);
+SP2-0734: commande inconnue au début de "Valeur VAR..." - le reste de la ligne est ignoré.
+SQL>         BEGIN
+  2              OPEN Cur;
+  3              FETCH Cur
+  4              INTO Valeur;
+  5                  IF Cur%NOTFOUND THEN
+  6                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+  7                  ELSE
+  8                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+  9                  END IF;
+ 10              CLOSE Cur;
+ 11          RETURN Valeur;
+ 12      END Verify_mail;
+ 13  /
+            OPEN Cur;
+                 *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 18 :
+PLS-00201: l'identificateur 'CUR' doit être déclaré
+ORA-06550: Ligne 2, colonne 13 :
+PL/SQL: SQL Statement ignored
+ORA-06550: Ligne 3, colonne 19 :
+PLS-00201: l'identificateur 'CUR' doit être déclaré
+ORA-06550: Ligne 3, colonne 13 :
+PL/SQL: SQL Statement ignored
+ORA-06550: Ligne 5, colonne 20 :
+PLS-00201: l'identificateur 'CUR' doit être déclaré
+ORA-06550: Ligne 5, colonne 17 :
+PL/SQL: Statement ignored
+ORA-06550: Ligne 10, colonne 19 :
+PLS-00201: l'identificateur 'CUR' doit être déclaré
+ORA-06550: Ligne 10, colonne 13 :
+PL/SQL: SQL Statement ignored
+ORA-06550: Ligne 11, colonne 9 :
+PLS-00372: L'instruction RETURN ne peut pas contenir d'expression dans une
+procédure.
+ORA-06550: Ligne 11, colonne 9 :
+PL/SQL: Statement ignored
+
+
+SQL> CREATE OR REPLACE PACKAGE PA_PRESSING AS
+  2      PROCEDURE Add_pressing
+  3      (
+  4          NOM_PRESS PRESSING.nom%TYPE,
+  5          DateCreation_PRESS PRESSING.date_creation%TYPE,
+  6          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE);
+  7      FUNCTION Verif_nom_pres
+  8      (NomPressing PRESSING.nom%TYPE) RETURN VARCHAR2;
+  9  END PA_PRESSING;
+ 10  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS
+  2      PROCEDURE Add_pressing
+  3      (
+  4          NOM_PRESS PRESSING.nom%TYPE,
+  5          DateCreation_PRESS PRESSING.date_creation%TYPE,
+  6          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE
+  7      )
+  8      IS
+  9          ID_PRESS PRESSING.id%TYPE := 'PR'||seq_pressing.NEXTVAL;
+ 10          NOM_PRESS PRESSING.nom%TYPE := '&Nom_du_pressing';
+ 11          DateCreation_PRESS PRESSING.date_creation%TYPE := SYSDATE;
+ 12          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 13      BEGIN
+ 14      INSERT INTO PRESSING (id, nom, date_creation, id_proprietaire)
+ 15      VALUES
+ 16          (
+ 17              ID_PRESS,
+ 18              NOM_PRESS,
+ 19              DateCreation_PRESS,
+ 20              IdProprietaire_PRESS
+ 21          );
+ 22      END Add_pressing;
+ 23      FUNCTION Verif_nom_pressing
+ 24      (NomPressing PRESSING.nom%TYPE)
+ 25      RETURN VARCHAR2
+ 26      IS
+ 27          CURSOR Curseur IS
+ 28              SELECT nom
+ 29              FROM PRESSING
+ 30              WHERE (nom=NomPressing);
+ 31          Valeur VARCHAR2 (255);
+ 32          BEGIN
+ 33              OPEN Curseur;
+ 34              FETCH Curseur
+ 35              INTO Valeur;
+ 36                  IF Curseur%NOTFOUND THEN
+ 37                      DBMS_OUTPUT.PUT_LINE('Nom de pressing valide');
+ 38                  ELSE
+ 39                      DBMS_OUTPUT.PUT_LINE('Desole un pressing existe deja sous ce nom');
+ 40                  END IF;
+ 41              CLOSE Curseur;
+ 42          RETURN Valeur;
+ 43      END Verif_nom_pressing;
+ 44  END PA_PRESSING;
+ 45  /
+Entrez une valeur pour nom_du_pressing : DECLARE
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> BEGIN
+  2      DBMS_OUTPUT.PUT_LINE('');
+  3      PA_PRESSING.Verif_nom_pressing();
+  4  END;
+  5  /
+    PA_PRESSING.Verif_nom_pressing();
+                *
+ERREUR à la ligne 3 :
+ORA-06550: Ligne 3, colonne 17 :
+PLS-00302: Le composant 'VERIF_NOM_PRESSING' doit être déclaré
+ORA-06550: Ligne 3, colonne 5 :
+PL/SQL: Statement ignored
+
+
+SQL> 
+SQL> CREATE OR REPLACE PACKAGE PA_PRESSING AS
+  2      PROCEDURE Add_pressing
+  3      (
+  4          NOM_PRESS PRESSING.nom%TYPE,
+  5          DateCreation_PRESS PRESSING.date_creation%TYPE,
+  6          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE);
+  7      FUNCTION Verif_nom_pres
+  8      (NomPressing PRESSING.nom%TYPE) RETURN VARCHAR2;
+  9  END PA_PRESSING;
+ 10  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS
+  2      PROCEDURE Add_pressing
+  3      (
+  4          NOM_PRESS PRESSING.nom%TYPE,
+  5          DateCreation_PRESS PRESSING.date_creation%TYPE,
+  6          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE
+  7      )
+  8      IS
+  9          ID_PRESS PRESSING.id%TYPE := 'PR'||seq_pressing.NEXTVAL;
+ 10          NOM_PRESS PRESSING.nom%TYPE := '&Nom_du_pressing';
+ 11          DateCreation_PRESS PRESSING.date_creation%TYPE := SYSDATE;
+ 12          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 13      BEGIN
+ 14      INSERT INTO PRESSING (id, nom, date_creation, id_proprietaire)
+ 15      VALUES
+ 16          (
+ 17              ID_PRESS,
+ 18              NOM_PRESS,
+ 19              DateCreation_PRESS,
+ 20              IdProprietaire_PRESS
+ 21          );
+ 22      END Add_pressing;
+ 23      FUNCTION Verif_nom_pressing
+ 24      (NomPressing PRESSING.nom%TYPE)
+ 25      RETURN VARCHAR2
+ 26      IS
+ 27          CURSOR Curseur IS
+ 28              SELECT nom
+ 29              FROM PRESSING
+ 30              WHERE (nom=NomPressing);
+ 31          Valeur VARCHAR2 (255);
+ 32          BEGIN
+ 33              OPEN Curseur;
+ 34              FETCH Curseur
+ 35              INTO Valeur;
+ 36                  IF Curseur%NOTFOUND THEN
+ 37                      DBMS_OUTPUT.PUT_LINE('Nom de pressing valide');
+ 38                  ELSE
+ 39                      DBMS_OUTPUT.PUT_LINE('Desole un pressing existe deja sous ce nom');
+ 40                  END IF;
+ 41              CLOSE Curseur;
+ 42          RETURN Valeur;
+ 43      END Verif_nom_pressing;
+ 44  END PA_PRESSING;
+ 45  /
+Entrez une valeur pour nom_du_pressing : DECLARE
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> BEGIN
+  2      PA_PRESSING.Add_pressing();
+  3      PA_PRESSING.Verif_nom_pressing();
+  4  END;
+  5  /
+    PA_PRESSING.Add_pressing();
+    *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 5 :
+PLS-00306: numéro ou types d'arguments erronés dans appel à 'ADD_PRESSING'
+ORA-06550: Ligne 2, colonne 5 :
+PL/SQL: Statement ignored
+ORA-06550: Ligne 3, colonne 17 :
+PLS-00302: Le composant 'VERIF_NOM_PRESSING' doit être déclaré
+ORA-06550: Ligne 3, colonne 5 :
+PL/SQL: Statement ignored
+
+
+SQL> 
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_PRESSING :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/5      PL/SQL: Item ignored
+2/5      PLS-00410: champs en double interdits dans RECORD ou TABLE
+2/15     PLS-00323: Sous-programme ou curseur 'ADD_PRESSING' déclaré dans
+         les spécifications; doit être défini dans le corps.
+
+7/14     PLS-00323: Sous-programme ou curseur 'VERIF_NOM_PRES' déclaré
+         dans les spécifications; doit être défini dans le corps.
+
+SQL> CREATE OR REPLACE PACKAGE PA_PRESSING AS
+  2      PROCEDURE Add_pressing
+  3      (
+  4          NOM_PRESS PRESSING.nom%TYPE,
+  5          DateCreation_PRESS PRESSING.date_creation%TYPE,
+  6          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE);
+  7      FUNCTION Verif_nom_pressing
+  8      (NomPressing PRESSING.nom%TYPE) RETURN VARCHAR2;
+  9  END PA_PRESSING;
+ 10  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS
+  2      PROCEDURE Add_pressing
+  3      (
+  4          NOM_PRESS PRESSING.nom%TYPE,
+  5          DateCreation_PRESS PRESSING.date_creation%TYPE,
+  6          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE
+  7      )
+  8      IS
+  9          ID_PRESS PRESSING.id%TYPE := 'PR'||seq_pressing.NEXTVAL;
+ 10          NOM_PRESS PRESSING.nom%TYPE := '&Nom_du_pressing';
+ 11          DateCreation_PRESS PRESSING.date_creation%TYPE := SYSDATE;
+ 12          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 13      BEGIN
+ 14      INSERT INTO PRESSING
+ 15          (
+ 16              id,
+ 17              nom,
+ 18              date_creation,
+ 19              id_proprietaire
+ 20          )
+ 21      VALUES
+ 22          (
+ 23              ID_PRESS,
+ 24              NOM_PRESS,
+ 25              DateCreation_PRESS,
+ 26              IdProprietaire_PRESS
+ 27          );
+ 28      END Add_pressing;
+ 29      FUNCTION Verif_nom_pressing
+ 30      (NomPressing PRESSING.nom%TYPE)
+ 31      RETURN VARCHAR2
+ 32      IS
+ 33          CURSOR Curseur IS
+ 34              SELECT nom
+ 35              FROM PRESSING
+ 36              WHERE (nom=NomPressing);
+ 37          Valeur VARCHAR2 (255);
+ 38          BEGIN
+ 39              OPEN Curseur;
+ 40              FETCH Curseur
+ 41              INTO Valeur;
+ 42                  IF Curseur%NOTFOUND THEN
+ 43                      DBMS_OUTPUT.PUT_LINE('Nom de pressing valide');
+ 44                  ELSE
+ 45                      DBMS_OUTPUT.PUT_LINE('Desole un pressing existe deja sous ce nom');
+ 46                  END IF;
+ 47              CLOSE Curseur;
+ 48          RETURN Valeur;
+ 49      END Verif_nom_pressing;
+ 50  END PA_PRESSING;
+ 51  /
+Entrez une valeur pour nom_du_pressing : DECLARE
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> BEGIN
+  2      PA_PRESSING.Add_pressing();
+  3      PA_PRESSING.Verif_nom_pressing();
+  4  END;
+  5  /
+    PA_PRESSING.Add_pressing();
+    *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 5 :
+PLS-00306: numéro ou types d'arguments erronés dans appel à 'ADD_PRESSING'
+ORA-06550: Ligne 2, colonne 5 :
+PL/SQL: Statement ignored
+ORA-06550: Ligne 3, colonne 5 :
+PLS-00306: numéro ou types d'arguments erronés dans appel à
+'VERIF_NOM_PRESSING'
+ORA-06550: Ligne 3, colonne 5 :
+PL/SQL: Statement ignored
+
+
+SQL> 
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_PRESSING :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/5      PL/SQL: Item ignored
+2/5      PLS-00410: champs en double interdits dans RECORD ou TABLE
+2/15     PLS-00323: Sous-programme ou curseur 'ADD_PRESSING' déclaré dans
+         les spécifications; doit être défini dans le corps.
+
+SQL> CREATE OR REPLACE PACKAGE PA_PRESSING AS
+  2      PROCEDURE Add_pressing
+  3      (
+  4          ID_PRESS PRESSING.id%TYPE,
+  5          NOM_PRESS PRESSING.nom%TYPE,
+  6          DateCreation_PRESS PRESSING.date_creation%TYPE,
+  7          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE);
+  8      FUNCTION Verif_nom_pressing
+  9      (NomPressing PRESSING.nom%TYPE) RETURN VARCHAR2;
+ 10  END PA_PRESSING;
+ 11  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS
+  2      PROCEDURE Add_pressing
+  3      (
+  4          ID_PRESS PRESSING.id%TYPE,
+  5          NOM_PRESS PRESSING.nom%TYPE,
+  6          DateCreation_PRESS PRESSING.date_creation%TYPE,
+  7          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE
+  8      )
+  9      IS
+ 10          ID_PRESS PRESSING.id%TYPE := 'PR'||seq_pressing.NEXTVAL;
+ 11          NOM_PRESS PRESSING.nom%TYPE := '&Nom_du_pressing';
+ 12          DateCreation_PRESS PRESSING.date_creation%TYPE := SYSDATE;
+ 13          IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 14      BEGIN
+ 15      INSERT INTO PRESSING
+ 16          (
+ 17              id,
+ 18              nom,
+ 19              date_creation,
+ 20              id_proprietaire
+ 21          )
+ 22      VALUES
+ 23          (
+ 24              ID_PRESS,
+ 25              NOM_PRESS,
+ 26              DateCreation_PRESS,
+ 27              IdProprietaire_PRESS
+ 28          );
+ 29      END Add_pressing;
+ 30      FUNCTION Verif_nom_pressing
+ 31      (NomPressing PRESSING.nom%TYPE)
+ 32      RETURN VARCHAR2
+ 33      IS
+ 34          CURSOR Curseur IS
+ 35              SELECT nom
+ 36              FROM PRESSING
+ 37              WHERE (nom=NomPressing);
+ 38          Valeur VARCHAR2 (255);
+ 39          BEGIN
+ 40              OPEN Curseur;
+ 41              FETCH Curseur
+ 42              INTO Valeur;
+ 43                  IF Curseur%NOTFOUND THEN
+ 44                      DBMS_OUTPUT.PUT_LINE('Nom de pressing valide');
+ 45                  ELSE
+ 46                      DBMS_OUTPUT.PUT_LINE('Desole un pressing existe deja sous ce nom');
+ 47                  END IF;
+ 48              CLOSE Curseur;
+ 49          RETURN Valeur;
+ 50      END Verif_nom_pressing;
+ 51  END PA_PRESSING;
+ 52  /
+Entrez une valeur pour nom_du_pressing : DECLARE
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> BEGIN
+  2      PA_PRESSING.Add_pressing();
+  3      PA_PRESSING.Verif_nom_pressing();
+  4  END;
+  5  /
+    PA_PRESSING.Add_pressing();
+    *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 5 :
+PLS-00306: numéro ou types d'arguments erronés dans appel à 'ADD_PRESSING'
+ORA-06550: Ligne 2, colonne 5 :
+PL/SQL: Statement ignored
+ORA-06550: Ligne 3, colonne 5 :
+PLS-00306: numéro ou types d'arguments erronés dans appel à
+'VERIF_NOM_PRESSING'
+ORA-06550: Ligne 3, colonne 5 :
+PL/SQL: Statement ignored
+
+
+SQL> 
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_PRESSING :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/5      PL/SQL: Item ignored
+2/5      PLS-00410: champs en double interdits dans RECORD ou TABLE
+2/15     PLS-00323: Sous-programme ou curseur 'ADD_PRESSING' déclaré dans
+         les spécifications; doit être défini dans le corps.
+
+SQL>         ID_USER UTILISATEUR.id%TYPE,
+SP2-0734: commande inconnue au début de "ID_USER UT..." - le reste de la ligne est ignoré.
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16          ID_USER UTILISATEUR.id%TYPE := 'UT'||seq_utilisateur.NEXTVAL;
+ 17          NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
+ 18          PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
+ 19          GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
+ 20          DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
+ 21          MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
+ 22          PHONE_USER UTILISATEUR.Telephone%TYPE := '&Votre_Telephone';
+ 23          USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
+ 24          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
+ 25          STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
+ 26      BEGIN
+ 27      INSERT INTO UTILISATEUR (id,
+ 28                              nom,
+ 29                              Prenom,
+ 30                              Genre,
+ 31                              Date_naissance,
+ 32                              Email,
+ 33                              Telephone,
+ 34                              Nom_utilisateur,
+ 35                              Mot_de_passe,
+ 36                              Statut)
+ 37      VALUES (ID_USER,
+ 38              NOM_USER,
+ 39              PRENOM_USER,
+ 40              GENRE_USER,
+ 41              DateNais_USER,
+ 42              MAIL_USER,
+ 43              PHONE_USER,
+ 44              USERNAME,
+ 45              PASSWORDS,
+ 46              STATUT_USER);
+ 47      END Add_user;
+ 48      FUNCTION Verify_mail
+ 49      (mail UTILISATEUR.Email%TYPE)
+ 50      RETURN VARCHAR2
+ 51      IS
+ 52          CURSOR Cur IS
+ 53              SELECT Email
+ 54              FROM UTILISATEUR
+ 55              WHERE (Email=mail);
+ 56          Valeur VARCHAR2 (255);
+ 57          BEGIN
+ 58              OPEN Cur;
+ 59              FETCH Cur
+ 60              INTO Valeur;
+ 61                  IF Cur%NOTFOUND THEN
+ 62                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 63                  ELSE
+ 64                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 65                  END IF;
+ 66              CLOSE Cur;
+ 67          RETURN Valeur;
+ 68      END Verify_mail;
+ 69  END PA_UTILISATEUR;
+ 70  /
+Entrez une valeur pour votre_nom : DECLARE  
+Entrez une valeur pour votre_prenom : BEGIN
+Entrez une valeur pour votre_genre :     PA_UTILISATEUR.Add_user();
+Entrez une valeur pour date_naissance :     PA_UTILISATEUR.Verify_mail();
+Entrez une valeur pour email_utilisateur : END;
+Entrez une valeur pour votre_telephone : /        
+Entrez une valeur pour nom_utilisateur : 
+Entrez une valeur pour mot_de_passe : JH
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_UTILISATEUR :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/5      PL/SQL: Item ignored
+2/5      PLS-00410: champs en double interdits dans RECORD ou TABLE
+2/15     PLS-00323: Sous-programme ou curseur 'ADD_USER' déclaré dans les
+         spécifications; doit être défini dans le corps.
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
 
 Corps de package créé.
 
-SQL> accept my_var char prompt 'please : '
-please : Objets/Fonctionnalites/Agence/Consultation/EX_ListeAgence.sql
-SQL> @&my_var
-BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE(id_pressing); END;
-
-                                                 *
-ERREUR à la ligne 1 :
-ORA-06550: Ligne 1, colonne 50 :
-PLS-00201: l'identificateur 'ID_PRESSING' doit être déclaré
-ORA-06550: Ligne 1, colonne 7 :
+SQL> DECLARE
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user
+  4      (
+  5          'UT'||seq_utilisateur.NEXTVAL,
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail();
+ 17  END;
+ 18  /
+Entrez une valeur pour votre_nom : 
+Entrez une valeur pour votre_prenom : joj
+Entrez une valeur pour votre_genre : g
+Entrez une valeur pour date_naissance : 12/05/1963
+Entrez une valeur pour email_utilisateur : fifi@gmail.com
+Entrez une valeur pour votre_telephone : 1526
+Entrez une valeur pour nom_utilisateur : shd
+Entrez une valeur pour mot_de_passe : dswf
+    PA_UTILISATEUR.Verify_mail();
+    *
+ERREUR à la ligne 16 :
+ORA-06550: Ligne 16, colonne 5 :
+PLS-00306: numéro ou types d'arguments erronés dans appel à 'VERIFY_MAIL'
+ORA-06550: Ligne 16, colonne 5 :
 PL/SQL: Statement ignored
 
 
-A - Retour
-Veuillez entrer le caractere correspondant Ã  votre choix : A
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
 
-CASE
-------------------------------------------------
-@./././Fonctionalites/Pressing/Consultation/Menu
+Package créé.
 
-1 ligne sélectionnée.
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
 
-SQL> accept my_var char prompt 'please : '
-please : 'Objets/Fonctionnalites/Agence/Consultation/EX_ListeAgence.sql'
-SQL> @&my_var
-BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE(id_pressing); END;
+Corps de package créé.
 
-                                                 *
-ERREUR à la ligne 1 :
-ORA-06550: Ligne 1, colonne 50 :
-PLS-00201: l'identificateur 'ID_PRESSING' doit être déclaré
-ORA-06550: Ligne 1, colonne 7 :
+SQL> DECLARE
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user
+  4      (
+  5          'UT'||seq_utilisateur.NEXTVAL,
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail
+ 17      (
+ 18          valeur;
+ 19      );
+ 20  END;
+ 21  /
+Entrez une valeur pour votre_nom : 
+Entrez une valeur pour votre_prenom : h
+Entrez une valeur pour votre_genre : r
+Entrez une valeur pour date_naissance : 14/02/2022
+Entrez une valeur pour email_utilisateur : 74f
+Entrez une valeur pour votre_telephone : 456
+Entrez une valeur pour nom_utilisateur : 485
+Entrez une valeur pour mot_de_passe : werg
+        valeur;
+              *
+ERREUR à la ligne 18 :
+ORA-06550: Ligne 18, colonne 15 :
+PLS-00103: Symbole ";" rencontré à la place d'un des symboles suivants :
+. ( ) , * @ % & | = - + < / > at in is mod remainder not null
+rem returning with => .. <exposant (**)> <> or != or ~= >= <=
+<> and or default like like2 like4 likec as between error
+from using || multiset member empty submultiset lax strict
+without pretty ascii true false absent format allow truncate
+Symbole ";" n'a pas été pris en compte.
+
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
+
+Corps de package créé.
+
+SQL> DECLARE
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user
+  4      (
+  5          'UT'||seq_utilisateur.NEXTVAL,
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail
+ 17      (
+ 18          valeur,
+ 19      );
+ 20  END;
+ 21  /
+Entrez une valeur pour votre_nom : 
+Entrez une valeur pour votre_prenom : jhjk
+Entrez une valeur pour votre_genre : sffv
+Entrez une valeur pour date_naissance : s
+Entrez une valeur pour email_utilisateur : sv
+Entrez une valeur pour votre_telephone : sv
+Entrez une valeur pour nom_utilisateur : sfvw
+Entrez une valeur pour mot_de_passe : srf
+    );
+    *
+ERREUR à la ligne 19 :
+ORA-06550: Ligne 19, colonne 5 :
+PLS-00103: Symbole ")" rencontré à la place d'un des symboles suivants :
+( - + case for mod new not null <identificateur>
+<identificateur entre guillemets> <variable attachée>
+continue avg count current exists max min prior sql stddev
+sum variance execute forall merge standard time timestamp
+interval date
+<un littéral de chaîne avec spécification de jeu de caractères>
+<un nombre> <une chaîne SQL entre apostrophes> pipe
+<constante de chaîne éventuellement entre guillemets
+
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
+
+Corps de package créé.
+
+SQL> DECLARE
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user
+  4      (
+  5          'UT'||seq_utilisateur.NEXTVAL,
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail
+ 17      (
+ 18          '&&Email_utilisateur',
+ 19      );
+ 20  END;
+ 21  /
+Entrez une valeur pour votre_nom : 
+Entrez une valeur pour votre_prenom : loli
+Entrez une valeur pour votre_genre : f
+Entrez une valeur pour date_naissance : 25/12/1256
+Entrez une valeur pour email_utilisateur : sfwhwfin
+Entrez une valeur pour votre_telephone : dws
+Entrez une valeur pour nom_utilisateur : svs
+Entrez une valeur pour mot_de_passe : sfvs
+Entrez une valeur pour email_utilisateur : ss
+    );
+    *
+ERREUR à la ligne 19 :
+ORA-06550: Ligne 19, colonne 5 :
+PLS-00103: Symbole ")" rencontré à la place d'un des symboles suivants :
+( - + case for mod new not null <identificateur>
+<identificateur entre guillemets> <variable attachée>
+continue avg count current exists max min prior sql stddev
+sum variance execute forall merge standard time timestamp
+interval date
+<un littéral de chaîne avec spécification de jeu de caractères>
+<un nombre> <une chaîne SQL entre apostrophes> pipe
+<constante de chaîne éventuellement entre guillemets
+
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
+
+Corps de package créé.
+
+SQL> DECLARE
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user
+  4      (
+  5          'UT ||seq_utilisateur.NEXTVAL',
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail
+ 17      (
+ 18          '&&Email_utilisateur'
+ 19      );
+ 20  END;
+ 21  /
+Entrez une valeur pour votre_nom : PROMPT *********************
+Entrez une valeur pour votre_prenom :    DBMS_OUTPUT.PUT_LINE('Creation reussie'); /
+Entrez une valeur pour votre_genre : 
+Entrez une valeur pour date_naissance : 
+Entrez une valeur pour votre_telephone : 
+Entrez une valeur pour nom_utilisateur : 
+Entrez une valeur pour mot_de_passe : 
+        '   DBMS_OUTPUT.PUT_LINE('Creation reussie'); /',
+                                  *
+ERREUR à la ligne 7 :
+ORA-06550: Ligne 7, colonne 35 :
+PLS-00103: Symbole "CREATION" rencontré à la place d'un des symboles suivants :
+) , * & | = - + < / > at in is mod remainder not null rem
+returning with => .. <exposant (**)> <> or != or ~= >= <= <>
+and or default like like2 like4 likec between error ||
+multiset member empty submultiset lax strict without pretty
+ascii true false absent format allow truncate
+
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
+
+Corps de package créé.
+
+SQL> DECLARE
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user
+  4      (
+  5          'UT ||seq_utilisateur.NEXTVAL',
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail
+ 17      (
+ 18          '&&Email_utilisateur'
+ 19      );
+ 20  END;
+ 21  /
+Entrez une valeur pour votre_nom : Niki
+Entrez une valeur pour votre_prenom : Kevine
+Entrez une valeur pour votre_genre : F
+Entrez une valeur pour date_naissance : 19/02/2004
+Entrez une valeur pour votre_telephone : 658524565
+Entrez une valeur pour nom_utilisateur : moi
+Entrez une valeur pour mot_de_passe : aurore
+    PA_UTILISATEUR.Verify_mail
+    *
+ERREUR à la ligne 16 :
+ORA-06550: Ligne 16, colonne 5 :
+PLS-00221: 'VERIFY_MAIL' n'est pas une procédure ou est indéfini
+ORA-06550: Ligne 16, colonne 5 :
 PL/SQL: Statement ignored
 
 
-A - Retour
-Veuillez entrer le caractere correspondant Ã  votre choix : u
+SQL> SELECT * FROM LINGE;
 
-CASE
-------------------------------------------------
-@./Consultation/ERR_Choix
+ID_CATEGORIE
+--------------------------------------------------
+ID_TYPE
+--------------------------------------------------
+CL001
+TL001
 
-1 ligne sélectionnée.
+CL001
+TL002
 
-SQL> @Objets/Fonctionnalites/Pressing/Consultation/Menu
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant Ã  votre choix : D
+CL001
+TL003
 
-SCRIPT
--------------------------------------------------------------
-Objets/Fonctionnalites/Agence/Consultation/ERR_Choix.sql
+CL001
+TL004
 
-1 ligne sélectionnée.
+CL001
+TL006
 
-CHOIX INCORRECT
-Vous devez opÃ©rer un choix se trouvant dans la liste qui vous a Ã©tÃ© proposÃ© !
-A - retour
-Veuillez entrer le caractere correspondant Ã  votre choix : A
+CL001
+TL007
 
-CASE
-------------------------------
-@./Consultation/EX_ListeAgence
+CL001
+TL008
 
-1 ligne sélectionnée.
+CL001
+TL009
 
-SQL> @Objets/Fonctionnalites/Pressing/Consultation/Menu
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant Ã  votre choix : B
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL001
+TL010
 
-SCRIPT
--------------------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix.sql
+CL001
+TL011
 
-1 ligne sélectionnée.
+CL001
+TL012
 
-CHOIX INCORRECT
-Vous devez opÃ©rer un choix se trouvant dans la liste qui vous a Ã©tÃ© proposÃ© !
-A - retour
-Veuillez entrer le caractere correspondant Ã  votre choix : N
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL001
+TL013
 
-SCRIPT
--------------------------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/Consultation/ERR_Choix
+CL001
+TL015
 
-1 ligne sélectionnée.
+CL001
+TL016
 
-SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/Pressing/Consultation/Consultation/ERR_Choix.sql"
-SQL> @Objets/Fonctionnalites/Pressing/Consultation/Menu
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant Ã  votre choix : K
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL001
+TL028
 
-SCRIPT
--------------------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix.sql
+CL001
+TL029
 
-1 ligne sélectionnée.
+CL001
+TL030
 
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : S
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL001
+TL031
 
-SCRIPT
---------------------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix
+CL001
+TL032
 
-1 ligne sélectionnée.
+CL001
+TL033
 
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : d
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL001
+TL034
 
-SCRIPT
---------------------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix
+CL002
+TL001
 
-1 ligne sélectionnée.
+CL002
+TL003
 
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : A
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL002
+TL008
 
-SCRIPT
---------------------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/Consultation/Menu
+CL002
+TL011
 
-1 ligne sélectionnée.
+CL002
+TL027
 
-SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/Pressing/Consultation/Consultation/Menu.sql"
-SQL> @Objets/Fonctionnalites/Pressing/Consultation/Menu
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : D
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL002
+TL028
 
-SCRIPT
--------------------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix.sql
+CL002
+TL029
 
-1 ligne sélectionnée.
+CL002
+TL031
 
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : K
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL002
+TL032
 
-SCRIPT
-------------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix
+CL003
+TL002
 
-1 ligne sélectionnée.
+CL003
+TL004
 
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : K
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+ID_CATEGORIE
+--------------------------------------------------
+ID_TYPE
+--------------------------------------------------
 
-SCRIPT
-------------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix
+CL003
+TL027
 
-1 ligne sélectionnée.
+CL003
+TL028
 
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : A
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL003
+TL030
 
-SCRIPT
--------------------------------------------------
-Objets/Fonctionnalites/Pressing/Consultation/Menu
+CL003
+TL032
 
-1 ligne sélectionnée.
+CL004
+TL006
 
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : 1
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+CL004
+TL007
 
-SCRIPT
--------------------------------------------------------------
-Objets/Fonctionnalites/Agence/Consultation/EX_ListeAgence.sql
+CL004
+TL011
 
-1 ligne sélectionnée.
+CL004
+TL027
 
-BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE(id_pressing); END;
+CL004
+TL028
 
-                                                 *
-ERREUR à la ligne 1 :
-ORA-06550: Ligne 1, colonne 50 :
-PLS-00201: l'identificateur 'ID_PRESSING' doit être déclaré
-ORA-06550: Ligne 1, colonne 7 :
-PL/SQL: Statement ignored
+CL005
+TL007
+
+CL007
+TL002
+
+CL007
+TL032
+
+CL007
+TL033
+
+CL008
+TL032
+
+CL008
+TL033
+
+CL009
+TL007
+
+CL009
+TL028
+
+CL009
+TL032
+
+CL009
+TL033
+
+CL009
+TL034
+
+CL010
+TL002
+
+CL010
+TL032
+
+CL010
+TL033
+
+CL011
+TL006
+
+CL011
+TL007
+
+CL011
+TL027
+
+CL012
+TL001
+
+CL012
+TL006
+
+CL012
+TL007
+
+CL012
+TL008
+
+CL012
+TL027
+
+CL014
+
+ID_CATEGORIE
+--------------------------------------------------
+ID_TYPE
+--------------------------------------------------
+TL001
+
+CL014
+TL006
+
+CL014
+TL007
+
+CL014
+TL008
+
+CL015
+TL007
+
+CL018
+TL001
+
+CL018
+TL006
+
+CL018
+TL007
+
+CL018
+TL008
+
+CL018
+TL027
+
+CL018
+TL031
+
+CL019
+TL010
+
+CL019
+TL032
+
+CL020
+TL003
+
+CL020
+TL004
+
+CL020
+TL006
+
+CL020
+TL007
+
+CL020
+TL010
+
+CL020
+TL011
+
+CL020
+TL015
+
+CL023
+TL027
+
+CL026
+TL014
+
+CL026
+TL015
+
+CL027
+TL014
+
+CL029
+TL001
+
+CL029
+TL003
+
+CL029
+TL004
+
+CL029
+TL005
+
+CL029
+TL006
+
+CL029
+TL007
+
+CL029
+TL008
+
+CL029
+TL009
 
 
-A - Retour
-Veuillez entrer le caractere correspondant Ã  votre choix : K
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+ID_CATEGORIE
+--------------------------------------------------
+ID_TYPE
+--------------------------------------------------
+CL029
+TL011
 
-SCRIPT
-----------------------------------------------------------------
-Objets/Fonctionnalite/Agence/Consultation/Consultation/ERR_Choix
+CL029
+TL015
 
-1 ligne sélectionnée.
+CL029
+TL016
 
-SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalite/Agence/Consultation/Consultation/ERR_Choix.sql"
-SQL> exit
+CL029
+TL027
+
+CL029
+TL028
+
+CL029
+TL029
+
+CL029
+TL030
+
+CL030
+TL006
+
+CL030
+TL027
+
+CL031
+TL014
+
+CL031
+TL032
+
+
+106 lignes sélectionnées.
+
+SQL> SET LINESIZE 1000
+SQL> SET LINESIZE 5000
+SQL> SELECT * FROM LINGE;
+
+ID_CATEGORIE                                       ID_TYPE
+-------------------------------------------------- --------------------------------------------------
+CL001                                              TL001
+CL001                                              TL002
+CL001                                              TL003
+CL001                                              TL004
+CL001                                              TL006
+CL001                                              TL007
+CL001                                              TL008
+CL001                                              TL009
+CL001                                              TL010
+CL001                                              TL011
+CL001                                              TL012
+CL001                                              TL013
+CL001                                              TL015
+CL001                                              TL016
+CL001                                              TL028
+CL001                                              TL029
+CL001                                              TL030
+CL001                                              TL031
+CL001                                              TL032
+CL001                                              TL033
+CL001                                              TL034
+CL002                                              TL001
+CL002                                              TL003
+CL002                                              TL008
+CL002                                              TL011
+CL002                                              TL027
+CL002                                              TL028
+CL002                                              TL029
+CL002                                              TL031
+CL002                                              TL032
+CL003                                              TL002
+CL003                                              TL004
+CL003                                              TL027
+CL003                                              TL028
+CL003                                              TL030
+CL003                                              TL032
+CL004                                              TL006
+CL004                                              TL007
+CL004                                              TL011
+CL004                                              TL027
+CL004                                              TL028
+CL005                                              TL007
+CL007                                              TL002
+CL007                                              TL032
+CL007                                              TL033
+CL008                                              TL032
+CL008                                              TL033
+CL009                                              TL007
+CL009                                              TL028
+CL009                                              TL032
+CL009                                              TL033
+CL009                                              TL034
+CL010                                              TL002
+CL010                                              TL032
+CL010                                              TL033
+CL011                                              TL006
+CL011                                              TL007
+CL011                                              TL027
+CL012                                              TL001
+CL012                                              TL006
+CL012                                              TL007
+CL012                                              TL008
+CL012                                              TL027
+CL014                                              TL001
+CL014                                              TL006
+CL014                                              TL007
+CL014                                              TL008
+CL015                                              TL007
+CL018                                              TL001
+CL018                                              TL006
+CL018                                              TL007
+CL018                                              TL008
+CL018                                              TL027
+CL018                                              TL031
+CL019                                              TL010
+CL019                                              TL032
+CL020                                              TL003
+CL020                                              TL004
+CL020                                              TL006
+CL020                                              TL007
+CL020                                              TL010
+CL020                                              TL011
+CL020                                              TL015
+CL023                                              TL027
+CL026                                              TL014
+CL026                                              TL015
+CL027                                              TL014
+CL029                                              TL001
+CL029                                              TL003
+CL029                                              TL004
+CL029                                              TL005
+CL029                                              TL006
+CL029                                              TL007
+CL029                                              TL008
+CL029                                              TL009
+CL029                                              TL011
+CL029                                              TL015
+
+ID_CATEGORIE                                       ID_TYPE
+-------------------------------------------------- --------------------------------------------------
+CL029                                              TL016
+CL029                                              TL027
+CL029                                              TL028
+CL029                                              TL029
+CL029                                              TL030
+CL030                                              TL006
+CL030                                              TL027
+CL031                                              TL014
+CL031                                              TL032
+
+106 lignes sélectionnées.
+
+SQL> SELECT * FROM VILLE;
+
+ID                                                 NOM                                                ID_PAYS
+-------------------------------------------------- -------------------------------------------------- --------------------------------------------------
+VI001                                              Douala                                             PA001
+VI002                                              Yaounde                                            PA001
+VI003                                              Bafoussam                                          PA001
+VI004                                              Kribi                                              PA001
+VI005                                              Buea                                               PA001
+VI006                                              Bamenda                                            PA001
+VI007                                              Limbe                                              PA001
+VI008                                              Nkongsamba                                         PA001
+VI009                                              Edea                                               PA001
+VI010                                              Bertoua                                            PA001
+
+10 lignes sélectionnées.
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS --Entete du package de creation d'un utilisateur quelconque
+  2      PROCEDURE Add_user           --Appel de la procedure associee
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail         --Appel de la fonction associee de verification de l'email
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS     --corps du package
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS     --curseur qui parcourt la table utilisateur sur la colonne de l'email
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
+
+Corps de package créé.
+
+SQL> DECLARE   --main ou partie de declaration du package
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user    --declaration de la procedure avec les variables de substitution
+  4      (
+  5          'UT ||seq_utilisateur.NEXTVAL',
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail
+ 17      (
+ 18          RETURN valeur
+ 19      );
+ 20  END;
+ 21  /
+Entrez une valeur pour votre_nom : Niki
+Entrez une valeur pour votre_prenom : kevine
+Entrez une valeur pour votre_genre : F
+Entrez une valeur pour date_naissance : 25/06/2000
+Entrez une valeur pour votre_telephone : 485536
+Entrez une valeur pour nom_utilisateur : aurore
+Entrez une valeur pour mot_de_passe : jhiu
+        RETURN valeur
+               *
+ERREUR à la ligne 18 :
+ORA-06550: Ligne 18, colonne 16 :
+PLS-00103: Symbole "VALEUR" rencontré à la place d'un des symboles suivants :
+. ( ) , * @ % & | = - + < / > at in is mod remainder not null
+rem returning with => .. <exposant (**)> <> or != or ~= >= <=
+<> and or default like like2 like4 likec as between error
+from using || multiset member empty submultiset lax strict
+without pretty ascii true false absent format allow truncate
+Symbole "." a été substitué à "VALEUR" pour continuer.
+
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS --Entete du package de creation d'un utilisateur quelconque
+  2      PROCEDURE Add_user           --Appel de la procedure associee
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail         --Appel de la fonction associee de verification de l'email
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS     --corps du package
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS     --curseur qui parcourt la table utilisateur sur la colonne de l'email
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
+
+Corps de package créé.
+
+SQL> DECLARE   --main ou partie de declaration du package
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user    --declaration de la procedure avec les variables de substitution
+  4      (
+  5          'UT ||seq_utilisateur.NEXTVAL',
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail
+ 17      (
+ 18          RETURN valeur;
+ 19      );
+ 20  END;
+ 21  /
+Entrez une valeur pour votre_nom : Niki
+Entrez une valeur pour votre_prenom : Kevine
+Entrez une valeur pour votre_genre : F
+Entrez une valeur pour date_naissance : 15/05/2115
+Entrez une valeur pour votre_telephone : 51524
+Entrez une valeur pour nom_utilisateur : aurore
+Entrez une valeur pour mot_de_passe : kjgh
+        RETURN valeur;
+               *
+ERREUR à la ligne 18 :
+ORA-06550: Ligne 18, colonne 16 :
+PLS-00103: Symbole "VALEUR" rencontré à la place d'un des symboles suivants :
+. ( ) , * @ % & | = - + < / > at in is mod remainder not null
+rem returning with => .. <exposant (**)> <> or != or ~= >= <=
+<> and or default like like2 like4 likec as between error
+from using || multiset member empty submultiset lax strict
+without pretty ascii true false absent format allow truncate
+
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS --Entete du package de creation d'un utilisateur quelconque
+  2      PROCEDURE Add_user           --Appel de la procedure associee
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail         --Appel de la fonction associee de verification de l'email
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS     --corps du package
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS     --curseur qui parcourt la table utilisateur sur la colonne de l'email
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
+
+Corps de package créé.
+
+SQL> DECLARE   --main ou partie de declaration du package
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user    --declaration de la procedure avec les variables de substitution
+  4      (
+  5          'UT ||seq_utilisateur.NEXTVAL',
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail
+ 17      (
+ 18          RETURN (valeur);
+ 19      );
+ 20  END;
+ 21  /
+Entrez une valeur pour votre_nom : Niki
+Entrez une valeur pour votre_prenom : Kevine
+Entrez une valeur pour votre_genre : F
+Entrez une valeur pour date_naissance : 23/06/1236
+Entrez une valeur pour votre_telephone : 41562
+Entrez une valeur pour nom_utilisateur : SD
+Entrez une valeur pour mot_de_passe : xsved
+        RETURN (valeur);
+                       *
+ERREUR à la ligne 18 :
+ORA-06550: Ligne 18, colonne 24 :
+PLS-00103: Symbole ";" rencontré à la place d'un des symboles suivants :
+. ( ) , * % & | = - + < / > at in is mod remainder not null
+rem returning with => .. <exposant (**)> <> or != or ~= >= <=
+<> and or default like like2 like4 likec as between error
+from using || multiset member empty submultiset lax strict
+without pretty ascii true false absent format allow truncate
+Symbole ";" n'a pas été pris en compte.
+
+
+SQL> CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS --Entete du package de creation d'un utilisateur quelconque
+  2      PROCEDURE Add_user           --Appel de la procedure associee
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14          );
+ 15      FUNCTION Verify_mail         --Appel de la fonction associee de verification de l'email
+ 16          (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
+ 17  END PA_UTILISATEUR;
+ 18  /
+
+Package créé.
+
+SQL> CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS     --corps du package
+  2      PROCEDURE Add_user
+  3      (
+  4          ID_USER UTILISATEUR.id%TYPE,
+  5          NOM_USER UTILISATEUR.nom%TYPE,
+  6          PRENOM_USER UTILISATEUR.Prenom%TYPE,
+  7          GENRE_USER UTILISATEUR.Genre%TYPE,
+  8          DateNais_USER UTILISATEUR.Date_naissance%TYPE,
+  9          MAIL_USER UTILISATEUR.Email%TYPE,
+ 10          PHONE_USER UTILISATEUR.Telephone%TYPE,
+ 11          USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
+ 12          PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
+ 13          STATUT_USER UTILISATEUR.Statut%TYPE
+ 14      )
+ 15      IS
+ 16      BEGIN
+ 17      INSERT INTO UTILISATEUR (id,
+ 18                              nom,
+ 19                              Prenom,
+ 20                              Genre,
+ 21                              Date_naissance,
+ 22                              Email,
+ 23                              Telephone,
+ 24                              Nom_utilisateur,
+ 25                              Mot_de_passe,
+ 26                              Statut)
+ 27      VALUES (ID_USER,
+ 28              NOM_USER,
+ 29              PRENOM_USER,
+ 30              GENRE_USER,
+ 31              DateNais_USER,
+ 32              MAIL_USER,
+ 33              PHONE_USER,
+ 34              USERNAME,
+ 35              PASSWORDS,
+ 36              STATUT_USER);
+ 37      END Add_user;
+ 38      FUNCTION Verify_mail
+ 39      (mail UTILISATEUR.Email%TYPE)
+ 40      RETURN VARCHAR2
+ 41      IS
+ 42          CURSOR Cur IS     --curseur qui parcourt la table utilisateur sur la colonne de l'email
+ 43              SELECT Email
+ 44              FROM UTILISATEUR
+ 45              WHERE (Email=mail);
+ 46          Valeur VARCHAR2 (255);
+ 47          BEGIN
+ 48              OPEN Cur;
+ 49              FETCH Cur
+ 50              INTO Valeur;
+ 51                  IF Cur%NOTFOUND THEN
+ 52                      DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
+ 53                  ELSE
+ 54                      DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
+ 55                  END IF;
+ 56              CLOSE Cur;
+ 57          RETURN Valeur;
+ 58      END Verify_mail;
+ 59  END PA_UTILISATEUR;
+ 60  /
+
+Corps de package créé.
+
+SQL> DECLARE   --main ou partie de declaration du package
+  2  BEGIN
+  3      PA_UTILISATEUR.Add_user    --declaration de la procedure avec les variables de substitution
+  4      (
+  5          'UT ||seq_utilisateur.NEXTVAL',
+  6          '&Votre_nom',
+  7          '&Votre_prenom',
+  8          '&Votre_genre',
+  9          '&Date_naissance',
+ 10          '&Email_utilisateur',
+ 11          &Votre_Telephone,
+ 12          '&Nom_utilisateur',
+ 13          '&Mot_de_passe',
+ 14          'Actif'
+ 15      );
+ 16      PA_UTILISATEUR.Verify_mail
+ 17      (
+ 18          RETURN (valeur),
+ 19      );
+ 20  END;
+ 21  /
+Entrez une valeur pour votre_nom : Niki
+Entrez une valeur pour votre_prenom : kevine
+Entrez une valeur pour votre_genre : f
+Entrez une valeur pour date_naissance : 18/09/2001
+Entrez une valeur pour votre_telephone : 54752
+Entrez une valeur pour nom_utilisateur : fff
+Entrez une valeur pour mot_de_passe : dgb
+    );
+    *
+ERREUR à la ligne 19 :
+ORA-06550: Ligne 19, colonne 5 :
+PLS-00103: Symbole ")" rencontré à la place d'un des symboles suivants :
+( - + case for mod new not null <identificateur>
+<identificateur entre guillemets> <variable attachée>
+continue avg count current exists max min prior sql stddev
+sum variance execute forall merge standard time timestamp
+interval date
