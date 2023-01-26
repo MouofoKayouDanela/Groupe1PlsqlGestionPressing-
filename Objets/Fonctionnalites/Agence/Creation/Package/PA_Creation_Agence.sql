@@ -114,7 +114,7 @@ CREATE OR REPLACE PACKAGE PACK_AGENCES_CREATION AS
              SELECT id_ville
             INTO Valeur_ville
             FROM VILLE
-            WHERE (nom_ville = '&nom_ville');
+            WHERE (nom_ville = '&nom_ville')
 
             SELECT nom_quartier
             FROM QUARTIER;
