@@ -1,6 +1,7 @@
-CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
-    PROCEDURE Add_user
+CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS --Entete du package de creation d'un utilisateur quelconque
+    PROCEDURE Add_user           --Appel de la procedure associee
     (
+        ID_USER UTILISATEUR.id%TYPE,
         NOM_USER UTILISATEUR.nom%TYPE,
         PRENOM_USER UTILISATEUR.Prenom%TYPE,
         GENRE_USER UTILISATEUR.Genre%TYPE,
@@ -11,15 +12,14 @@ CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS
         PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
         STATUT_USER UTILISATEUR.Statut%TYPE
         );
-    FUNCTION Verify_mail
-        (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;  
-    FUNCTION Cryptage
-        (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2;
+    FUNCTION Verify_mail         --Appel de la fonction associee de verification de l'email
+        (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
 END PA_UTILISATEUR;
 /  
-CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS 
+CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS     --corps du package
     PROCEDURE Add_user
     (
+        ID_USER UTILISATEUR.id%TYPE,
         NOM_USER UTILISATEUR.nom%TYPE,
         PRENOM_USER UTILISATEUR.Prenom%TYPE,
         GENRE_USER UTILISATEUR.Genre%TYPE,
@@ -28,18 +28,9 @@ CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
         PHONE_USER UTILISATEUR.Telephone%TYPE,
         USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
         PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
-        STATUT_USER UTILISATEUR.Statut%TYPE)       
+        STATUT_USER UTILISATEUR.Statut%TYPE
+    )       
     IS 
-    ID_USER := 'UT'||seq_utilisateur.NEXTVAL;
-    NOM_USER UTILISATEUR.nom%TYPE := '&Votre_nom';
-    PRENOM_USER UTILISATEUR.Prenom%TYPE := '&Votre_prenom';
-    GENRE_USER UTILISATEUR.Genre%TYPE := '&Votre_genre';
-    DateNais_USER UTILISATEUR.Date_naissance%TYPE := '&Date_naissance';
-    MAIL_USER UTILISATEUR.Email%TYPE := '&Email_utilisateur';
-    PHONE_USER UTILISATEUR.Telephone%TYPE := ;
-    USERNAME UTILISATEUR.Nom_utilisateur%TYPE := '&Nom_utilisateur';
-    PASSWORDS UTILISATEUR.Mot_de_passe%TYPE := '&Mot_de_passe';
-    STATUT_USER UTILISATEUR.Statut%TYPE := 'Actif';
     BEGIN
     INSERT INTO UTILISATEUR (id, 
                             nom, 
@@ -63,42 +54,43 @@ CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS
             STATUT_USER);
     END Add_user; 
     FUNCTION Verify_mail 
-    (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2
+    (mail UTILISATEUR.Email%TYPE) 
+    RETURN VARCHAR2 
     IS
-    BEGIN
-    Curseur VARCHAR2(255);
-        CURSOR Curseur IS
+        CURSOR Cur IS     --curseur qui parcourt la table utilisateur sur la colonne de l'email
             SELECT Email
             FROM UTILISATEUR
             WHERE (Email=mail);
         Valeur VARCHAR2 (255);
         BEGIN
-            OPEN Curseur;
-            FETCH Curseur
+            OPEN Cur;
+            FETCH Cur
             INTO Valeur;
-                IF Curseur%NOTFOUND THEN
+                IF Cur%NOTFOUND THEN
                     DBMS_OUTPUT.PUT_LINE('Utilisateur valide');
                 ELSE
                     DBMS_OUTPUT.PUT_LINE('Desole cet utilisateur existe deja, verifiez votre Email');
                 END IF;
-            CLOSE Curseur;
+            CLOSE Cur;
         RETURN Valeur;
-    END Verify_mail;  
-    FUNCTION Cryptage
-        (pasword UTILISATEUR.Mot_de_passe%TYPE) RETURN VARCHAR2
-    IS
-    result VARCHAR2(255);
-    BEGIN
-    result := DBMS_OBFUSCATION_TOOLKIT.Cryptage(pasword);
-    END Cryptage;      
+    END Verify_mail;      
 END PA_UTILISATEUR;
 / 
-DECLARE
-    Rendu VARCHAR2 (255) := VERIFY('&NomPressing');
+DECLARE   --main ou partie de declaration du package
+Resultat VARCHAR2(255) := PA_UTILISATEUR.Verify_mail('Valeur');
 BEGIN
-    PA_UTILISATEUR.Add_user("PR020",&NomDePressing,SYSDATE,"UT005");
-    PA_UTILISATEUR.Verify_mail(Rendu);
-    PA_UTILISATEUR.Cryptage();
+    PA_UTILISATEUR.Add_user    --declaration de la procedure avec les variables de substitution
+    (
+        'UT ||seq_utilisateur.NEXTVAL',
+        '&Votre_nom',
+        '&Votre_prenom',
+        '&Votre_genre',
+        '&Date_naissance',
+        '&Email_utilisateur',
+        TO_NUMBER('&Votre_Telephone'),
+        '&Nom_utilisateur',
+        '&Mot_de_passe',
+        'Actif'
+    );
 END;
-/        
-
+/
