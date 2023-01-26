@@ -1,10 +1,10 @@
 CREATE OR REPLACE PACKAGE PA_CONSULTATION_AGENT AS 
-    PROCEDURE PO_PROFIL_AGENT(id_agent AGENT.id%TYPE, id_agence AGENCE.id%TYPE);
+    PROCEDURE PO_PROFIL_AGENT(Nom_utilisateur UTILISATEUR.Nom_utilisateur%TYPE, id_agence AGENCE.id%TYPE);
     PROCEDURE  PO_LISTE_AGENT(nom_quartier AGENCE.nom%TYPE);
 END PA_CONSULTATION_PROFIL;
 /
 CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
-    PROCEDURE PO_PROFIL_AGENT(id_agent AGENT.id%TYPE, id_agence AGENCE.id%TYPE) IS
+    PROCEDURE PO_PROFIL_AGENT(Nom_utilisateur UTILISATEUR.Nom_utilisateur%TYPE, id_agence AGENCE.id%TYPE) IS
         BEGIN
             FOR un_agent IN (
                                 SELECT  ut.Nom "nom",
@@ -22,7 +22,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
                                 ON      (at.id = ut.id)
                                 JOIN    ROLE ro 
                                 ON      (at.id_role = ro.id)
-                                WHERE   at.id = PO_PROFIL_AGENT.id_agent
+                                WHERE   ut.Nom_utilisateur = PO_PROFIL_AGENT.Nom_utilisateur
                                 AND     at.id_agence = PO_PROFIL_AGENT.id_agence
                             )   
             LOOP 
