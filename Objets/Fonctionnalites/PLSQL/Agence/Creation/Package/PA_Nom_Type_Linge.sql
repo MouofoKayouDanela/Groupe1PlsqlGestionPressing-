@@ -1,0 +1,34 @@
+SET serveroutput on;
+CREATE OR REPLACE PACKAGE PA_TYPE_LINGE_Nom as
+    FUNCTION RECUPERATION_ID_TYPE_LINGE (Nom_TypeLinge TYPE_LINGE.Nom%TYPE)
+    RETURN VARCHAR2;
+END PA_TYPE_LINGE_Nom;
+/
+CREATE OR REPLACE PACKAGE BODY PA_TYPE_LINGE_Nom AS 
+    FUNCTION RECUPERATION_ID_TYPE_LINGE (Nom_TypeLinge TYPE_LINGE.Nom%TYPE)
+    RETURN VARCHAR2 IS
+    Cur VARCHAR2(255);
+	CURSOR Curs IS
+        SELECT id
+        FROM TYPE_LINGE
+        WHERE (Nom=Nom_TypeLinge);
+	 Valeur VARCHAR2 (255);
+    BEGIN
+        OPEN Curs;
+        FETCH Curs
+        INTO Valeur;
+            IF Curs%NOTFOUND THEN
+                DBMS_OUTPUT.PUT_LINE('Le nom du type linge n''existe pas');           
+            END IF;
+        CLOSE Curs;
+        RETURN Valeur;
+   RETURN (Cur);
+END RECUPERATION_ID_CATEGORIE_LINGE;
+END PA_TYPE_LINGE_Nom;
+/
+DECLARE 
+    Valeur VARCHAR2 (255) :=PA_TYPE_LINGE_Nom.RECUPERATION_ID_CATEGORIE_LINGE('&Nom_TypeLinge');
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(Valeur);
+END;
+/

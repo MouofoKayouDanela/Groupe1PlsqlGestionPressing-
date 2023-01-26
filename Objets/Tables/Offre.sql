@@ -8,5 +8,6 @@ CREATE TABLE OFFRE (
    date_Ajout_Linge DATE,
    id_agence_Service VARCHAR2(50),
    date_Ajout_service DATE,
-   id_annonce VARCHAR2  (50)
+   id_annonce VARCHAR2  (50),
+   OPTION VARCHAR2(50)
 );
