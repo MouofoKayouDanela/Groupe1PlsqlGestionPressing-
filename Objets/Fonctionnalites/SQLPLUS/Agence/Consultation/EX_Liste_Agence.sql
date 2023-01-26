@@ -11,8 +11,8 @@ SELECT CASE '&mon_choix'
             WHEN '1' THEN ''
             WHEN '2' THEN ''
             WHEN '3' THEN ''
-            WHEN 'A' THEN 'Objets/Fonctionalites/Pressing/Consultation/Menu'
-            ELSE 'Objets/Fonctionnalite/Agence/Consultation/ERR_Choix'
+            WHEN 'A' THEN 'Objets/Fonctionalites/SQLPLUS/Pressing/Consultation/Menu'
+            ELSE 'Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix'
         END AS script -- recuperation du chemin d'accès menant à la fonctionnalité recherché
 FROM DUAL;
 SET TERM ON --Deblockage de l'affichage des résultats de sélection

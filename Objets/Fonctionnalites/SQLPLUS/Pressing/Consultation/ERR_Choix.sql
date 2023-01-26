@@ -6,8 +6,8 @@ SET TERM OFF --Blockage de l'affichage du resultat de l'instruction select
 SET SERVEROUTPUT ON
 COLUMN script NEW_VALUE v_script --Conservation de la valeur de la variable script dans la variable v_script
 SELECT CASE '&mon_choix'
-            WHEN 'A' THEN 'Objets/Fonctionnalites/Pressing/Consultation/Menu'
-            ELSE 'Objets/Fonctionnalites/Pressing/Consultation/ERR_Choix'
+            WHEN 'A' THEN 'Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu'
+            ELSE 'Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/ERR_Choix'
         END AS script -- recuperation du chemin d'accès menant à la fonctionnalité recherché
 FROM DUAL;
 SET TERM ON
