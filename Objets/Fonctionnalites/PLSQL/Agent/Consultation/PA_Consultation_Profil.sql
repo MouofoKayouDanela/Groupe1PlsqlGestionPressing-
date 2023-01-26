@@ -1,13 +1,11 @@
 CREATE OR REPLACE PACKAGE PA_CONSULTATION_AGENT AS 
-    PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE);
-    PROCEDURE  PO_LISTE_AGENT(nom_quartier QUARTIER.nom%TYPE);
+    PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, id_agence AGENCE.id%TYPE);
+    PROCEDURE  PO_LISTE_AGENT(id_agence AGENCE.id%TYPE);
 END PA_CONSULTATION_AGENT;
 /
 CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
-    PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE) IS
-        BEGIN
-            FOR un_agent IN (
-                                SELECT  ut.Nom "nom",
+    PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, id_agence AGENCE.id%TYPE) IS
+            CURSOR l_agent IS   SELECT  ut.Nom "nom",
                                         ut.Prenom "prenom",
                                         ut.genre "genre",
                                         ut.Date_naissance "date_naissance",
@@ -22,44 +20,66 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
                                 ON      (at.id = ut.id)
                                 JOIN    ROLE ro 
                                 ON      (at.id_role = ro.id)
-                                JOIN    AGENCE ag
-                                ON      (at.id_agence = ag.id)
-                                JOIN    QUARTIER qu
-                                ON      (ag.id_quartier = qu.id)
                                 WHERE   ut.Nom_utilisateur = PO_PROFIL_AGENT.nom_u
-                                AND     qu.nom = PO_PROFIL_AGENT.nom_quartier
-                            )   
-            LOOP 
-                DBMS_OUTPUT.PUT_LINE('Nom                   :'||un_agent."nom");
-                DBMS_OUTPUT.PUT_LINE('Prenom                :'||un_agent."prenom");
-                DBMS_OUTPUT.PUT_LINE('Genre                 :'||un_agent."genre");
-                DBMS_OUTPUT.PUT_LINE('Date de naissance     :'||un_agent."date_naissance");
-                DBMS_OUTPUT.PUT_LINE('Adresse electronique  :'||un_agent."email");
-                DBMS_OUTPUT.PUT_LINE('Adresse telephonique  :'||un_agent."telephone");
-                DBMS_OUTPUT.PUT_LINE('Nom d''utilisateur    :'||un_agent."nom_util");
-                DBMS_OUTPUT.PUT_LINE('Date d''embauche      :'||un_agent."date_emb");
-                DBMS_OUTPUT.PUT_LINE('Role                  :'||un_agent."role");
-                DBMS_OUTPUT.PUT_LINE('Description           :'||un_agent."describtion");
-            END LOOP;
+                                AND     at.id_agence = PO_PROFIL_AGENT.id_agence
+            ;
+            c_nom UTILISATEUR.nom%TYPE;
+            c_prenom UTILISATEUR.prenom%TYPE;
+            c_genre UTILISATEUR.genre%TYPE;
+            c_date_nais UTILISATEUR.Date_naissance%TYPE;
+            c_email UTILISATEUR.Email%TYPE;
+            c_telephone UTILISATEUR.Telephone%TYPE;
+            c_nom_util  UTILISATEUR.Nom_utilisateur%TYPE;
+            c_date_embau AGENT.date_embauche%TYPE;
+            c_role ROLE.nom%TYPE;
+            c_desc ROLE.description%TYPE;
+        BEGIN
+            OPEN l_agent;
+            IF l_agent%NOTFOUND THEN
+                DBMS_OUTPUT.PUT_LINE('Cette agence ne presente pas d''agent au nom d''utilisateur : '||
+                                    PO_PROFIL_AGENT.nom_u);
+            ELSE
+                LOOP 
+                    FETCH l_agent INTO c_nom, c_prenom, c_genre, c_date_nais, c_email, c_telephone,
+                                        c_nom_util, c_date_embau, c_role, c_desc;
+                    DBMS_OUTPUT.PUT_LINE('Nom                   : '||c_nom);
+                    DBMS_OUTPUT.PUT_LINE('Prenom                : '||c_prenom);
+                    DBMS_OUTPUT.PUT_LINE('Genre                 : '||c_genre);
+                    DBMS_OUTPUT.PUT_LINE('Date de naissance     : '||c_date_nais);
+                    DBMS_OUTPUT.PUT_LINE('Adresse electronique  : '||c_email);
+                    DBMS_OUTPUT.PUT_LINE('Adresse telephonique  : '||c_telephone);
+                    DBMS_OUTPUT.PUT_LINE('Nom d''utilisateur    : '||c_nom_util);
+                    DBMS_OUTPUT.PUT_LINE('Date d''embauche      : '||c_date_embau);
+                    DBMS_OUTPUT.PUT_LINE('Role                  : '||c_role);
+                    DBMS_OUTPUT.PUT_LINE('Description           : '||c_desc);
+                    EXIT WHEN l_agent%NOTFOUND;
+                END LOOP;
+            END IF;
+            CLOSE l_agent;
         END;
 
-        PROCEDURE PO_LISTE_AGENT(nom_quartier QUARTIER.nom%TYPE) IS
+        PROCEDURE PO_LISTE_AGENT(id_agence AGENCE.id%TYPE) IS
             compteur PLS_INTEGER := 1;
+            CURSOR les_agents IS    SELECT  ut.Nom_utilisateur "nom_utilis" 
+                                    FROM    UTILISATEUR ut
+                                    JOIN    AGENT at
+                                    ON      (ut.id = at.id)
+                                    WHERE   at.id_agence = PO_LISTE_AGENT.id_agence
+            ;
+            nom_u UTILISATEUR.Nom_utilisateur%TYPE;
         BEGIN
-            FOR un_agent IN (
-                SELECT  ut.Nom_utilisateur "nom_utilis" 
-                FROM    UTILISATEUR ut
-                JOIN    AGENT at
-                ON   (ut.id = at.id)
-                JOIN    AGENCE ag
-                ON      (at.id_agence = ag.id)
-                JOIN    QUARTIER qu
-                ON      (ag.id_quartier = qu.id)
-                WHERE   qu.nom = PO_LISTE_AGENT.nom_quartier
-            )LOOP
-                DBMS_OUTPUT.PUT_LINE(compteur||' - '||un_agent."nom_utilis");
-                compteur := compteur + 1;
-            END LOOP;
+            OPEN les_agents;
+            IF les_agents%NOTFOUND THEN
+                DBMS_OUTPUT.PUT_LINE('Cette agence ne présente aucun agent !');
+            ELSE
+                LOOP
+                    FETCH les_agents INTO nom_u;
+                    DBMS_OUTPUT.PUT_LINE(compteur||' - '||nom_u);
+                    EXIT WHEN les_agents%NOTFOUND;
+                    compteur := compteur + 1;
+                END LOOP;
+            END IF;
+            CLOSE les_agents;
         END;
 END PA_CONSULTATION_AGENT;
 /
