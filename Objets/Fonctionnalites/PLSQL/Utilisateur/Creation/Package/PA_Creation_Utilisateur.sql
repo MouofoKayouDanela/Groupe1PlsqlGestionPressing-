@@ -1,3 +1,5 @@
+
+
 CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS --Entete du package de creation d'un utilisateur quelconque
     PROCEDURE Add_user           --Appel de la procedure associee
     (
