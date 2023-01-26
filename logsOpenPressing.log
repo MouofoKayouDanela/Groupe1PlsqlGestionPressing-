@@ -2125,6 +2125,27 @@ de la table commande
 
 1 ligne créée.
 
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_COnsutation_Profil
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_COnsutation_Profil.sql"
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consutation_Profil
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consutation_Profil.sql"
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_AGENT :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+67/13    PLS-00103: Symbole "ELSE" rencontré à la place d'un des symboles
+         suivants :
+         := . ( % ;
+         Symbole ";" a été substitué à "ELSE" pour continuer.
+
 SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
 
 Package créé.
@@ -2132,16 +2153,51 @@ Package créé.
 
 Corps de package créé.
 
-SQL> @FOnctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
-SP2-0310: impossible d'ouvrir le fichier "FOnctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence.sql"
-SQL> @Objets/FOnctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+SQL> @Objets/Fonctionnalites/PLSQL/Pressing/Consultation/PA_Consultation_Pressing
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_PRESSING :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+15/53    PLS-00103: Symbole "UN_PRESSING" rencontré à la place d'un des
+         symboles suivants :
+         ) , * & | = - + < / > at in is mod remainder not null rem
+         returning with => .. <exposant (**)> <> or != or ~= >= <= <>
+         and or default like like2 like4 likec as between error from
+         using || member empty submultiset lax strict without pretty
+         ascii true false absent format allow truncate
+         Symbole "," a été substitué à "UN_PRESSING" pour continuer.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Pressing/Consultation/PA_Consultation_Pressing
 
 Package créé.
 
 
 Corps de package créé.
 
-SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+SQL> @Objets/Fonctionnalites/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Linge_Agence/Consultation/PA_Consultation_Linge_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Pressing/Consultation/Menu
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/PLSQL/Pressing/Consultation/Menu.sql"
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
 1 - la liste des agents
@@ -2156,27 +2212,53 @@ Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
 1 ligne sélectionnée.
 
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
-2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
-3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+Entrez une valeur pour id_pressing : PR002
+BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE('PR002'); END;
 
-Procédure PL/SQL terminée avec succès.
+      *
+ERREUR à la ligne 1 :
+ORA-06550: Ligne 1, colonne 7 :
+PLS-00201: l'identificateur 'PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE' doit
+être déclaré
+ORA-06550: Ligne 1, colonne 7 :
+PL/SQL: Statement ignored
+
 
 1 - la liste des agents
 2 - la liste des services d'une agence
 3 - la liste des annonces d'un agence
 A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 1
+Veuillez entrer le caractere correspondant a votre choix : A
 
 SCRIPT
-----------------------------------------------------------------
-Objet/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
 1 ligne sélectionnée.
 
-SP2-0310: impossible d'ouvrir le fichier "Objet/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents.sql"
-SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
 1 - la liste des agents
@@ -2191,10 +2273,8 @@ Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
 1 ligne sélectionnée.
 
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
-2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
-3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+1 - Agence cree le 01/12/19 a Eboum_Dja, Nkongsamba, Cameroun
+2 - Agence cree le 26/04/20 a Louma, Kribi, Cameroun
 
 Procédure PL/SQL terminée avec succès.
 
@@ -2210,11 +2290,15 @@ Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
 
 1 ligne sélectionnée.
 
-Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
-Cet agence ne contient pas d'agent
-Cet agence ne contient pas d'agent
+Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
+BEGIN PA_CONSULTATION_AGENT.PO_LISTE_AGENT('Eboum_Dja', 'PR002'); END;
 
-Procédure PL/SQL terminée avec succès.
+*
+ERREUR à la ligne 1 :
+ORA-01001: curseur non valide
+ORA-06512: à "OPENPRESSING.PA_CONSULTATION_AGENT", ligne 65
+ORA-06512: à ligne 1
+
 
 1 - CONSULTER LE PROFIL D'UN AGENT
 A - SORTIR
@@ -2226,10 +2310,8 @@ Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
 1 ligne sélectionnée.
 
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
-2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
-3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+1 - Agence cree le 01/12/19 a Eboum_Dja, Nkongsamba, Cameroun
+2 - Agence cree le 26/04/20 a Louma, Kribi, Cameroun
 
 Procédure PL/SQL terminée avec succès.
 
@@ -2237,16 +2319,42 @@ Procédure PL/SQL terminée avec succès.
 2 - la liste des services d'une agence
 3 - la liste des annonces d'un agence
 A - Retour
-Veuillez entrer le caractere correspondant a votre choix : Eboum_Dja
+Veuillez entrer le caractere correspondant a votre choix : A
 
 SCRIPT
 -----------------------------------------------------------------
-Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
 1 ligne sélectionnée.
 
-SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix.sql"
-SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> undifine id_pressing
+SP2-0734: commande inconnue au début de "undifine i..." - le reste de la ligne est ignoré.
+SQL> undefine id_pressing
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consulter_Profil
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consulter_Profil.sql"
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
 1 - la liste des agents
@@ -2261,10 +2369,9 @@ Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
 1 ligne sélectionnée.
 
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
-2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
-3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+Entrez une valeur pour id_pressing : PR002
+1 - Agence cree le 01/12/19 a Eboum_Dja, Nkongsamba, Cameroun
+2 - Agence cree le 26/04/20 a Louma, Kribi, Cameroun
 
 Procédure PL/SQL terminée avec succès.
 
@@ -2272,7 +2379,40 @@ Procédure PL/SQL terminée avec succès.
 2 - la liste des services d'une agence
 3 - la liste des annonces d'un agence
 A - Retour
-Veuillez entrer le caractere correspondant a votre choix : Abobogo
+Veuillez entrer le caractere correspondant a votre choix : 2
+
+SCRIPT
+-----------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 01/12/19 a Eboum_Dja, Nkongsamba, Cameroun
+2 - Agence cree le 26/04/20 a Louma, Kribi, Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : Eboum_Dja
 
 SCRIPT
 -----------------------------------------------------------------
@@ -2294,7 +2434,7 @@ Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix
 1 ligne sélectionnée.
 
 SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix.sql"
-SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
 1 - la liste des agents
@@ -2309,10 +2449,8 @@ Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
 1 ligne sélectionnée.
 
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
-2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
-3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+1 - Agence cree le 01/12/19 a Eboum_Dja, Nkongsamba, Cameroun
+2 - Agence cree le 26/04/20 a Louma, Kribi, Cameroun
 
 Procédure PL/SQL terminée avec succès.
 
@@ -2328,110 +2466,83 @@ Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
 
 1 ligne sélectionnée.
 
-Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
-Cet agence ne contient pas d'agent
-Cet agence ne contient pas d'agent
+Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
+BEGIN PA_CONSULTATION_AGENT.PO_LISTE_AGENT('Eboum_Dja', 'PR002'); END;
 
-Procédure PL/SQL terminée avec succès.
+*
+ERREUR à la ligne 1 :
+ORA-01001: curseur non valide
+ORA-06512: à "OPENPRESSING.PA_CONSULTATION_AGENT", ligne 65
+ORA-06512: à ligne 1
+
 
 1 - CONSULTER LE PROFIL D'UN AGENT
 A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : A
+Veuillez entrer le caractere correspondant a votre choix : a
 
 SCRIPT
 ------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/ERR_Choix
 
 1 ligne sélectionnée.
 
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
-2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
-3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
-
-Procédure PL/SQL terminée avec succès.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : A
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : a
 
 SCRIPT
 -----------------------------------------------------------------
-Objets/Fonctionalites/SQLPLUS/Pressing/Consultation/Menu
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/ERR_Choix
 
 1 ligne sélectionnée.
 
-SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionalites/SQLPLUS/Pressing/Consultation/Menu.sql"
-SQL> CREATE OR REPLACE PACKAGE PA_CONSULTATION_AGENT AS
-  2      PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE);
-  3      PROCEDURE  PO_LISTE_AGENT(nom_quartier QUARTIER.nom%TYPE);
-  4  END PA_CONSULTATION_AGENT;
-  5  /
+SQL> @Objets/Fonctionnalites/PLSQL/Pressing/Consultation/PA_Consultation_Pressing
 
 Package créé.
 
-SQL> CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
-  2      PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE) IS
-  3          BEGIN
-  4              FOR un_agent IN (
-  5                                  SELECT  ut.Nom "nom",
-  6                                          ut.Prenom "prenom",
-  7                                          ut.genre "genre",
-  8                                          ut.Date_naissance "date_naissance",
-  9                                          ut.Email "email",
- 10                                          ut.Telephone "telephone",
- 11                                          ut.Nom_utilisateur "nom_util",
- 12                                          at.date_embauche "date_emb",
- 13                                          ro.nom "role",
- 14                                          ro.description "describtion"
- 15                                  FROM    AGENT at
- 16                                  JOIN    UTILISATEUR ut
- 17                                  ON      (at.id = ut.id)
- 18                                  JOIN    ROLE ro
- 19                                  ON      (at.id_role = ro.id)
- 20                                  JOIN    AGENCE ag
- 21                                  ON      (at.id_agence = ag.id)
- 22                                  JOIN    QUARTIER qu
- 23                                  ON      (ag.id_quartier = qu.id)
- 24                                  WHERE   ut.Nom_utilisateur = PO_PROFIL_AGENT.nom_u
- 25                                  AND     qu.nom = PO_PROFIL_AGENT.nom_quartier
- 26                              )
- 27              LOOP
- 28                  DBMS_OUTPUT.PUT_LINE('Nom                   :'||un_agent."nom");
- 29                  DBMS_OUTPUT.PUT_LINE('Prenom                :'||un_agent."prenom");
- 30                  DBMS_OUTPUT.PUT_LINE('Genre                 :'||un_agent."genre");
- 31                  DBMS_OUTPUT.PUT_LINE('Date de naissance     :'||un_agent."date_naissance");
- 32                  DBMS_OUTPUT.PUT_LINE('Adresse electronique  :'||un_agent."email");
- 33                  DBMS_OUTPUT.PUT_LINE('Adresse telephonique  :'||un_agent."telephone");
- 34                  DBMS_OUTPUT.PUT_LINE('Nom d''utilisateur    :'||un_agent."nom_util");
- 35                  DBMS_OUTPUT.PUT_LINE('Date d''embauche      :'||un_agent."date_emb");
- 36                  DBMS_OUTPUT.PUT_LINE('Role                  :'||un_agent."role");
- 37                  DBMS_OUTPUT.PUT_LINE('Description           :'||un_agent."describtion");
- 38              END LOOP;
- 39          END;
- 40  
- 41          PROCEDURE PO_LISTE_AGENT(nom_quartier QUARTIER.nom%TYPE) IS
- 42              compteur PLS_INTEGER := 1;
- 43          BEGIN
- 44              FOR un_agent IN (
- 45                  SELECT  ut.Nom_utilisateur "nom_utilis"
- 46                  FROM    UTILISATEUR ut
- 47                  JOIN    AGENT at
- 48                  ON   (ut.id = at.id)
- 49                  JOIN    AGENCE ag
- 50                  ON      (at.id_agence = ag.id)
- 51                  JOIN    QUARTIER qu
- 52                  ON      (ag.id_quartier = qu.id)
- 53                  WHERE   qu.nom = PO_LISTE_AGENT.nom_quartier
- 54              )LOOP
- 55                  DBMS_OUTPUT.PUT_LINE(compteur||' - '||un_agent."nom_utilis");
- 56                  compteur := compteur + 1;
- 57              END LOOP;
- 58          END;
- 59  END PA_CONSULTATION_AGENT;
- 60  /
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Pressing/Consultation/PA_Consultation_Pressing
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_PRESSING :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+17/17    PL/SQL: SQL Statement ignored
+17/41    PLS-00201: l'identificateur 'UN_AGENT' doit être déclaré
+SQL> @Objets/Fonctionnalites/PLSQL/Pressing/Consultation/PA_Consultation_Pressing
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_Agence
+
+Package créé.
+
 
 Corps de package créé.
 
@@ -2450,10 +2561,12 @@ Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
 1 ligne sélectionnée.
 
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
-2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
-3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+1 - Agence cree le 01/12/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 26/04/20 dans le quartier : Louma, de la ville : Kribi,
+prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 26/04/20 dans le quartier : Louma, de la ville : Kribi,
+prÃ©sente dans le pays : Cameroun
 
 Procédure PL/SQL terminée avec succès.
 
@@ -2469,52 +2582,59 @@ Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
 
 1 ligne sélectionnée.
 
-Veuillez entrer le nom du quartier ou se trouve l'agence : Bodomo
+Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
+1 -
 
 Procédure PL/SQL terminée avec succès.
 
 1 - CONSULTER LE PROFIL D'UN AGENT
 A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : 1
+Veuillez entrer le caractere correspondant a votre choix : A
 
 SCRIPT
 ------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Profil_Agent
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
 1 ligne sélectionnée.
 
-Veuillez entrer le nom de l'agent dont vous voulez consulter le profil : Danela
+1 - Agence cree le 01/12/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 26/04/20 dans le quartier : Louma, de la ville : Kribi,
+prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 26/04/20 dans le quartier : Louma, de la ville : Kribi,
+prÃ©sente dans le pays : Cameroun
 
 Procédure PL/SQL terminée avec succès.
 
-SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
 1 - la liste des agents
 2 - la liste des services d'une agence
 3 - la liste des annonces d'un pressing
 A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : PO
+Veuillez entrer le caractere correspondant a votre choix : A
 
 SCRIPT
 ----------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/ERR_Choix.sql
+
 
 1 ligne sélectionnée.
 
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : A
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
-
-SCRIPT
----------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
-
-1 ligne sélectionnée.
-
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> undefine id_pressing
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
 1 - la liste des agents
@@ -2530,9 +2650,14 @@ Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 1 ligne sélectionnée.
 
 Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 a Abobogo, Yaounde, Cameroun
-2 - Agence cree le 09/11/19 a Eboum_Dja, Nkongsamba, Cameroun
-3 - Agence cree le 24/05/22 a Bodomo, Bertoua, Cameroun
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+4 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
 
 Procédure PL/SQL terminée avec succès.
 
@@ -2549,34 +2674,220 @@ Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
 1 ligne sélectionnée.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
-1 - NikiledjiAurore
-2 - TchantchouJordan
+1 -
 
 Procédure PL/SQL terminée avec succès.
 
 1 - CONSULTER LE PROFIL D'UN AGENT
 A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : 1
+Veuillez entrer le caractere correspondant a votre choix : A
 
 SCRIPT
 ------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Profil_Agent
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
 1 ligne sélectionnée.
 
-Veuillez entrer le nom de l'agent dont vous voulez consulter le profil : NikiledjiAurore
-Nom                   :Nikiledji
-Prenom                :Aurore
-Genre                 :Feminin
-Date de naissance     :21/04/01
-Adresse electronique  :nikiledjiaurore@gmail.com
-Adresse telephonique  :695523865
-Nom d'utilisateur    :NikiledjiAurore
-Date d'embauche      :17/01/19
-Role                  :Marketing
-Description           :Charger de gerer les annonces en ajout, suppression et
-modification
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+4 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
 
 Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> undefine id_pressing
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_AGENT :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+0/0      PL/SQL: Compilation unit analysis terminated
+28/38    PLS-00302: Le composant 'DATE_EMBAUCHE' doit être déclaré
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> SHOWS ERRORS
+SP2-0734: commande inconnue au début de "SHOWS ERRO..." - le reste de la ligne est ignoré.
+SQL> SHOW ERRORS
+Erreurs pour PACKAGE BODY PA_CONSULTATION_AGENT :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/15     PLS-00323: Sous-programme ou curseur 'PO_PROFIL_AGENT' déclaré
+         dans les spécifications; doit être défini dans le corps.
+
+38/21    PL/SQL: SQL Statement ignored
+38/27    PLS-00201: l'identificateur 'L_AGENCE' doit être déclaré
+50/21    PL/SQL: Statement ignored
+50/31    PLS-00201: l'identificateur 'L_AGENCE' doit être déclaré
+53/13    PL/SQL: SQL Statement ignored
+53/19    PLS-00201: l'identificateur 'L_AGENCE' doit être déclaré
+80/21    PL/SQL: Statement ignored
+80/69    PLS-00487: Référence de variable 'NOM_UTIL' non valide
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_AGENT :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/15     PLS-00323: Sous-programme ou curseur 'PO_PROFIL_AGENT' déclaré
+         dans les spécifications; doit être défini dans le corps.
+
+53/13    PL/SQL: SQL Statement ignored
+53/19    PLS-00201: l'identificateur 'L_AGENCE' doit être déclaré
+80/21    PL/SQL: Statement ignored
+80/69    PLS-00487: Référence de variable 'NOM_UTIL' non valide
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_AGENT :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/15     PLS-00323: Sous-programme ou curseur 'PO_PROFIL_AGENT' déclaré
+         dans les spécifications; doit être défini dans le corps.
+
+80/21    PL/SQL: Statement ignored
+80/69    PLS-00487: Référence de variable 'NOM_UTIL' non valide
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_AGENT :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/15     PLS-00323: Sous-programme ou curseur 'PO_PROFIL_AGENT' déclaré
+         dans les spécifications; doit être défini dans le corps.
+
+80/21    PL/SQL: Statement ignored
+80/59    PLS-00201: l'identificateur 'NOM_UTIL.nom_utilis' doit être
+         déclaré
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_AGENT :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/15     PLS-00323: Sous-programme ou curseur 'PO_PROFIL_AGENT' déclaré
+         dans les spécifications; doit être défini dans le corps.
+
+80/21    PL/SQL: Statement ignored
+80/59    PLS-00201: l'identificateur 'NOM_UTIL' doit être déclaré
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_AGENT :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/15     PLS-00323: Sous-programme ou curseur 'PO_PROFIL_AGENT' déclaré
+         dans les spécifications; doit être défini dans le corps.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Linge_Agence/Consultation/PA_Consultation_Linge_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_SERVICE_AGENCE :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+2/15     PLS-00323: Sous-programme ou curseur
+         'PO_CONSULTER_SERVICE_AGENCE' déclaré dans les spécifications;
+         doit être défini dans le corps.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
+
+Package créé.
+
+
+Corps de package créé.
 
 SQL> exit
