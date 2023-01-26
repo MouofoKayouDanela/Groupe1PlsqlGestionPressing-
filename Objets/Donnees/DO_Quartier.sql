@@ -1,3 +1,4 @@
+
 INSERT INTO QUARTIER (id, nom, id_ville) VALUES ('QU001', 'Kotto', 'VI001');
 INSERT INTO QUARTIER (id, nom, id_ville) VALUES ('QU002', 'Abobogo', 'VI002');
 INSERT INTO QUARTIER (id, nom, id_ville) VALUES ('QU003', 'Lafe', 'VI003');
