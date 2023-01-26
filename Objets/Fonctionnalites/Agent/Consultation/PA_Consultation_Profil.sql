@@ -1,8 +1,9 @@
-CREATE OR REPLACE PACKAGE PA_CONSULTATION_PROFIL AS
+CREATE OR REPLACE PACKAGE PA_CONSULTATION_AGENT AS 
     PROCEDURE PO_PROFIL_AGENT(id_agent AGENT.id%TYPE, id_agence AGENCE.id%TYPE);
+    PROCEDURE  PO_LISTE_AGENT(nom_quartier AGENCE.nom%TYPE);
 END PA_CONSULTATION_PROFIL;
 /
-CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_PROFIL AS
+CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
     PROCEDURE PO_PROFIL_AGENT(id_agent AGENT.id%TYPE, id_agence AGENCE.id%TYPE) IS
         BEGIN
             FOR un_agent IN (
@@ -35,6 +36,23 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_PROFIL AS
                 DBMS_OUTPUT.PUT_LINE('Date d''embauche      :'||un_agent."date_emb");
                 DBMS_OUTPUT.PUT_LINE('Role                  :'||un_agent."role");
                 DBMS_OUTPUT.PUT_LINE('Description           :'||un_agent."describtion");
+            END LOOP;
+        END;
+
+        PROCEDURE PO_LISTE_AGENT(nom_quartier AGENCE.nom%TYPE) IS
+            compteur PLS_INTEGER := 1;
+        BEGIN
+            FOR un_agent IN (
+                SELECT  Nom_utilisateur
+                FROM    AGENT at
+                JOIN    AGENCE ag
+                ON      (at.id_agence = ag.id)
+                JOIN    QUARTIER qu
+                ON      (ag.id_quartier = qu.id)
+                WHERE   qu.nom = PO_LISTE_AGENT.nom_quartier
+            )LOOP
+                DBMS_OUTPUT.PUT_LINE(compteur||' - 'un_agent.Nom_utilisateur);
+                compteur := compteur + 1;
             END LOOP;
         END;
 END PA_CONSULTATION_PROFIL;
