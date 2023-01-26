@@ -1,10 +1,10 @@
 CREATE OR REPLACE PACKAGE PA_CONSULTATION_AGENT AS 
-    PROCEDURE PO_PROFIL_AGENT(Nom_utilisateur UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE);
-    PROCEDURE  PO_LISTE_AGENT(nom_quartier AGENCE.nom%TYPE);
-END PA_CONSULTATION_PROFIL;
+    PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE);
+    PROCEDURE  PO_LISTE_AGENT(nom_quartier QUARTIER.nom%TYPE);
+END PA_CONSULTATION_AGENT;
 /
 CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
-    PROCEDURE PO_PROFIL_AGENT(Nom_utilisateur UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE) IS
+    PROCEDURE PO_PROFIL_AGENT(nom_u UTILISATEUR.Nom_utilisateur%TYPE, nom_quartier QUARTIER.nom%TYPE) IS
         BEGIN
             FOR un_agent IN (
                                 SELECT  ut.Nom "nom",
@@ -22,9 +22,11 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
                                 ON      (at.id = ut.id)
                                 JOIN    ROLE ro 
                                 ON      (at.id_role = ro.id)
+                                JOIN    AGENCE ag
+                                ON      (at.id_agence = ag.id)
                                 JOIN    QUARTIER qu
-                                ON      (at.id_quartier = qu.id)
-                                WHERE   ut.Nom_utilisateur = PO_PROFIL_AGENT.Nom_utilisateur
+                                ON      (ag.id_quartier = qu.id)
+                                WHERE   ut.Nom_utilisateur = PO_PROFIL_AGENT.nom_u
                                 AND     qu.nom = PO_PROFIL_AGENT.nom_quartier
                             )   
             LOOP 
@@ -41,21 +43,23 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
             END LOOP;
         END;
 
-        PROCEDURE PO_LISTE_AGENT(nom_quartier AGENCE.nom%TYPE) IS
+        PROCEDURE PO_LISTE_AGENT(nom_quartier QUARTIER.nom%TYPE) IS
             compteur PLS_INTEGER := 1;
         BEGIN
             FOR un_agent IN (
-                SELECT  Nom_utilisateur
-                FROM    AGENT at
+                SELECT  ut.Nom_utilisateur "nom_utilis" 
+                FROM    UTILISATEUR ut
+                JOIN    AGENT at
+                ON   (ut.id = at.id)
                 JOIN    AGENCE ag
                 ON      (at.id_agence = ag.id)
                 JOIN    QUARTIER qu
                 ON      (ag.id_quartier = qu.id)
                 WHERE   qu.nom = PO_LISTE_AGENT.nom_quartier
             )LOOP
-                DBMS_OUTPUT.PUT_LINE(compteur||' - 'un_agent.Nom_utilisateur);
+                DBMS_OUTPUT.PUT_LINE(compteur||' - '||un_agent."nom_utilis");
                 compteur := compteur + 1;
             END LOOP;
         END;
-END PA_CONSULTATION_PROFIL;
+END PA_CONSULTATION_AGENT;
 /
