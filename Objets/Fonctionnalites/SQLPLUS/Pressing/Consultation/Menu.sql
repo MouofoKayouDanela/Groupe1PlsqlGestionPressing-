@@ -1,3 +1,7 @@
+UNDEFINE id_pressing
+UNDEFINE id_agence_entree
+UNDEFINE nom_utili
+UNDEFINE nom_quartier_agence
 PROMPT Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 PROMPT              1 - la liste des agences d'un pressing
 PROMPT              1 - la liste des agents
