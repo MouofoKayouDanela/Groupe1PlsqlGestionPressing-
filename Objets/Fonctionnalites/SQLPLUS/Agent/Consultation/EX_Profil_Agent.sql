@@ -1,5 +1,5 @@
 ACCEPT nom_utili CHAR PROMPT 'Veuillez entrer le nom de l''agent dont vous voulez consulter le profil : '
-EXECUTE PA_CONSULTATION_AGENT.PO_PROFIL_AGENT('&nom_utili', '&nom_quartier_agence', '&id_pressing')
+EXECUTE PA_CONSULTATION_AGENT.PO_PROFIL_AGENT('&nom_utili', '&id_agence_entree')
 PROMPT          A - SORTIR
 ACCEPT mon_choix CHAR PROMPT 'Veuillez entrer le caractere correspondant a votre choix : '
 SET TERM OFF 
@@ -10,4 +10,4 @@ SELECT CASE '&mon_choix'
         END AS script
 FROM    DUAL;
 SET TERM ON 
-@&v_script 
+@&v_script
