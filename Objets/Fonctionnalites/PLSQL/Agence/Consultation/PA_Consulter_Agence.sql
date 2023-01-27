@@ -28,10 +28,10 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENCE AS
             ELSE
                 LOOP 
                     FETCH les_agences INTO une_agence;
+                    EXIT WHEN les_agences%NOTFOUND;
                     DBMS_OUTPUT.PUT_LINE(compteur||' - Agence cree le '||une_agence."date_crea"
                                         ||' dans le quartier : '||une_agence."quartier"||', de la ville : '
                                         ||une_agence."ville"||', présente dans le pays : '||une_agence."pays");
-                    EXIT WHEN les_agences%NOTFOUND;
                     compteur := compteur + 1;
                 END LOOP;
             END IF;

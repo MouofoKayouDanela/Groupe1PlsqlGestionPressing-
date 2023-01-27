@@ -19,8 +19,8 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_PRESSING AS
         ELSE
             LOOP
                 FETCH les_pressing INTO un_pressing;
-                DBMS_OUTPUT.PUT_LINE(compteur||' - '||un_pressing);
                 EXIT WHEN les_pressing%NOTFOUND;
+                DBMS_OUTPUT.PUT_LINE(compteur||' - '||un_pressing);
                 compteur := compteur + 1;
             END LOOP;
         END IF;

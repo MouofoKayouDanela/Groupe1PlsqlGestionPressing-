@@ -42,6 +42,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
                 LOOP 
                     FETCH l_agent INTO c_nom, c_prenom, c_genre, c_date_nais, c_email, c_telephone,
                                         c_nom_util, c_date_embau, c_role, c_desc;
+                    EXIT WHEN l_agent%NOTFOUND;
                     DBMS_OUTPUT.PUT_LINE('Nom                   : '||c_nom);
                     DBMS_OUTPUT.PUT_LINE('Prenom                : '||c_prenom);
                     DBMS_OUTPUT.PUT_LINE('Genre                 : '||c_genre);
@@ -52,7 +53,6 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
                     DBMS_OUTPUT.PUT_LINE('Date d''embauche      : '||c_date_embau);
                     DBMS_OUTPUT.PUT_LINE('Role                  : '||c_role);
                     DBMS_OUTPUT.PUT_LINE('Description           : '||c_desc);
-                    EXIT WHEN l_agent%NOTFOUND;
                 END LOOP;
             END IF;
             CLOSE l_agent;
@@ -74,8 +74,8 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENT AS
             ELSE
                 LOOP
                     FETCH les_agents INTO nom_u;
-                    DBMS_OUTPUT.PUT_LINE(compteur||' - '||nom_u);
                     EXIT WHEN les_agents%NOTFOUND;
+                    DBMS_OUTPUT.PUT_LINE(compteur||' - '||nom_u);
                     compteur := compteur + 1;
                 END LOOP;
             END IF;
