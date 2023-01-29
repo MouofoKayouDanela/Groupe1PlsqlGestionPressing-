@@ -5,7 +5,7 @@ ACCEPT mon_choix CHAR PROMPT 'Veuillez entrer le caractere correspondant a votre
 SET TERM OFF 
 COLUMN script NEW_VALUE v_script 
 SELECT CASE '&mon_choix'
-            WHEN 'A' THEN 'Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Agence'
+            WHEN 'A' THEN 'Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence'
             ELSE 'Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/ERR_Choix'
         END AS script
 FROM    DUAL;
