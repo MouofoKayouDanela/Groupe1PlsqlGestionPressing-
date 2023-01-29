@@ -4,9 +4,6 @@ UNDEFINE nom_utili
 UNDEFINE nom_quartier_agence
 PROMPT Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 PROMPT              1 - la liste des agences d'un pressing
-PROMPT              1 - la liste des agents
-PROMPT              2 - la liste des services d'une agence
-PROMPT              3 - la liste des annonces d'un pressing
 PROMPT              A - Sortir
 ACCEPT mon_choix CHAR PROMPT 'Veuillez entrer le caractere correspondant a votre choix : '
 SET TERM OFF
