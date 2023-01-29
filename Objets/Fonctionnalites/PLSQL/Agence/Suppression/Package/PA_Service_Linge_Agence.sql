@@ -37,11 +37,6 @@ CREATE OR REPLACE PACKAGE BODY PA_SERVICE_LINGE_AGENCES AS
 
     END SUPPRESSION_SERVICE_AGENCES;
     
-    
-    
-    
-    
-    
     PROCEDURE SUPPRESSION_LINGE_AGENCES(
             Nom_Pressing Pressing.Nom%TYPE, 
             Lieu QUARTIER.nom%TYPE,
@@ -49,7 +44,18 @@ CREATE OR REPLACE PACKAGE BODY PA_SERVICE_LINGE_AGENCES AS
             Nom_TypeLinge TYPE_LINGE.Intitule%TYPE,
             date_aj LINGE_AGENCE.date_Ajout%TYPE
     )
-   
+    IS
+    idCL PLS_INTEGER:=PA_AGENCES_Nom.RECUPERATION_ID_CATEGORIE_LINGE (Nom_CatLinge);
+    idTL PLS_INTEGER:=PA_AGENCES_Nom.RECUPERATION_ID_TYPE_LINGE (Nom_TypeLinge);
+    idAG PLS_INTEGER:=PA_AGENCES_Nom.RECUPERATION_ID_AGENCE(Nom_Pressing,Lieu);
+        BEGIN
+                UPDATE LINGE_AGENCE
+                SET LINGE_AGENCE.date_retrait=Current_date
+                WHERE LINGE_AGENCE.id_type=idTL
+                AND LINGE_AGENCE.id_categorie=idCL
+                AND AGENCE.Nom=idAG
+                AND LINGE_AGENCE.date_Ajout=date_aj;
+
    END SUPPRESSION_SERVICE_LINGE_AGENCES;
 END PA_SERVICE_LINGE_AGENCES;
 /
