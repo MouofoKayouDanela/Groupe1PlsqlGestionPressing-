@@ -2125,7 +2125,1210 @@ de la table commande
 
 1 ligne créée.
 
-SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_Agence
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_COnsultation_Profil
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Pressing/Consultation/PA_COnsultation_Pressing
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+Cette agence n'existe pas dans ce pressing
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> DECLARE
+  2  id_retourner AGENCE.id%TYPE := PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('Abobogo', 'PR001');
+  3  BEGIN
+  4  DBMS_OUTPUT.PUTLINE(id_retourner);
+  5  END;
+  6  /
+DBMS_OUTPUT.PUTLINE(id_retourner);
+            *
+ERREUR à la ligne 4 :
+ORA-06550: Ligne 4, colonne 13 :
+PLS-00302: Le composant 'PUTLINE' doit être déclaré
+ORA-06550: Ligne 4, colonne 1 :
+PL/SQL: Statement ignored
+
+
+SQL> DECLARE
+  2  id_retourner AGENCE.id%TYPE := PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('Abobogo', 'PR001');
+  3  BEGIN
+  4  DBMS_OUTPUT.PUT_LINE(id_retourner);
+  5  END;
+  6  /
+Cette agence n'existe pas dans ce pressing
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> select ag.id from agence ag join quartier qu on (ag.id_quartier = qu.id) join pressing pr on (ag.id_pressing = pr.id) where qu.nom = 'Abobogo' and pr.id = 'PR001';
+
+ID
+--------------------------------------------------
+AG001
+
+1 ligne sélectionnée.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+Cette agence n'existe pas dans ce pressing
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence
+
+1 ligne sélectionnée.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+Cette agence n'existe pas dans ce pressing
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> describe PA_Consulter_Agence
+ERROR:
+ORA-04043: objet PA_Consulter_Agence inexistant
+
+
+SQL> describe PA_Consultation_Agence
+FUNCTION FO_RETOURNER_ID_VIA_QUARTIER RETURNS VARCHAR2(50)
+ Nom d'argument                  Type                    E/S par défaut ?
+ ------------------------------ ----------------------- ------ --------
+ NOM_QUARTIER                   VARCHAR2(50)            IN
+ ID_PRESSING                    VARCHAR2(50)            IN
+PROCEDURE PO_CONSULTER_AGENCE
+ Nom d'argument                  Type                    E/S par défaut ?
+ ------------------------------ ----------------------- ------ --------
+ ID_PRESSING                    VARCHAR2(50)            IN
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+0
+Cette agence n'existe pas dans ce pressing
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+SP2-0042: commande inconnue "T TERM OFF" - reste de la ligne ignoré.
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+    id_agence_choisie := PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER(Abobogo, 'PR001');
+                                                                             *
+ERREUR à la ligne 4 :
+ORA-06550: Ligne 4, colonne 78 :
+PLS-00201: l'identificateur 'ABOBOGO' doit être déclaré
+ORA-06550: Ligne 4, colonne 5 :
+PL/SQL: Statement ignored
+
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+    id_agence_choisie := PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('Abobogo', PR001);
+                                                                                        *
+ERREUR à la ligne 4 :
+ORA-06550: Ligne 4, colonne 89 :
+PLS-00201: l'identificateur 'PR001' doit être déclaré
+ORA-06550: Ligne 4, colonne 5 :
+PL/SQL: Statement ignored
+
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence
+
+1 ligne sélectionnée.
+
+SP2-0042: commande inconnue "t" - reste de la ligne ignoré.
+SP2-0042: commande inconnue "t" - reste de la ligne ignoré.
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : 1
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+prÃ©sente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, prÃ©sente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+prÃ©sente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+0
+Cette agence n'existe pas dans ce pressing
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : a
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence
+
+1 ligne sélectionnée.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+1
+AG001
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+1 - NikiledjiAurore
+2 - TchantchouJordan
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR002
+1 - Agence cree le 01/12/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+2 - Agence cree le 26/04/20 dans le quartier : Louma, de la ville : Kribi,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Louma
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence
+
+1 ligne sélectionnée.
+
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : Abobogo
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : A
+SP2-0158: option SET inconnue "--Blockage"
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence
+
+1 ligne sélectionnée.
+
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence.sql"
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+1 - NikiledjiAurore
+2 - TchantchouJordan
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Profil_Agent
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom de l'agent dont vous voulez consulter le profil : TchantchouJordan
+Entrez une valeur pour id_agence_entree : AG001
+Nom                   : Tchantchou
+Prenom                : Jordan
+Genre                 : Masculin
+Date de naissance     : 11/12/00
+Adresse electronique  : tchantchoujordan@gmail.com
+Adresse telephonique  : 695523190
+Nom d'utilisateur    : TchantchouJordan
+Date d'embauche      : 18/01/19
+Role                  : Ressource_humaine
+Description           : Charger de gerer les agents du pressing en ajout,
+modification de profil et renvoie
+
+Procédure PL/SQL terminée avec succès.
+
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : A
+Cette agence n'existe pas dans ce pressing
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR004
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR007
+1 - Agence cree le 13/09/22 dans le quartier : Ntamulung, de la ville : Bamenda,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : kfje
+Cette agence n'existe pas dans ce pressing
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 13/09/22 dans le quartier : Ntamulung, de la ville : Bamenda,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Ntamulung
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 13/09/22 dans le quartier : Ntamulung, de la ville : Bamenda,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> show errors
+Erreurs pour PACKAGE BODY PA_CONSULTATION_AGENT :
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+73/13    PL/SQL: Statement ignored
+73/16    PLS-00201: l'identificateur 'LES_AGENCES' doit être déclaré
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
 
 Package créé.
 
@@ -2139,43 +3342,6 @@ Package créé.
 
 Corps de package créé.
 
-SQL> @Objets/Fonctionnalites/PLSQL/Linge_Agence/Consultation/PA_Consultation_Linge_Agence
-
-Package créé.
-
-
-Corps de package créé.
-
-SQL> @Objets/Fonctionnalites/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
-
-Package créé.
-
-
-Corps de package créé.
-
-SQL> @Objets/Fonctionnalites/PLSQL/Pressing/Consultation/PA_Consultation_Pressing
-
-Package créé.
-
-
-Corps de package créé.
-
-SQL> VARIABLE id_agence_entree CHAR
-SQL> BEGIN
-  2      id_agence_entree := PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('&nom_quartier_agence', '&id_pressing');
-  3  END;
-  4  /
-Entrez une valeur pour nom_quartier_agence : Abodogo
-Entrez une valeur pour id_pressing : PR001
-    id_agence_entree := PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('Abodogo', 'PR001');
-    *
-ERREUR à la ligne 2 :
-ORA-06550: Ligne 2, colonne 5 :
-PLS-00201: l'identificateur 'ID_AGENCE_ENTREE' doit être déclaré
-ORA-06550: Ligne 2, colonne 5 :
-PL/SQL: Statement ignored
-
-
 SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
@@ -2191,58 +3357,7 @@ Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
 1 ligne sélectionnée.
 
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-prÃ©sente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, prÃ©sente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-prÃ©sente dans le pays : Cameroun
-
-Procédure PL/SQL terminée avec succès.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 1
-
-SCRIPT
------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
-
-1 ligne sélectionnée.
-
-Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
-    id_agence_entree := PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('Abobogo', 'PR001');
-    *
-ERREUR à la ligne 2 :
-ORA-06550: Ligne 2, colonne 5 :
-PLS-00201: l'identificateur 'ID_AGENCE_ENTREE' doit être déclaré
-ORA-06550: Ligne 2, colonne 5 :
-PL/SQL: Statement ignored
-
-
-Entrez une valeur pour id_agence_entree : t
-
-Procédure PL/SQL terminée avec succès.
-
-1 - CONSULTER LE PROFIL D'UN AGENT
-A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
-
-1 ligne sélectionnée.
-
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-prÃ©sente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, prÃ©sente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-prÃ©sente dans le pays : Cameroun
+Entrez une valeur pour id_pressing : PR004
 
 Procédure PL/SQL terminée avec succès.
 
@@ -2273,6 +3388,20 @@ SCRIPT
 1 ligne sélectionnée.
 
 SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
 SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
@@ -2280,11 +3409,132 @@ Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 2 - la liste des services d'une agence
 3 - la liste des annonces d'un pressing
 A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : PR001
+Veuillez entrer le caractere correspondant a votre choix : 1
 
 SCRIPT
 ----------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/ERR_Choix.sql
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR007
+1 - Agence cree le 13/09/22 dans le quartier : Ntamulung, de la ville : Bamenda,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR004
+Ce pressing ne comporte aucune agence !
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR003
+1 - Agence cree le 30/04/20 dans le quartier : Kotto, de la ville : Douala,
+presente dans le pays : Cameroun
+2 - Agence cree le 31/08/20 dans le quartier : Louma, de la ville : Kribi,
+presente dans le pays : Cameroun
+3 - Agence cree le 03/02/21 dans le quartier : Mile2, de la ville : Limbe,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Louma
+Cette agence ne prÃ©sente aucun agent !
+
+Procédure PL/SQL terminée avec succès.
+
+1 - CONSULTER LE PROFIL D'UN AGENT
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 30/04/20 dans le quartier : Kotto, de la ville : Douala,
+presente dans le pays : Cameroun
+2 - Agence cree le 31/08/20 dans le quartier : Louma, de la ville : Kribi,
+presente dans le pays : Cameroun
+3 - Agence cree le 03/02/21 dans le quartier : Mile2, de la ville : Limbe,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des annonces d'un agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : Kotto
+
+SCRIPT
+-----------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix
 
 1 ligne sélectionnée.
 
@@ -2296,106 +3546,60 @@ SP2-0158: option SET inconnue "--Blockage"
 SP2-0735: option COLUMN inconnue au début de "--Conserva..."
 
 SCRIPT
----------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
-
-1 ligne sélectionnée.
-
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : 1
-
-SCRIPT
-----------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
-
-1 ligne sélectionnée.
-
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-prÃ©sente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, prÃ©sente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-prÃ©sente dans le pays : Cameroun
-
-Procédure PL/SQL terminée avec succès.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 1
-
-SCRIPT
 -----------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence
 
 1 ligne sélectionnée.
 
-Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
-Entrez une valeur pour id_agence_entree : t
-    t := PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('Abobogo', 'PR001');
-    *
-ERREUR à la ligne 2 :
-ORA-06550: Ligne 2, colonne 5 :
-PLS-00201: l'identificateur 'T' doit être déclaré
-ORA-06550: Ligne 2, colonne 5 :
-PL/SQL: Statement ignored
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_ListeAgence.sql"
+SQL> @Objets/Fonctionnalites/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
+
+Package créé.
 
 
-Entrez une valeur pour id_agence_entree : t
+Corps de package créé.
 
-Procédure PL/SQL terminée avec succès.
+SQL> @Objets/Fonctionnalites/PLSQL/Linge_Agence/Consultation/PA_Consultation_Linge_Agence
 
-1 - CONSULTER LE PROFIL D'UN AGENT
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/Fonctionnalite/SQLPLUS/Service_Agence/Consultation/EX_Consultation_Service_Agence
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalite/SQLPLUS/Service_Agence/Consultation/EX_Consultation_Service_Agence.sql"
+SQL> @Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Consultation_Service_Agence
+Veuillez entrer le nom du quartier ou se trouve l'agence : Louma
+BEGIN PA_CONSULTATION_SERVICE_AGENCE.PO_CONSULTER_SERVICE_AGENCE('Louma'); END;
+
+*
+ERREUR à la ligne 1 :
+ORA-01001: curseur non valide
+ORA-06512: à "OPENPRESSING.PA_CONSULTATION_SERVICE_AGENCE", ligne 19
+ORA-06512: à ligne 1
+
+
 A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : A
+Veuillez entrer le caractere correspondant a votre choix : exit
 
 SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+--------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/ERR_Choix
 
 1 ligne sélectionnée.
 
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-prÃ©sente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, prÃ©sente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-prÃ©sente dans le pays : Cameroun
-
-Procédure PL/SQL terminée avec succès.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un agence
-A - Retour
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
 Veuillez entrer le caractere correspondant a votre choix : A
 
 SCRIPT
------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
-
-1 ligne sélectionnée.
-
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des annonces d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-----------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
+ce
 
 
 1 ligne sélectionnée.
 
-SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agence.sql"
 SQL> exit
