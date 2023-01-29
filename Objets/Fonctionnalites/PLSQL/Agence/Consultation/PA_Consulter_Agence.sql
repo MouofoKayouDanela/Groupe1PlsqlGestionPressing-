@@ -23,17 +23,16 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENCE AS
         une_agence les_agences%ROWTYPE;
         BEGIN
             OPEN les_agences;
-            IF les_agences%NOTFOUND THEN
+            LOOP 
+                FETCH les_agences INTO une_agence;
+                EXIT WHEN les_agences%NOTFOUND;
+                DBMS_OUTPUT.PUT_LINE(compteur||' - Agence cree le '||une_agence."date_crea"
+                                    ||' dans le quartier : '||une_agence."quartier"||', de la ville : '
+                                    ||une_agence."ville"||', presente dans le pays : '||une_agence."pays");
+                compteur := compteur + 1;
+            END LOOP;
+            IF les_agences%ROWCOUNT = 0 THEN
                 DBMS_OUTPUT.PUT_LINE('Ce pressing ne comporte aucune agence !');
-            ELSE
-                LOOP 
-                    FETCH les_agences INTO une_agence;
-                    EXIT WHEN les_agences%NOTFOUND;
-                    DBMS_OUTPUT.PUT_LINE(compteur||' - Agence cree le '||une_agence."date_crea"
-                                        ||' dans le quartier : '||une_agence."quartier"||', de la ville : '
-                                        ||une_agence."ville"||', présente dans le pays : '||une_agence."pays");
-                    compteur := compteur + 1;
-                END LOOP;
             END IF;
             CLOSE les_agences;
         END;
@@ -41,7 +40,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENCE AS
         CURSOR une_agence IS    SELECT  ag.id "identi"
                                 FROM    AGENCE ag
                                 JOIN    QUARTIER qu
-                                ON      (ag.id_pressing = qu.id)
+                                ON      (ag.id_quartier = qu.id)
                                 JOIN    PRESSING pr
                                 ON      (ag.id_pressing = pr.id)
                                 WHERE   qu.nom = FO_RETOURNER_ID_VIA_QUARTIER.nom_quartier
@@ -50,8 +49,10 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENCE AS
         var_retour AGENCE.id%TYPE;
     BEGIN
         OPEN une_agence;
+        FETCH une_agence INTO var_retour;
         IF une_agence%FOUND THEN
-            FETCH une_agence INTO var_retour;
+            CLOSE une_agence;
+            RETURN var_retour;
         ELSE
             DBMS_OUTPUT.PUT_LINE('Cette agence n''existe pas dans ce pressing');
             var_retour := '';
