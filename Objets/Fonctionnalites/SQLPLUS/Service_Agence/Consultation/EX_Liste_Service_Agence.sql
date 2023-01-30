@@ -1,5 +1,5 @@
 ACCEPT nom_quartier_agence CHAR PROMPT 'Veuillez entrer le nom du quartier ou se trouve l''agence : '
-EXECUTE PA_CONSULTATION_SERVICE_AGENCE.PO_CONSULTER_SERVICE_AGENCE('&nom_quartier_agence')
+EXECUTE PA_CONSULTATION_SERVICE_AGENCE.PO_CONSULTER_SERVICE_AGENCE(PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('&nom_quartier_agence', '&id_pressing'))
 PROMPT          A - SORTIR
 ACCEPT mon_choix CHAR PROMPT 'Veuillez entrer le caractere correspondant a votre choix : '
 SET TERM OFF 
