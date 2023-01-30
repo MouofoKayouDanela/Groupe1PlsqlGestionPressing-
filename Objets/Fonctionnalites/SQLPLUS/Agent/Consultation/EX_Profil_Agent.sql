@@ -1,5 +1,5 @@
 ACCEPT nom_utili CHAR PROMPT 'Veuillez entrer le nom de l''agent dont vous voulez consulter le profil : '
-EXECUTE PA_CONSULTATION_AGENT.PO_PROFIL_AGENT('&nom_utili', '&id_agence_entree')
+EXECUTE PA_CONSULTATION_AGENT.PO_PROFIL_AGENT('&nom_utili', PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('&nom_quartier_agence', '&id_pressing'))
 PROMPT          A - SORTIR
 ACCEPT mon_choix CHAR PROMPT 'Veuillez entrer le caractere correspondant a votre choix : '
 SET TERM OFF 
