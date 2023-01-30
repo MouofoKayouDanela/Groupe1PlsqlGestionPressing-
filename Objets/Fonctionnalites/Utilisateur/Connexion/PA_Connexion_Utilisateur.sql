@@ -10,7 +10,7 @@ END PA_CONNEXION_UTILISATEUR ;
 CREATE OR REPLACE PACKAGE BODY PA_CONNEXION_UTILISATEUR AS
     FUNCTION Verif_utilisateur(
       nom_utilisateur UTILISATEUR.Nom_utilisateur%TYPE,
-      mot_de_passe UTILISATEUR.Mot_de_passe%TYPE
+      mot_de_passe UTILISATEUR.Mot_de_passe%TYPEI
     ) RETURN VARCHAR2 
     IS
     CURSOR CUR IS
