@@ -86,57 +86,54 @@ END;
 
 SET SERVEROUTPUT ON;
 CREATE PACKAGE PACK_AGENCES_CREATION as
-    FUNCTION CREATION_AGENCE (Nom_Pressing Pressing.Nom%TYPE, Lieu QUARTIER.nom%TYPE)
-    RETURN VARCHAR2;
+    PROCEDURE AFFICHE_VILLE (Nom_Pays Pays.Nom%TYPE)
+RETURN VARCHAR2;
+    PROCEDURE AFFICHE_QUARTIER (Nom_ville Ville.Nom%TYPE)
+RETURN VARCHAR2;
+    PROCEDURE AFFICHE_PRESSING (nom_proprietaire Proprietaire.nom%TYPE)
+RETURN VARCHAR2;
 END PACK_AGENCES_CREATION;
 CREATE OR REPLACE PACKAGE PACK_AGENCES_CREATION AS
-    PROCEDURE CREATION_AGENCE(nom_pays PAYS.nom%TYPE) IS
+    PROCEDURE AFFICHE_VILLE(nom_pays PAYS.nom%TYPE) IS
     VALEUR_pays VARCHAR2
-    Valeur_ville VARCHAR2
-    Valeur_quartier VARCHAR2
-    Valeur_proprietaire varchar2
         BEGIN
-            SELECT id_pays
+            SELECT id_pays, nom_ville
             INTO Valeur_pays
             FROM Pays
-            WHERE (nom_pays = '&nom_pays');
-
-            SELECT nom_ville
-            FROM VILLE;
-            JOIN Pays
-            ON (Vi.nom_pays= Pa.nom)
-            WHERE (Pa.nom = Valeur_pays);
+            WHERE nom_pays = nom_pays
+                                (SELECT nom_ville
+                                FROM VILLE;
+                                JOIN Pays
+                                ON (Vi.nom_pays= Pa.nom)
+                                WHERE (Pa.nom = Valeur_pays));
+            
         END;
 /
-CREATE OR REPLACE PACKAGE PACK_AGENCES_CREATION AS
-    PROCEDURE CREATION_AGENCE(nom_ville Ville.nom%TYPE) IS
+    PROCEDURE AFFICHE_QUARTIER(nom_ville Ville.nom%TYPE) IS
+    Valeur_ville VARCHAR2
         BEGIN
-             SELECT id_ville
+             SELECT id_ville, nom_quartier
             INTO Valeur_ville
             FROM VILLE
-            WHERE (nom_ville = '&nom_ville')
-
-            SELECT nom_quartier
-            FROM QUARTIER;
-            JOIN VILLE
-            ON (Qu.nom_ville = Vi.nom)
-            WHERE(Vi.no = Valeur_ville);
+            WHERE nom_ville = nom_ville
+                                (SELECT nom_quartier
+                                FROM QUARTIER;
+                                JOIN VILLE
+                                ON (Qu.nom_ville = Vi.nom)
+                                WHERE(Vi.no = Valeur_ville));            
         END;
         /
-CREATE OR REPLACE PACKAGE PACK_AGENCES_CREATION AS
-    PROCEDURE CREATION_AGENCE(nom_proprietaire Proprietaire.nom%TYPE) IS
+    PROCEDURE AFFICHE_PRESSING(nom_proprietaire Proprietaire.nom%TYPE) IS
+    Valeur_proprietaire varchar2
         BEGIN
-             SELECT id_proprietaire
+             SELECT id_proprietaire, nom_pressing
             INTO Valeur_proprietaire
             FROM Proprietaire
-            WHERE (nom_proprietaire = '&nom_proprietaire');
-
-            SELECT nom_pressing
-            FROM PRESSING;
-            JOIN Proprietaire
-            ON (Pres.nom_proprietaire = Pro.nom)
-            WHERE(Pro.nom = Valeur_proprietaire);
+            WHERE nom_proprietaire = nom_proprietaire;
+                                (SELECT nom_pressing
+                                FROM PRESSING;
+                                JOIN Proprietaire
+                                ON (Pres.nom_proprietaire = Pro.nom)
+                                WHERE(Pro.nom = Valeur_proprietaire));         
         END;
-    /
-
-
+/

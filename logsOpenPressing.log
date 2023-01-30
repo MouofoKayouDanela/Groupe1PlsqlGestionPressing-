@@ -1,2145 +1,2145 @@
 SUPPRESSION D'UTILISATEUR POTENTIELLEMENT EXISTANT
 
-Utilisateur supprimé.
+Utilisateur supprimï¿½.
 
 *************** Creation utilisateur ***************
 
-Utilisateur créé.
+Utilisateur crï¿½ï¿½.
 
 
-Utilisateur modifié.
+Utilisateur modifiï¿½.
 
 
-Utilisateur modifié.
+Utilisateur modifiï¿½.
 
 
-Autorisation de privilèges (GRANT) acceptée.
+Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
 
 
-Autorisation de privilèges (GRANT) acceptée.
+Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
 
 ***************************************************************************************************
-Connecté.
+Connectï¿½.
 
-Autorisation de privilèges (GRANT) acceptée.
+Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
 
-Connecté.
+Connectï¿½.
 DROP TABLE Administrateur CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Agence CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Agent CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Annonce CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Besoin CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Categorie_Linge CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Categorie_Service CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Client CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Commande CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Details_Besoin CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Linge CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Linge_Agence CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Message CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Offre CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Pays CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Pressing CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Promotion CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Proprietaire CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Quartier CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Role CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Service CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Service_Agence CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Type_Linge CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Type_Service CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Utilisateur CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Ville CASCADE CONSTRAINTS
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 CREATION DES TABLES
 Administrateur
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Agence
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Agent
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Annonce
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Besoin
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Categorie_Linge
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Categorie_Service
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Client
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Commande
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Details_Besoin
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Linge_Agence
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Linge
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Message
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Offre
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Pays
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Pressing
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Promotion
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Proprietaire
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Quartier
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Role
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Service_Agence
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Service
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Type_Linge
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Type_Service
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Utilisateur
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Ville
 
-Table créée.
+Table crï¿½ï¿½e.
 
 CREATION DES DIFFERENTES CONTRAINTES
 CREATION DES CONTRAINTES DE VALEURS OBLIGATOIRES
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 CREATION DES CONTRAINTES DE VALEURS UNIQUES
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 CREATION DES CONTRAINTES DES VALEURS DE DOMAINE
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 CREATION DES CONTRAINTES DE CLES PRIMAIRES
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 CREATION DES CONTRAINTES DE CLES ETRANGERES
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 DROP SEQUENCE seq_agence
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_annonce
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_besoin
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_categorie_linge
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_categorie_service
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_commande
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_pays
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_pressing
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_promotion
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_quartier
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_role
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_type_linge
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_type_service
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_utilisateur
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 DROP SEQUENCE seq_ville
               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas
 
 
 CREATION DES OBJETS SEQUENCES DE TOUTES LES TABLES ELEMENTAIRES
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 INSERTION DES DONNEES STATIQUES
 de la table utilisateur
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table administtrateur
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table proprietaire
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table pressing
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table pays
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table ville
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table quartier
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table role
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table agence
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table agent
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table type_linge
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table categorie_linge
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table linge
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table type_Service
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table Categorie_Service
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table service
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table Linge_Agence
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table Service_Agence
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table annonce
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table offre
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table promotion
 de la table client
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table besoin
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table Details_Besoin
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table message
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 de la table commande
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 SQL> @Objets/Fonctionnalite/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
 SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalite/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence.sql"
 SQL> @Objets/Fonctionnalites/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
 
-Package créé.
+Package crï¿½ï¿½.
 
 
-Corps de package créé.
+Corps de package crï¿½ï¿½.
 
 SQL> @Objets/Fonctionnalites/PLSQL/Linge_Agence/Consultation/PA_Consultation_Linge_Agence
 
-Package créé.
+Package crï¿½ï¿½.
 
 
-Corps de package créé.
+Corps de package crï¿½ï¿½.
 
 SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consultation_Agence
 SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consultation_Agence.sql"
@@ -2147,31 +2147,31 @@ SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consultater_Agence
 SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consultater_Agence.sql"
 SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_Agence
 
-Package créé.
+Package crï¿½ï¿½.
 
 
-Corps de package créé.
+Corps de package crï¿½ï¿½.
 
 SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
 
-Package créé.
+Package crï¿½ï¿½.
 
 
-Corps de package créé.
+Corps de package crï¿½ï¿½.
 
 SQL> @Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Linge_Agence
 SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Linge_Agence.sql"
 SQL> @Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence
-Veuillez entrer le nom du quartier ou se trouve l'agence : ‡…
+Veuillez entrer le nom du quartier ou se trouve l'agence : ï¿½ï¿½
 Entrez une valeur pour id_pressing : jo
 Cette agence n'existe pas dans ce pressing
-BEGIN PA_CONSULTATION_LINGE_AGENCE.PO_CONSULTER_LINGE_AGENCE(PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('‡…', 'jo')); END;
+BEGIN PA_CONSULTATION_LINGE_AGENCE.PO_CONSULTER_LINGE_AGENCE(PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('ï¿½ï¿½', 'jo')); END;
 
 *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-01001: curseur non valide
-ORA-06512: à "OPENPRESSING.PA_CONSULTATION_LINGE_AGENCE", ligne 19
-ORA-06512: à ligne 1
+ORA-06512: ï¿½ "OPENPRESSING.PA_CONSULTATION_LINGE_AGENCE", ligne 19
+ORA-06512: ï¿½ ligne 1
 
 
 A - SORTIR
@@ -2181,12 +2181,12 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Entrez une valeur pour id_pressing : K
 Ce pressing ne comporte aucune agence !
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2199,7 +2199,7 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
@@ -2210,7 +2210,7 @@ SCRIPT
 ----------------------------------------------------------------------
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
 SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
@@ -2223,20 +2223,20 @@ SCRIPT
 ----------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/ERR_Choix.sql
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 CHOIX INCORRECT
 Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
 A - retour
 Veuillez entrer le caractere correspondant a votre choix : A
 SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+SP2-0735: option COLUMN inconnue au dï¿½but de "--Conserva..."
 
 SCRIPT
 ---------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
@@ -2247,7 +2247,7 @@ SCRIPT
 ----------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Entrez une valeur pour id_pressing : PR001
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
@@ -2257,7 +2257,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2270,20 +2270,20 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 CHOIX INCORRECT
 Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
 A - retour
 Veuillez entrer le caractere correspondant a votre choix : A
 SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+SP2-0735: option COLUMN inconnue au dï¿½but de "--Conserva..."
 
 SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2292,7 +2292,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2307,16 +2307,16 @@ Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
 ce
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Bodomo
 BEGIN PA_CONSULTATION_SERVICE_AGENCE.PO_CONSULTER_SERVICE_AGENCE(PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('Bodomo', 'PR001')); END;
 
 *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-01001: curseur non valide
-ORA-06512: à "OPENPRESSING.PA_CONSULTATION_SERVICE_AGENCE", ligne 19
-ORA-06512: à ligne 1
+ORA-06512: ï¿½ "OPENPRESSING.PA_CONSULTATION_SERVICE_AGENCE", ligne 19
+ORA-06512: ï¿½ ligne 1
 
 
 A - SORTIR
@@ -2326,7 +2326,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2335,7 +2335,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2348,7 +2348,7 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
@@ -2359,47 +2359,47 @@ SCRIPT
 ----------------------------------------------------------------------
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
 SQL> describe PA_CONSULTATION_AGENCE
 FUNCTION FO_RETOURNER_ID_VIA_QUARTIER RETURNS VARCHAR2(50)
- Nom d'argument                  Type                    E/S par défaut ?
+ Nom d'argument                  Type                    E/S par dï¿½faut ?
  ------------------------------ ----------------------- ------ --------
  NOM_QUARTIER                   VARCHAR2(50)            IN
  ID_PRESSING                    VARCHAR2(50)            IN
 PROCEDURE PO_CONSULTER_AGENCE
- Nom d'argument                  Type                    E/S par défaut ?
+ Nom d'argument                  Type                    E/S par dï¿½faut ?
  ------------------------------ ----------------------- ------ --------
  ID_PRESSING                    VARCHAR2(50)            IN
 
 SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
 
-Package créé.
+Package crï¿½ï¿½.
 
 
-Corps de package créé.
+Corps de package crï¿½ï¿½.
 
 SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
 
-Package créé.
+Package crï¿½ï¿½.
 
 
-Corps de package créé.
+Corps de package crï¿½ï¿½.
 
 SQL> @Objets/Fonctionnalites/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
 
-Package créé.
+Package crï¿½ï¿½.
 
 
-Corps de package créé.
+Corps de package crï¿½ï¿½.
 
 SQL> @Objets/Fonctionnalites/PLSQL/Linge_Agence/Consultation/PA_Consultation_Linge_Agence
 
-Package créé.
+Package crï¿½ï¿½.
 
 
-Corps de package créé.
+Corps de package crï¿½ï¿½.
 
 SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
@@ -2411,7 +2411,7 @@ SCRIPT
 ----------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Entrez une valeur pour id_pressing : PR001
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
@@ -2421,7 +2421,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2434,12 +2434,12 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Bodomo
 Cette agence ne presente aucun agent !
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - CONSULTER LE PROFIL D'UN AGENT
 A - SORTIR
@@ -2449,7 +2449,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2458,7 +2458,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2473,12 +2473,12 @@ Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
 ce
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
 Cette agence ne dispose pas de service !
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : A
@@ -2487,7 +2487,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2496,7 +2496,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2511,12 +2511,12 @@ Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
 ce
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Bodomo
 Cette agence ne dispose pas de service !
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : A
@@ -2525,7 +2525,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2534,7 +2534,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2549,12 +2549,12 @@ Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
 ce
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
 Cette agence ne dispose pas de service !
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : A
@@ -2563,7 +2563,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2572,7 +2572,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2585,7 +2585,7 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
@@ -2596,12 +2596,12 @@ SCRIPT
 ----------------------------------------------------------------------
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
 SQL> INSERT INTO SERVICE_AGENCE(id_agence, id_categorie, id_type, Date_ajout) VALUES ('AG006', 'CS003', 'TS010', TO_DATE('06/09/2020', 'dd/mm/yyyy'));
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
@@ -2613,7 +2613,7 @@ SCRIPT
 ----------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Entrez une valeur pour id_pressing : PR003
 1 - Agence cree le 30/04/20 dans le quartier : Kotto, de la ville : Douala,
@@ -2623,7 +2623,7 @@ presente dans le pays : Cameroun
 3 - Agence cree le 03/02/21 dans le quartier : Mile2, de la ville : Limbe,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2638,12 +2638,12 @@ Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
 ce
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Louma
 1 - deboulochage simple ajoute le 06/09/20
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : A
@@ -2652,7 +2652,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 30/04/20 dans le quartier : Kotto, de la ville : Douala,
 presente dans le pays : Cameroun
@@ -2661,7 +2661,7 @@ presente dans le pays : Cameroun
 3 - Agence cree le 03/02/21 dans le quartier : Mile2, de la ville : Limbe,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2674,7 +2674,7 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
@@ -2685,21 +2685,21 @@ SCRIPT
 ----------------------------------------------------------------------
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
 SQL> INSERT INTO LINGE_AGENCE(id_agence, id_categorie, id_type, Date_ajout) VALUES ('AG001', 'CL001', 'TL000', TO_DATE('06/09/2020', 'dd/mm/yyyy'));
 INSERT INTO LINGE_AGENCE(id_agence, id_categorie, id_type, Date_ajout) VALUES ('AG001', 'CL001', 'TL000', TO_DATE('06/09/2020', 'dd/mm/yyyy'))
 *
-ERREUR à la ligne 1 :
-ORA-02291: violation de contrainte d'intégrité
-(OPENPRESSING.CE_LINGE_AGENCE_ID_CATEGORIE_ID_TYPE_LINGE) - clé parent
+ERREUR ï¿½ la ligne 1 :
+ORA-02291: violation de contrainte d'intï¿½gritï¿½
+(OPENPRESSING.CE_LINGE_AGENCE_ID_CATEGORIE_ID_TYPE_LINGE) - clï¿½ parent
 introuvable
 
 
 SQL> INSERT INTO LINGE_AGENCE(id_agence, id_categorie, id_type, Date_ajout) VALUES ('AG001', 'CL001', 'TL001', TO_DATE('06/09/2020', 'dd/mm/yyyy'));
 
-1 ligne créée.
+1 ligne crï¿½ï¿½e.
 
 SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
@@ -2711,7 +2711,7 @@ SCRIPT
 ----------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Entrez une valeur pour id_pressing : PR001
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
@@ -2721,7 +2721,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2734,12 +2734,12 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
 1 - Chemises Coton ajoute le 06/09/20
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : A
@@ -2748,7 +2748,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2757,7 +2757,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2770,20 +2770,20 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 CHOIX INCORRECT
 Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
 A - retour
 Veuillez entrer le caractere correspondant a votre choix : A
 SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au début de "--Conserva..."
+SP2-0735: option COLUMN inconnue au dï¿½but de "--Conserva..."
 
 SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2792,7 +2792,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2805,12 +2805,12 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
 Cette agence ne traite aucun linge !
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : D
@@ -2819,7 +2819,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/ERR_Choix
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 CHOIX INCORRECT
 Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
@@ -2830,12 +2830,12 @@ SCRIPT
 ------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
 Cette agence ne traite aucun linge !
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : A
@@ -2844,7 +2844,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2853,7 +2853,7 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
@@ -2866,7 +2866,7 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
@@ -2877,7 +2877,7 @@ SCRIPT
 ----------------------------------------------------------------------
 
 
-1 ligne sélectionnée.
+1 ligne sï¿½lectionnï¿½e.
 
 SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
 SQL> exit
