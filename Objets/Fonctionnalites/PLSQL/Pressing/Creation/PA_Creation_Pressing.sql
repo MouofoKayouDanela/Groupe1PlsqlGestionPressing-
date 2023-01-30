@@ -62,7 +62,7 @@ Resultat VARCHAR2(255) := PA_PRESSING.Verif_nom_pressing('Valeur');
 BEGIN
     PA_PRESSING.Add_pressing         --declaration de la procedure avec les variables de substitution
     (
-        'PR||seq_pressing.NEXTVAL',
+        'PR'||seq_pressing.NEXTVAL,
         '&Nom_du_pressing',
         SYSDATE,
         'UT||seq_utilisateur.NEXTVAL'

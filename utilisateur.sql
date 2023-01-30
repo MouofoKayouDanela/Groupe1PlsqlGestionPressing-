@@ -30,4 +30,4 @@ GRANT CREATE SYNONYM, CREATE DATABASE LINK, RESOURCE , UNLIMITED TABLESPACE TO O
 PROMPT ***************************************************************************************************
 CONNECT sys/&pass_sys  AS SYSDBA;
 GRANT execute ON sys.dbms_stats TO OpenPressing;
-CONNECT OpenPressing/&pass@&connect_string  XEPDB1;
+CONNECT OpenPressing/&pass@&connect_string XEPDB1;

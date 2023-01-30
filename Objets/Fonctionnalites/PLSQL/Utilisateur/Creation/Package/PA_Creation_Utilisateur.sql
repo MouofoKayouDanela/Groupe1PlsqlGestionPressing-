@@ -1,5 +1,3 @@
-
-
 CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS --Entete du package de creation d'un utilisateur quelconque
     PROCEDURE Add_user           --Appel de la procedure associee
     (
@@ -83,7 +81,7 @@ Resultat VARCHAR2(255) := PA_UTILISATEUR.Verify_mail('Valeur');
 BEGIN
     PA_UTILISATEUR.Add_user    --declaration de la procedure avec les variables de substitution
     (
-        'UT ||seq_utilisateur.NEXTVAL',
+        'UT'||seq_utilisateur.NEXTVAL,
         '&Votre_nom',
         '&Votre_prenom',
         '&Votre_genre',
