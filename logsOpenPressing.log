@@ -1,2607 +1,2697 @@
 SUPPRESSION D'UTILISATEUR POTENTIELLEMENT EXISTANT
 
-Utilisateur supprimï¿½.
+Utilisateur supprimé.
 
 *************** Creation utilisateur ***************
 
-Utilisateur crï¿½ï¿½.
+Utilisateur créé.
 
 
-Utilisateur modifiï¿½.
+Utilisateur modifié.
 
 
-Utilisateur modifiï¿½.
+Utilisateur modifié.
 
 
-Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
+Autorisation de privilèges (GRANT) acceptée.
 
 
-Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
+Autorisation de privilèges (GRANT) acceptée.
 
 ***************************************************************************************************
-Connectï¿½.
+Connecté.
 
-Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
+Autorisation de privilèges (GRANT) acceptée.
 
-Connectï¿½.
+Connecté.
 DROP TABLE Administrateur CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Agence CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Agent CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Annonce CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Besoin CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Categorie_Linge CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Categorie_Service CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Client CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Commande CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Details_Besoin CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Linge CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Linge_Agence CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Message CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Offre CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Pays CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Pressing CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Promotion CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Proprietaire CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Quartier CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Role CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Service CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Service_Agence CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Type_Linge CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Type_Service CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Utilisateur CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 DROP TABLE Ville CASCADE CONSTRAINTS
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante
 
 
 CREATION DES TABLES
 Administrateur
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Agence
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Agent
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Annonce
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Besoin
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Categorie_Linge
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Categorie_Service
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Client
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Commande
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Details_Besoin
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Linge_Agence
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Linge
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Message
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Offre
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Pays
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Pressing
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Promotion
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Proprietaire
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Quartier
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Role
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Service_Agence
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Service
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Type_Linge
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Type_Service
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Utilisateur
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Ville
 
-Table crï¿½ï¿½e.
+Table créée.
 
 CREATION DES DIFFERENTES CONTRAINTES
 CREATION DES CONTRAINTES DE VALEURS OBLIGATOIRES
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 CREATION DES CONTRAINTES DE VALEURS UNIQUES
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 CREATION DES CONTRAINTES DES VALEURS DE DOMAINE
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 CREATION DES CONTRAINTES DE CLES PRIMAIRES
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 CREATION DES CONTRAINTES DE CLES ETRANGERES
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 DROP SEQUENCE seq_agence
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_annonce
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_besoin
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_categorie_linge
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_categorie_service
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_commande
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_pays
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_pressing
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_promotion
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_quartier
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_role
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_type_linge
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_type_service
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_utilisateur
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 DROP SEQUENCE seq_ville
               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
 
 CREATION DES OBJETS SEQUENCES DE TOUTES LES TABLES ELEMENTAIRES
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 INSERTION DES DONNEES STATIQUES
 de la table utilisateur
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table administtrateur
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table proprietaire
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table pressing
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table pays
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table ville
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table quartier
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table role
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table agence
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table agent
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table type_linge
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table categorie_linge
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table linge
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table type_Service
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table Categorie_Service
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table service
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table Linge_Agence
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table Service_Agence
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table annonce
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table offre
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table promotion
 de la table client
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table besoin
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table Details_Besoin
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table message
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 de la table commande
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
-SQL> @Objets/Fonctionnalite/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
-SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalite/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence.sql"
-SQL> @Objets/Fonctionnalites/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
+SQL> @Objets/Fonctionnalites/PLSQL/Annonce/Consultation/PA_Consultation_Annonce
 
-Package crï¿½ï¿½.
+Package créé.
 
 
-Corps de package crï¿½ï¿½.
+Corps de package créé.
 
-SQL> @Objets/Fonctionnalites/PLSQL/Linge_Agence/Consultation/PA_Consultation_Linge_Agence
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG001');
 
-Package crï¿½ï¿½.
+Procédure PL/SQL terminée avec succès.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AGo01');
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> set serveroutput on
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG001');
+1 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Chemises Coton
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+2 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Chemises Lin
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+3 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Chemises Dentele
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+4 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Chemises Jeans
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+5 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Chemises Satin
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+6 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Chemises Pagne
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+7 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Tricot Coton
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+8 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Tricot Laine
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+9 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Tricot Polyamide
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+10 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Tricot Elasthanne
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AGo01');
+Cette agence ne propose aucune annonce !
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG002');
+1 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Pantalon Lin
+Service correspondant : lavage simple
+Prix : 800 FCFA
+2 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Pantalon Velours
+Service correspondant : lavage simple
+Prix : 800 FCFA
+3 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Pantalon Pagne
+Service correspondant : lavage simple
+Prix : 800 FCFA
+4 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Culotte Coton
+Service correspondant : lavage simple
+Prix : 500 FCFA
+5 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Culotte Laine
+Service correspondant : lavage simple
+Prix : 500 FCFA
+6 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Culotte Velours
+Service correspondant : lavage simple
+Prix : 500 FCFA
+7 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Culotte Pagne
+Service correspondant : lavage simple
+Prix : 500 FCFA
+8 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : BouBou Pagne
+Service correspondant : lavage simple
+Prix : 2500 FCFA
+9 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Robe Coton
+Service correspondant : lavage simple
+Prix : 1500 FCFA
+10 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Robe Soie
+Service correspondant : lavage simple
+Prix : 1500 FCFA
+11 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Robe Crepe
+Service correspondant : lavage simple
+Prix : 1500 FCFA
+12 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Robe Dentele
+Service correspondant : lavage simple
+Prix : 1500 FCFA
+13 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Robe Jeans
+Service correspondant : lavage simple
+Prix : 1500 FCFA
+14 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Robe Satin
+Service correspondant : lavage simple
+Prix : 1500 FCFA
+15 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Robe Velours
+Service correspondant : lavage simple
+Prix : 1500 FCFA
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Annonce/Consultation/PA_Consultation_Annonce
+
+Package créé.
 
 
-Corps de package crï¿½ï¿½.
+Corps de package créé.
 
-SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consultation_Agence
-SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consultation_Agence.sql"
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG001');
+1 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere : Chemises Coton
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+Linge considere : Chemises Lin
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+Linge considere : Chemises Dentele
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+Linge considere : Chemises Jeans
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+Linge considere : Chemises Satin
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+Linge considere : Chemises Pagne
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+Linge considere : Tricot Coton
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+Linge considere : Tricot Laine
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+Linge considere : Tricot Polyamide
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+Linge considere : Tricot Elasthanne
+Service correspondant : lavage A eau
+Prix : 1000 FCFA
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Annonce/Consultation/PA_Consultation_Annonce
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG001');
+1 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Chemises Coton
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+2 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Chemises Lin
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+3 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Chemises Dentele
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+4 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Chemises Jeans
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+5 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Chemises Satin
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+6 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Chemises Pagne
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+7 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Tricot Coton
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+8 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Tricot Laine
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+9 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Tricot Polyamide
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+10 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Tricot Elasthanne
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG003');
+Cette agence ne propose aucune annonce !
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG002');
+1 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Pantalon Lin
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+2 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Pantalon Velours
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+3 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Pantalon Pagne
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+4 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Culotte Coton
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+5 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Culotte Laine
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+6 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Culotte Velours
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+7 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Culotte Pagne
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+8 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : BouBou Pagne
+Service correspondant : lavage simple
+Prix                  : 2500 FCFA
+9 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Robe Coton
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+10 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Robe Soie
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+11 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Robe Crepe
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+12 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Robe Dentele
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+13 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Robe Jeans
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+14 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Robe Satin
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+15 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Robe Velours
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Annonce/Consultation/PA_Consultation_Annonce
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG003');
+Cette agence ne propose aucune annonce !
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG002');
+1 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Pantalon Lin
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+Linge considere       : Pantalon Velours
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+Linge considere       : Pantalon Pagne
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+Linge considere       : Culotte Coton
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+Linge considere       : Culotte Laine
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+Linge considere       : Culotte Velours
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+Linge considere       : Culotte Pagne
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+Linge considere       : BouBou Pagne
+Service correspondant : lavage simple
+Prix                  : 2500 FCFA
+Linge considere       : Robe Coton
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+Linge considere       : Robe Soie
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+Linge considere       : Robe Crepe
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+Linge considere       : Robe Dentele
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+Linge considere       : Robe Jeans
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+Linge considere       : Robe Satin
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+Linge considere       : Robe Velours
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Annonce/Consultation/PA_Consultation_Annonce
+
+Package créé.
+
+
+Avertissement : Corps de package créé avec erreurs de compilation.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Annonce/Consultation/PA_Consultation_Annonce
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG001');
+1 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Chemises Coton
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Lin
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Dentele
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Jeans
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Satin
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Pagne
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Tricot Coton
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Tricot Laine
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Tricot Polyamide
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Tricot Elasthanne
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG003');
+Cette agence ne propose aucune annonce !
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> EXECUTE PA_CONSULTATION_ANNONCE.PO_CONSULTER_ANNONCE('AG002');
+1 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Pantalon Lin
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+__________________________________________________________________
+Linge considere       : Pantalon Velours
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+__________________________________________________________________
+Linge considere       : Pantalon Pagne
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+__________________________________________________________________
+Linge considere       : Culotte Coton
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+__________________________________________________________________
+Linge considere       : Culotte Laine
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+__________________________________________________________________
+Linge considere       : Culotte Velours
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+__________________________________________________________________
+Linge considere       : Culotte Pagne
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+__________________________________________________________________
+Linge considere       : BouBou Pagne
+Service correspondant : lavage simple
+Prix                  : 2500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Coton
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Soie
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Crepe
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Dentele
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Jeans
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Satin
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Velours
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
 SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consultater_Agence
 SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consultater_Agence.sql"
 SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_Agence
 
-Package crï¿½ï¿½.
+Package créé.
 
 
-Corps de package crï¿½ï¿½.
+Corps de package créé.
 
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_
+SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_.sql"
 SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
 
-Package crï¿½ï¿½.
+Package créé.
 
 
-Corps de package crï¿½ï¿½.
-
-SQL> @Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Linge_Agence
-SP2-0310: impossible d'ouvrir le fichier "Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Linge_Agence.sql"
-SQL> @Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence
-Veuillez entrer le nom du quartier ou se trouve l'agence : ï¿½ï¿½
-Entrez une valeur pour id_pressing : jo
-Cette agence n'existe pas dans ce pressing
-BEGIN PA_CONSULTATION_LINGE_AGENCE.PO_CONSULTER_LINGE_AGENCE(PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('ï¿½ï¿½', 'jo')); END;
-
-*
-ERREUR ï¿½ la ligne 1 :
-ORA-01001: curseur non valide
-ORA-06512: ï¿½ "OPENPRESSING.PA_CONSULTATION_LINGE_AGENCE", ligne 19
-ORA-06512: ï¿½ ligne 1
-
-
-A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
-
-1 ligne sï¿½lectionnï¿½e.
-
-Entrez une valeur pour id_pressing : K
-Ce pressing ne comporte aucune agence !
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
---------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
-
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-----------------------------------------------------------------------
-
-
-1 ligne sï¿½lectionnï¿½e.
-
-SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
-SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : &
-
-SCRIPT
-----------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/ERR_Choix.sql
-
-1 ligne sï¿½lectionnï¿½e.
-
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : A
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au dï¿½but de "--Conserva..."
-
-SCRIPT
----------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
-
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : 1
-
-SCRIPT
-----------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
-
-1 ligne sï¿½lectionnï¿½e.
-
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-presente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, presente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-presente dans le pays : Cameroun
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : Bodomo
-
-SCRIPT
---------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix
-
-1 ligne sï¿½lectionnï¿½e.
-
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : A
-SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au dï¿½but de "--Conserva..."
-
-SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
-
-1 ligne sï¿½lectionnï¿½e.
-
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-presente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, presente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-presente dans le pays : Cameroun
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 2
-
-SCRIPT
---------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
-ce
-
-
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez entrer le nom du quartier ou se trouve l'agence : Bodomo
-BEGIN PA_CONSULTATION_SERVICE_AGENCE.PO_CONSULTER_SERVICE_AGENCE(PA_CONSULTATION_AGENCE.FO_RETOURNER_ID_VIA_QUARTIER('Bodomo', 'PR001')); END;
-
-*
-ERREUR ï¿½ la ligne 1 :
-ORA-01001: curseur non valide
-ORA-06512: ï¿½ "OPENPRESSING.PA_CONSULTATION_SERVICE_AGENCE", ligne 19
-ORA-06512: ï¿½ ligne 1
-
-
-A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
-
-1 ligne sï¿½lectionnï¿½e.
-
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-presente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, presente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-presente dans le pays : Cameroun
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
---------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
-
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-----------------------------------------------------------------------
-
-
-1 ligne sï¿½lectionnï¿½e.
-
-SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
-SQL> describe PA_CONSULTATION_AGENCE
-FUNCTION FO_RETOURNER_ID_VIA_QUARTIER RETURNS VARCHAR2(50)
- Nom d'argument                  Type                    E/S par dï¿½faut ?
- ------------------------------ ----------------------- ------ --------
- NOM_QUARTIER                   VARCHAR2(50)            IN
- ID_PRESSING                    VARCHAR2(50)            IN
-PROCEDURE PO_CONSULTER_AGENCE
- Nom d'argument                  Type                    E/S par dï¿½faut ?
- ------------------------------ ----------------------- ------ --------
- ID_PRESSING                    VARCHAR2(50)            IN
-
-SQL> @Objets/Fonctionnalites/PLSQL/Agent/Consultation/PA_Consultation_Profil
-
-Package crï¿½ï¿½.
-
-
-Corps de package crï¿½ï¿½.
-
-SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_COnsulter_Agence
-
-Package crï¿½ï¿½.
-
-
-Corps de package crï¿½ï¿½.
+Corps de package créé.
 
 SQL> @Objets/Fonctionnalites/PLSQL/Service_Agence/Consultation/PA_Consultation_Service_Agence
 
-Package crï¿½ï¿½.
+Package créé.
 
 
-Corps de package crï¿½ï¿½.
+Corps de package créé.
 
 SQL> @Objets/Fonctionnalites/PLSQL/Linge_Agence/Consultation/PA_Consultation_Linge_Agence
 
-Package crï¿½ï¿½.
+Package créé.
 
 
-Corps de package crï¿½ï¿½.
-
-SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : 1
-
-SCRIPT
-----------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
-
-1 ligne sï¿½lectionnï¿½e.
-
-Entrez une valeur pour id_pressing : PR001
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-presente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, presente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-presente dans le pays : Cameroun
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 1
-
-SCRIPT
---------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents
-
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez entrer le nom du quartier ou se trouve l'agence : Bodomo
-Cette agence ne presente aucun agent !
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - CONSULTER LE PROFIL D'UN AGENT
-A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
-
-1 ligne sï¿½lectionnï¿½e.
-
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-presente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, presente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-presente dans le pays : Cameroun
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 2
-
-SCRIPT
---------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
-ce
-
-
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
-Cette agence ne dispose pas de service !
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
-
-1 ligne sï¿½lectionnï¿½e.
-
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-presente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, presente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-presente dans le pays : Cameroun
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 2
-
-SCRIPT
---------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
-ce
-
-
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez entrer le nom du quartier ou se trouve l'agence : Bodomo
-Cette agence ne dispose pas de service !
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
-
-1 ligne sï¿½lectionnï¿½e.
-
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-presente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, presente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-presente dans le pays : Cameroun
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 2
-
-SCRIPT
---------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
-ce
-
-
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
-Cette agence ne dispose pas de service !
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
-
-1 ligne sï¿½lectionnï¿½e.
-
-1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
-presente dans le pays : Cameroun
-2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
-Nkongsamba, presente dans le pays : Cameroun
-3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
-presente dans le pays : Cameroun
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-1 - la liste des agents
-2 - la liste des services d'une agence
-3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
-A - Retour
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
---------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
-
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-----------------------------------------------------------------------
-
-
-1 ligne sï¿½lectionnï¿½e.
-
-SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
-SQL> INSERT INTO SERVICE_AGENCE(id_agence, id_categorie, id_type, Date_ajout) VALUES ('AG006', 'CS003', 'TS010', TO_DATE('06/09/2020', 'dd/mm/yyyy'));
-
-1 ligne crï¿½ï¿½e.
+Corps de package créé.
 
 SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
@@ -2613,37 +2703,34 @@ SCRIPT
 ----------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
-Entrez une valeur pour id_pressing : PR003
-1 - Agence cree le 30/04/20 dans le quartier : Kotto, de la ville : Douala,
-presente dans le pays : Cameroun
-2 - Agence cree le 31/08/20 dans le quartier : Louma, de la ville : Kribi,
-presente dans le pays : Cameroun
-3 - Agence cree le 03/02/21 dans le quartier : Mile2, de la ville : Limbe,
+Entrez une valeur pour id_pressing : PR002
+1 - Agence cree le 01/12/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+2 - Agence cree le 26/04/20 dans le quartier : Louma, de la ville : Kribi,
 presente dans le pays : Cameroun
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
 3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
 A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 2
+Veuillez entrer le caractere correspondant a votre choix : 4
 
 SCRIPT
 --------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agen
-ce
+Objets/Fonctionnalites/SQLPLUS/Annonce/Consultation/EX_Liste_Annonce
 
-
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Louma
-1 - deboulochage simple ajoute le 06/09/20
+Cette agence ne propose aucune annonce !
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : A
@@ -2652,21 +2739,20 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
-1 - Agence cree le 30/04/20 dans le quartier : Kotto, de la ville : Douala,
-presente dans le pays : Cameroun
-2 - Agence cree le 31/08/20 dans le quartier : Louma, de la ville : Kribi,
-presente dans le pays : Cameroun
-3 - Agence cree le 03/02/21 dans le quartier : Mile2, de la ville : Limbe,
+1 - Agence cree le 01/12/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+2 - Agence cree le 26/04/20 dans le quartier : Louma, de la ville : Kribi,
 presente dans le pays : Cameroun
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
 3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
 A - Retour
 Veuillez entrer le caractere correspondant a votre choix : A
 
@@ -2674,34 +2760,8 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-----------------------------------------------------------------------
-
-
-1 ligne sï¿½lectionnï¿½e.
-
-SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
-SQL> INSERT INTO LINGE_AGENCE(id_agence, id_categorie, id_type, Date_ajout) VALUES ('AG001', 'CL001', 'TL000', TO_DATE('06/09/2020', 'dd/mm/yyyy'));
-INSERT INTO LINGE_AGENCE(id_agence, id_categorie, id_type, Date_ajout) VALUES ('AG001', 'CL001', 'TL000', TO_DATE('06/09/2020', 'dd/mm/yyyy'))
-*
-ERREUR ï¿½ la ligne 1 :
-ORA-02291: violation de contrainte d'intï¿½gritï¿½
-(OPENPRESSING.CE_LINGE_AGENCE_ID_CATEGORIE_ID_TYPE_LINGE) - clï¿½ parent
-introuvable
-
-
-SQL> INSERT INTO LINGE_AGENCE(id_agence, id_categorie, id_type, Date_ajout) VALUES ('AG001', 'CL001', 'TL001', TO_DATE('06/09/2020', 'dd/mm/yyyy'));
-
-1 ligne crï¿½ï¿½e.
-
-SQL> @Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
 1 - la liste des agences d'un pressing
 A - Sortir
@@ -2711,7 +2771,7 @@ SCRIPT
 ----------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
 Entrez une valeur pour id_pressing : PR001
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
@@ -2721,25 +2781,26 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
 3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
 A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 3
+Veuillez entrer le caractere correspondant a votre choix : 4
 
 SCRIPT
 --------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence
+Objets/Fonctionnalites/SQLPLUS/Annonce/Consultation/EX_Liste_Annonce
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
-Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
-1 - Chemises Coton ajoute le 06/09/20
+Veuillez entrer le nom du quartier ou se trouve l'agence : Bodomo
+Cette agence ne propose aucune annonce !
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : A
@@ -2748,7 +2809,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2757,12 +2818,194 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
 3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+--------------------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR002
+1 - Agence cree le 01/12/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+2 - Agence cree le 26/04/20 dans le quartier : Louma, de la ville : Kribi,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des linges que traite une agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 4
+
+SCRIPT
+--------------------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Annonce/Consultation/EX_Liste_Annonce
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
+Cette agence ne propose aucune annonce !
+
+Procédure PL/SQL terminée avec succès.
+
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 01/12/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+2 - Agence cree le 26/04/20 dans le quartier : Louma, de la ville : Kribi,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des linges que traite une agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+--------------------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des linges que traite une agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 4
+
+SCRIPT
+--------------------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Annonce/Consultation/EX_Liste_Annonce
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+1 - NOUS OFFRONS UN LAVAGE A EAU POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Chemises Coton
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Lin
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Dentele
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Jeans
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Satin
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Chemises Pagne
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Tricot Coton
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Tricot Laine
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Tricot Polyamide
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+Linge considere       : Tricot Elasthanne
+Service correspondant : lavage A eau
+Prix                  : 1000 FCFA
+__________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des linges que traite une agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
 A - Retour
 Veuillez entrer le caractere correspondant a votre choix : Eboum_Dja
 
@@ -2770,20 +3013,20 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
 CHOIX INCORRECT
 Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
 A - retour
 Veuillez entrer le caractere correspondant a votre choix : A
 SP2-0158: option SET inconnue "--Blockage"
-SP2-0735: option COLUMN inconnue au dï¿½but de "--Conserva..."
+SP2-0735: option COLUMN inconnue au début de "--Conserva..."
 
 SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2792,50 +3035,87 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
 3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
 A - Retour
-Veuillez entrer le caractere correspondant a votre choix : 3
+Veuillez entrer le caractere correspondant a votre choix : 4
 
 SCRIPT
 --------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence
+Objets/Fonctionnalites/SQLPLUS/Annonce/Consultation/EX_Liste_Annonce
 
-1 ligne sï¿½lectionnï¿½e.
-
-Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
-Cette agence ne traite aucun linge !
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-A - SORTIR
-Veuillez entrer le caractere correspondant a votre choix : D
-
-SCRIPT
-------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/ERR_Choix
-
-1 ligne sï¿½lectionnï¿½e.
-
-CHOIX INCORRECT
-Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
-A - retour
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-------------------------------------------------------------------------------
-Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence
-
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
 Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
-Cette agence ne traite aucun linge !
+1 - NOUS OFFRONS UN LAVAGE SIMPLE POUR TOUT TYPE DE CHEMISE, VESTE, PANTALON ET
+ROBE
+Linge considere       : Pantalon Lin
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+__________________________________________________________________
+Linge considere       : Pantalon Velours
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+__________________________________________________________________
+Linge considere       : Pantalon Pagne
+Service correspondant : lavage simple
+Prix                  : 800 FCFA
+__________________________________________________________________
+Linge considere       : Culotte Coton
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+__________________________________________________________________
+Linge considere       : Culotte Laine
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+__________________________________________________________________
+Linge considere       : Culotte Velours
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+__________________________________________________________________
+Linge considere       : Culotte Pagne
+Service correspondant : lavage simple
+Prix                  : 500 FCFA
+__________________________________________________________________
+Linge considere       : BouBou Pagne
+Service correspondant : lavage simple
+Prix                  : 2500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Coton
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Soie
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Crepe
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Dentele
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Jeans
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Satin
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
+Linge considere       : Robe Velours
+Service correspondant : lavage simple
+Prix                  : 1500 FCFA
+__________________________________________________________________
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 A - SORTIR
 Veuillez entrer le caractere correspondant a votre choix : A
@@ -2844,7 +3124,7 @@ SCRIPT
 ------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
 1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
 presente dans le pays : Cameroun
@@ -2853,12 +3133,13 @@ Nkongsamba, presente dans le pays : Cameroun
 3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
 presente dans le pays : Cameroun
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 1 - la liste des agents
 2 - la liste des services d'une agence
 3 - la liste des linges que traite une agence
-4 - la liste des annonces d'un agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
 A - Retour
 Veuillez entrer le caractere correspondant a votre choix : A
 
@@ -2866,18 +3147,7 @@ SCRIPT
 --------------------------------------------------------------------------------
 Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
 
-1 ligne sï¿½lectionnï¿½e.
+1 ligne sélectionnée.
 
-Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
-1 - la liste des agences d'un pressing
-A - Sortir
-Veuillez entrer le caractere correspondant a votre choix : A
-
-SCRIPT
-----------------------------------------------------------------------
-
-
-1 ligne sï¿½lectionnï¿½e.
-
-SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SP2-0309: imbrication des procédures de commandes SQL*Plus d'une profondeur de 20.
 SQL> exit
