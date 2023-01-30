@@ -6,7 +6,7 @@ INSERT INTO Categorie_Service
 VALUES
 (
     'CS001',
-    'A eau '
+    'A eau'
 );
 INSERT INTO Categorie_Service
 (
@@ -26,7 +26,7 @@ INSERT INTO Categorie_Service
 VALUES
 (
     'CS003',
-    ' simple'
+    'simple'
 );
 INSERT INTO Categorie_Service
 (
