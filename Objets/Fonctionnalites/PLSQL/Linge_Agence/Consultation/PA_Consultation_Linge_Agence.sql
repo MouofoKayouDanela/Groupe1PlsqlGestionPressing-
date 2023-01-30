@@ -19,6 +19,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_LINGE_AGENCE AS
         ;
         un_linge les_linges%ROWTYPE;
     BEGIN
+        OPEN les_linges;
         LOOP
             FETCH les_linges INTO un_linge;
             EXIT WHEN les_linges%NOTFOUND; 
@@ -32,6 +33,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_LINGE_AGENCE AS
         IF lignes_affiches = 0 THEN
             DBMS_OUTPUT.PUT_LINE('Cette agence ne traite aucun linge !');
         END IF;
+        CLOSE les_linges;
     END;
 END PA_CONSULTATION_LINGE_AGENCE;
 /

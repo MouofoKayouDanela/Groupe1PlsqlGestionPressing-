@@ -7,9 +7,9 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_SERVICE_AGENCE AS
         compteur PLS_INTEGER := 1;
         lignes_affiches PLS_INTEGER := 0;
         CURSOR les_services IS  SELECT  ts.intitule "intitule",
-                                    cs.nom "nom",
-                                    sa.date_Ajout "date_a",
-                                    sa.date_retrait "date_r"
+                                        cs.nom "nom",
+                                        sa.date_Ajout "date_a",
+                                        sa.date_retrait "date_r"
                                 FROM    SERVICE_AGENCE sa
                                 JOIN    TYPE_SERVICE ts
                                 ON      (sa.id_type = ts.id)
@@ -19,6 +19,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_SERVICE_AGENCE AS
         ;
         un_service les_services%ROWTYPE;
     BEGIN
+        OPEN les_services;
         LOOP
             FETCH les_services INTO un_service;
             EXIT WHEN les_services%NOTFOUND; 
@@ -32,6 +33,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_SERVICE_AGENCE AS
         IF lignes_affiches = 0 THEN
             DBMS_OUTPUT.PUT_LINE('Cette agence ne dispose pas de service !');
         END IF;
+        CLOSE les_services;
     END;
 END PA_CONSULTATION_SERVICE_AGENCE;
 /
