@@ -13,6 +13,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONNEXION_UTILISATEUR AS
       mot_de_passe UTILISATEUR.Mot_de_passe%TYPE
     ) RETURN VARCHAR2 
     IS
+    -- curseur permettant de rechercher le mot de passe et le nom d'utilisateur de l'utilisateur-- 
     CURSOR CUR IS
        SELECT id
        FROM UTILISATEUR ut
@@ -22,10 +23,10 @@ CREATE OR REPLACE PACKAGE BODY PA_CONNEXION_UTILISATEUR AS
     BEGIN
        OPEN CUR;
        FETCH CUR INTO IDENTIFIANT;
+       --ligne permettant d'authentifier l'utilisateur--
        IF CUR%NOTFOUND THEN
           DBMS_OUTPUT.PUT_LINE('Nom d''utilisateur ou mot de passe incorrect');
-       ELSE
-             DBMS_OUTPUT.PUT_LINE(' vous êtes connecté');
+
            END IF;
         CLOSE CUR   ;
         RETURN IDENTIFIANT;
@@ -33,9 +34,22 @@ CREATE OR REPLACE PACKAGE BODY PA_CONNEXION_UTILISATEUR AS
     END PA_CONNEXION_UTILISATEUR;
     /
 DECLARE 
+    validite VARCHAR2(255);
     IdActif VARCHAR2 (255) :=PA_CONNEXION_UTILISATEUR.Verif_utilisateur('&nomUtilisateur','&motPasse');
+   CURSOR cus IS
+   SELECT statut
+   FROM UTILISATEUR
+   WHERE id=IdActif;
 BEGIN
-    DBMS_OUTPUT.PUT_LINE('');
+   OPEN cus;
+   FETCH cus INTO validite;
+  --verification du statut de l'utilisateur étant authentifier--
+   if validite= 'actif'THEN
+   DBMS_OUTPUT.PUT_LINE('Vous etes connecte');
+   elsif validite='bloqué' THEN
+     DBMS_OUTPUT.PUT_LINE('Vous ne ouvez pas vous connecter car vous avez ete bloque');
+    END IF;
+    CLOSE cus; 
 END;
 /
 

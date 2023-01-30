@@ -1,19 +1,21 @@
-EXECUTE PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE('&id_pressing')
+EXECUTE PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE('&&id_pressing')
 PROMPT              1 - la liste des agents
 PROMPT              2 - la liste des services d'une agence
-PROMPT              3 - la liste des annonces d'un agence
+PROMPT              3 - la liste des linges que traite une agence
+PROMPT              4 - la liste des annonces d'un agence
 PROMPT              A - Retour
 ACCEPT mon_choix CHAR PROMPT 'Veuillez entrer le caractere correspondant a votre choix : '
-SET TERM OFF --Blockage de l'affichage du resultat de l'instruction select
+SET TERM OFF
 SET SERVEROUTPUT ON
-COLUMN script NEW_VALUE v_script --Conservation de la valeur de la variable script dans la variable v_script
+COLUMN script NEW_VALUE v_script 
 SELECT CASE '&mon_choix'
-            WHEN '1' THEN ''
-            WHEN '2' THEN ''
-            WHEN '3' THEN ''
-            WHEN 'A' THEN 'Objets/Fonctionalites/SQLPLUS/Pressing/Consultation/Menu'
-            ELSE 'Objets/Fonctionnalite/SQLPLUS/Agence/Consultation/ERR_Choix'
-        END AS script -- recuperation du chemin d'accès menant à la fonctionnalité recherché
+            WHEN '1' THEN 'Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents'
+            WHEN '2' THEN 'Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agence'
+            WHEN '3' THEN 'Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence' 
+            WHEN '4' THEN ''
+            WHEN 'A' THEN 'Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu'
+            ELSE 'Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix'
+        END script
 FROM DUAL;
-SET TERM ON --Deblockage de l'affichage des résultats de sélection
-@&v_script --Execution du chemin d'accès de la fonctionnalité choisie
+SET TERM ON
+@&v_script
