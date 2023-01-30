@@ -11,7 +11,7 @@ COLUMN script NEW_VALUE v_script
 SELECT CASE '&mon_choix'
             WHEN '1' THEN 'Objets/Fonctionnalites/SQLPLUS/Agent/Consultation/EX_Liste_Agents'
             WHEN '2' THEN 'Objets/Fonctionnalites/SQLPLUS/Service_Agence/Consultation/EX_Liste_Service_Agence'
-            WHEN '3' THEN '' 
+            WHEN '3' THEN 'Objets/Fonctionnalites/SQLPLUS/Linge_Agence/Consultation/EX_Liste_Linge_Agence' 
             WHEN '4' THEN ''
             WHEN 'A' THEN 'Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu'
             ELSE 'Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/ERR_Choix'
