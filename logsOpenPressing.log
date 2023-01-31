@@ -2134,34 +2134,26 @@ Package créé.
 
 Corps de package créé.
 
-SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG001')
+SQL> insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (sq_promotion.nexval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime');
+insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (sq_promotion.nexval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime')
+                                                                                                                                                                                                                                *
+ERREUR à la ligne 1 :
+ORA-00984: un nom de colonne n'est pas autorisé ici
 
-Procédure PL/SQL terminée avec succès.
 
-SQL> SET SERVEROUTPUT ON
-SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG001')
-Cette agence ne propose aucune promotion !
+SQL> insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (sq_promotion.nextval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime');
+insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (sq_promotion.nextval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime')
+                                                                                                                                                                                                                   *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas
 
-Procédure PL/SQL terminée avec succès.
 
-SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG002')
-Cette agence ne propose aucune promotion !
+SQL> insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (seq_promotion.nextval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime');
+insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (seq_promotion.nextval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime')
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (OPENPRESSING.CE_PROMOTION_ID) -
+clé parent introuvable
 
-Procédure PL/SQL terminée avec succès.
-
-SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG003')
-Cette agence ne propose aucune promotion !
-
-Procédure PL/SQL terminée avec succès.
-
-SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG004')
-Cette agence ne propose aucune promotion !
-
-Procédure PL/SQL terminée avec succès.
-
-SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG005')
-Cette agence ne propose aucune promotion !
-
-Procédure PL/SQL terminée avec succès.
 
 SQL> exit
