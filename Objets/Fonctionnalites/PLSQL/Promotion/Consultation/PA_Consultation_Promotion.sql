@@ -37,18 +37,18 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_PROMOTION AS
             FETCH les_promotions INTO une_promotion;
             EXIT WHEN les_promotions%NOTFOUND;
             IF une_promotion."statut" IS NULL AND 
-               une_promotion."date_exp" <= TO_DATE(CURRENT_DATE, 'dd/mm/yyyy') THEN
-                DBMS_OUTPUT.PUT_LINE('PROMOTION N°'||compteur);
+               une_promotion."date_exp" >= TO_DATE(CURRENT_DATE, 'dd/mm/yyyy') THEN
+                DBMS_OUTPUT.PUT_LINE('PROMOTION NUMERO '||compteur);
                 DBMS_OUTPUT.PUT_LINE('Linge considere                               : '
                                     ||une_promotion."type_linge"||' '||une_promotion."cat_linge");
                 DBMS_OUTPUT.PUT_LINE('Service correspondant                         : '
                                     ||une_promotion."type_service"||' '||une_promotion."cat_service");
                 DBMS_OUTPUT.PUT_LINE('Prix unitaire du service                      : '
-                                    ||une_promotion."prit_unit");
+                                    ||une_promotion."prit_unit"||' FCFA');
                 DBMS_OUTPUT.PUT_LINE('Quantite minimale beneficiant de la promotion : '
                                     ||une_promotion."quantite");
                 DBMS_OUTPUT.PUT_LINE('Pourcentage de reduction                      : '
-                                    ||une_promotion."pourcent_ret"||'%');
+                                    ||une_promotion."pourcent_ret"||' %');
                 DBMS_OUTPUT.PUT_LINE('Date d''expiration de la promotion            : '
                                     ||une_promotion."date_exp");
                 DBMS_OUTPUT.PUT_LINE('_________________________________________________________________');
