@@ -1,0 +1,34 @@
+SET serveroutput on;
+CREATE OR REPLACE PACKAGE PACK_PRESSING AS
+FUNCTION Verifier(NOM_PRESSING Pressing.Nom%TYPE, ID_PRESSING Pressing.id%TYPE)
+RETURN VARCHAR2;
+END PACK_PRESSING;
+/
+CREATE OR REPLACE PACKAGE BODY PACK_PRESSING AS
+FUNCTION Verifier(NOM_PRESSING Pressing.Nom%TYPE, ID_PRESSING Pressing.id%TYPE)
+RETURN VARCHAR2 IS
+tourne VARCHAR2(10);
+CURSOR tourne IS
+SELECT id
+FROM Pressing
+WHERE Nom="&NOM_PRESSING";
+DONNEES VARCHAR2(10);
+BEGIN
+OPEN tourne;
+FETCH tourne
+INTO DONNEES;
+IF RUN%NOTFOUND THEN
+                    DBMS_OUTPUT.PUT_LINE('Pressing Not exist');
+                ELSE
+                    DBMS_OUTPUT.PUT_LINE('Pressing exist');
+                END IF;
+            CLOSE RUN;
+            RETURN DONNEES; 
+    RETURN (tourne);
+    END Verifier;
+END PACK_PRESSING;
+/
+DECLARE 
+DELETE FROM PRESSING cascade WHERE Nom='&Nom';
+END;
+/
