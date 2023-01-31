@@ -2030,6 +2030,12 @@ de la table offre
 1 ligne créée.
 
 de la table promotion
+
+1 ligne créée.
+
+
+1 ligne créée.
+
 de la table client
 
 1 ligne créée.
@@ -2125,8 +2131,61 @@ de la table commande
 
 1 ligne créée.
 
-SQL> @Objets/FOnctionnalites/Promotion/Consultation/PA_Consultation_Promotion
-SP2-0310: impossible d'ouvrir le fichier "Objets/FOnctionnalites/Promotion/Consultation/PA_Consultation_Promotion.sql"
+SQL> select * from promotion;
+
+ID                                                   QUANTITE
+-------------------------------------------------- ----------
+POURCENTAGE_RETRAIT DATE_CRE DATE_EXP
+------------------- -------- --------
+ID_CATEGORIE_LINGE
+--------------------------------------------------
+ID_TYPE_LINGE
+--------------------------------------------------
+ID_CATEGORIE_SERVICE
+--------------------------------------------------
+ID_TYPE_SERVICE
+--------------------------------------------------
+ID_AGENCE_LINGE                                    PRIX_UNITAIRE
+-------------------------------------------------- -------------
+STATUT
+--------------------------------------------------
+PO001                                                       2
+                  4 17/01/20 31/01/20
+CL001
+TL001
+CS001
+TS002
+AG001                                                       1000
+
+
+PO002                                                      12
+                2,5 17/01/23 31/01/23
+CL002
+TL003
+CS003
+TS002
+AG002                                                        800
+
+
+
+2 lignes sélectionnées.
+
+SQL> describe promotion
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL VARCHAR2(50)
+ QUANTITE                                  NOT NULL NUMBER(38)
+ POURCENTAGE_RETRAIT                       NOT NULL FLOAT(126)
+ DATE_CREATION                             NOT NULL DATE
+ DATE_EXPIRATION                           NOT NULL DATE
+ ID_CATEGORIE_LINGE                        NOT NULL VARCHAR2(50)
+ ID_TYPE_LINGE                             NOT NULL VARCHAR2(50)
+ ID_CATEGORIE_SERVICE                      NOT NULL VARCHAR2(50)
+ ID_TYPE_SERVICE                           NOT NULL VARCHAR2(50)
+ ID_AGENCE_LINGE                           NOT NULL VARCHAR2(50)
+ PRIX_UNITAIRE                             NOT NULL FLOAT(126)
+ STATUT                                             VARCHAR2(50)
+
 SQL> @Objets/Fonctionnalites/PLSQL/Promotion/Consultation/PA_Consultation_Promotion
 
 Package créé.
@@ -2134,26 +2193,355 @@ Package créé.
 
 Corps de package créé.
 
-SQL> insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (sq_promotion.nexval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime');
-insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (sq_promotion.nexval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime')
-                                                                                                                                                                                                                                *
-ERREUR à la ligne 1 :
-ORA-00984: un nom de colonne n'est pas autorisé ici
+SQL> insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (seq_promotion.nextval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL002', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime');
 
-
-SQL> insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (sq_promotion.nextval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime');
-insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (sq_promotion.nextval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime')
-                                                                                                                                                                                                                   *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas
-
+1 ligne créée.
 
 SQL> insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (seq_promotion.nextval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime');
-insert into promotion(id, quantite, pourcentage_retrait, date_creation, date_expiration, id_categorie_linge, id_categorie_service, id_type_linge, id_type_service, id_agence_linge, prix_unitaire, statut) values (seq_promotion.nextval, 23, 1.6, to_date(current_date, 'dd/mm/yyyy'), to_date(current_date + 7, 'dd/mm/yyyy'), 'CL001', 'CS001', 'TL001', 'TS002', 'AG001', 1000, 'supprime')
-*
-ERREUR à la ligne 1 :
-ORA-02291: violation de contrainte d'intégrité (OPENPRESSING.CE_PROMOTION_ID) -
-clé parent introuvable
 
+1 ligne créée.
+
+SQL> select * from promotion;
+
+ID                                                   QUANTITE
+-------------------------------------------------- ----------
+POURCENTAGE_RETRAIT DATE_CRE DATE_EXP
+------------------- -------- --------
+ID_CATEGORIE_LINGE
+--------------------------------------------------
+ID_TYPE_LINGE
+--------------------------------------------------
+ID_CATEGORIE_SERVICE
+--------------------------------------------------
+ID_TYPE_SERVICE
+--------------------------------------------------
+ID_AGENCE_LINGE                                    PRIX_UNITAIRE
+-------------------------------------------------- -------------
+STATUT
+--------------------------------------------------
+PO001                                                       2
+                  4 17/01/20 31/01/20
+CL001
+TL001
+CS001
+TS002
+AG001                                                       1000
+
+
+PO002                                                      12
+                2,5 17/01/23 31/01/23
+CL002
+TL003
+CS003
+TS002
+AG002                                                        800
+
+
+3                                                          23
+                1,6 31/01/23 07/02/23
+CL002
+TL001
+CS001
+TS002
+AG001                                                       1000
+supprime
+
+4                                                          23
+                1,6 31/01/23 07/02/23
+CL001
+TL001
+CS001
+TS002
+AG001                                                       1000
+supprime
+
+
+4 lignes sélectionnées.
+
+SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG001')
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> set serveroutput on
+SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG001')
+Cette agence ne propose aucune promotion !
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Promotion/Consultation/PA_Consultation_Promotion
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG001')
+PROMOTION NÂ°1
+Linge considere                               : Chemises Coton
+Service correspondant                         : lavage A eau
+Prix unitaire du service                      : 1000
+Quantite minimale beneficiant de la promotion : 2
+Pourcentage de reduction                      : 4%
+Date d'expiration de la promotion            : 31/01/20
+_________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Promotion/Consultation/PA_Consultation_Promotion
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG001')
+PROMOTION NUMERO1
+Linge considere                               : Chemises Coton
+Service correspondant                         : lavage A eau
+Prix unitaire du service                      : 1000
+Quantite minimale beneficiant de la promotion : 2
+Pourcentage de reduction                      : 4%
+Date d'expiration de la promotion            : 31/01/20
+_________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Promotion/Consultation/PA_Consultation_Promotion
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG001')
+PROMOTION NUMERO 1
+Linge considere                               : Chemises Coton
+Service correspondant                         : lavage A eau
+Prix unitaire du service                      : 1000
+Quantite minimale beneficiant de la promotion : 2
+Pourcentage de reduction                      : 4%
+Date d'expiration de la promotion            : 31/01/20
+_________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/Fonctionnalites/PLSQL/Promotion/Consultation/PA_Consultation_Promotion
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG001')
+PROMOTION NUMERO 1
+Linge considere                               : Chemises Coton
+Service correspondant                         : lavage A eau
+Prix unitaire du service                      : 1000 FCFA
+Quantite minimale beneficiant de la promotion : 2
+Pourcentage de reduction                      : 4 %
+Date d'expiration de la promotion            : 31/01/20
+_________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> EXECUTE PA_CONSULTATION_PROMOTION.PO_CONSULTER_PROMOTION('AG002')
+PROMOTION NUMERO 1
+Linge considere                               : Pantalon Lin
+Service correspondant                         : lavage simple
+Prix unitaire du service                      : 800 FCFA
+Quantite minimale beneficiant de la promotion : 12
+Pourcentage de reduction                      : 2,5 %
+Date d'expiration de la promotion            : 31/01/23
+_________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
+SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+BEGIN PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE('PR001'); END;
+
+      *
+ERREUR à la ligne 1 :
+ORA-06550: Ligne 1, colonne 7 :
+PLS-00201: l'identificateur 'PA_CONSULTATION_AGENCE.PO_CONSULTER_AGENCE' doit
+être déclaré
+ORA-06550: Ligne 1, colonne 7 :
+PL/SQL: Statement ignored
+
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des linges que traite une agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+--------------------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
+
+SQL> @Objets/FOnctionnalites/SQLPLUS/Pressing/COnsultation/Menu
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : 1
+
+SCRIPT
+----------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence.sql
+
+1 ligne sélectionnée.
+
+Entrez une valeur pour id_pressing : PR001
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des linges que traite une agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : 5
+
+SCRIPT
+--------------------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Promotion/Consultation/EX_Liste_Promotion
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Abobogo
+PROMOTION NUMERO 1
+Linge considere                               : Chemises Coton
+Service correspondant                         : lavage A eau
+Prix unitaire du service                      : 1000 FCFA
+Quantite minimale beneficiant de la promotion : 2
+Pourcentage de reduction                      : 4 %
+Date d'expiration de la promotion            : 31/01/20
+_________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : E
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Promotion/Consultation/ERR_Choix
+
+1 ligne sélectionnée.
+
+CHOIX INCORRECT
+Vous devez operer un choix se trouvant dans la liste qui vous a ete propose !
+A - retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Promotion/Consultation/EX_Liste_Promotion
+
+1 ligne sélectionnée.
+
+Veuillez entrer le nom du quartier ou se trouve l'agence : Eboum_Dja
+PROMOTION NUMERO 1
+Linge considere                               : Pantalon Lin
+Service correspondant                         : lavage simple
+Prix unitaire du service                      : 800 FCFA
+Quantite minimale beneficiant de la promotion : 12
+Pourcentage de reduction                      : 2,5 %
+Date d'expiration de la promotion            : 31/01/23
+_________________________________________________________________
+
+Procédure PL/SQL terminée avec succès.
+
+A - SORTIR
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Agence/Consultation/EX_Liste_Agence
+
+1 ligne sélectionnée.
+
+1 - Agence cree le 17/01/19 dans le quartier : Abobogo, de la ville : Yaounde,
+presente dans le pays : Cameroun
+2 - Agence cree le 09/11/19 dans le quartier : Eboum_Dja, de la ville :
+Nkongsamba, presente dans le pays : Cameroun
+3 - Agence cree le 24/05/22 dans le quartier : Bodomo, de la ville : Bertoua,
+presente dans le pays : Cameroun
+
+Procédure PL/SQL terminée avec succès.
+
+1 - la liste des agents
+2 - la liste des services d'une agence
+3 - la liste des linges que traite une agence
+4 - la liste des annonces d'une agence
+5 - la liste des promotion d'une agence
+A - Retour
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+--------------------------------------------------------------------------------
+Objets/Fonctionnalites/SQLPLUS/Pressing/Consultation/Menu
+
+1 ligne sélectionnée.
+
+Veuillez choisir parmi cette liste, ce que vous souhaiter consulter
+1 - la liste des agences d'un pressing
+A - Sortir
+Veuillez entrer le caractere correspondant a votre choix : A
+
+SCRIPT
+----------------------------------------------------------------------
+
+
+1 ligne sélectionnée.
+
+SP2-1506: La commande START, @ ou @@ n'a pas d'arguments
+SQL> @Objets/Fonctionnalites/PLSQL/Agence/Consultation/PA_Consulter_Agence
+
+Package créé.
+
+
+Corps de package créé.
 
 SQL> exit
