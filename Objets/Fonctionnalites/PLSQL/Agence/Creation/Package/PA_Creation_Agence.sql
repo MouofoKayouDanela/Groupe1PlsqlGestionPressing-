@@ -94,35 +94,36 @@ RETURN VARCHAR2;
 RETURN VARCHAR2;
 END PACK_AGENCES_CREATION;
 CREATE OR REPLACE PACKAGE PACK_AGENCES_CREATION AS
-    PROCEDURE AFFICHE_VILLE(nom_pays PAYS.nom%TYPE) IS
-    VALEUR_pays VARCHAR2
+    PROCEDURE AFFICHE_VILLE(Nom PAYS.Nom%TYPE) IS
+    VALEUR_pays VARCHAR2(255);
         BEGIN
-            SELECT id_pays, nom_ville
+            SELECT id_pays, Nom
             INTO Valeur_pays
             FROM Pays
-            WHERE nom_pays = nom_pays
-                                (SELECT nom_ville
-                                FROM VILLE;
-                                JOIN Pays
-                                ON (Vi.nom_pays= Pa.nom)
-                                WHERE (Pa.nom = Valeur_pays));
-            
+            WHERE Nom = Nom
+                        ((SELECT Nom
+                        FROM VILLE
+                        JOIN Pays
+                        ON (Vi.Nom= Pa.Nom)
+                        WHERE (Pa.Nom = Valeur_pays)));
         END;
 /
+CREATE OR REPLACE PACKAGE PACK_AGENCES_CREATION AS
     PROCEDURE AFFICHE_QUARTIER(nom_ville Ville.nom%TYPE) IS
-    Valeur_ville VARCHAR2
+    Valeur_ville VARCHAR2(255);
         BEGIN
              SELECT id_ville, nom_quartier
             INTO Valeur_ville
             FROM VILLE
             WHERE nom_ville = nom_ville
-                                (SELECT nom_quartier
-                                FROM QUARTIER;
+                                ((SELECT nom_quartier,
+                                FROM QUARTIER
                                 JOIN VILLE
                                 ON (Qu.nom_ville = Vi.nom)
-                                WHERE(Vi.no = Valeur_ville));            
+                                WHERE(Vi.no = Valeur_ville)));            
         END;
         /
+CREATE OR REPLACE PACKAGE PACK_AGENCES_CREATION AS
     PROCEDURE AFFICHE_PRESSING(nom_proprietaire Proprietaire.nom%TYPE) IS
     Valeur_proprietaire varchar2
         BEGIN
@@ -130,10 +131,68 @@ CREATE OR REPLACE PACKAGE PACK_AGENCES_CREATION AS
             INTO Valeur_proprietaire
             FROM Proprietaire
             WHERE nom_proprietaire = nom_proprietaire;
-                                (SELECT nom_pressing
+                                ((SELECT nom_pressing
                                 FROM PRESSING;
                                 JOIN Proprietaire
                                 ON (Pres.nom_proprietaire = Pro.nom)
-                                WHERE(Pro.nom = Valeur_proprietaire));         
+                                WHERE(Pro.nom = Valeur_proprietaire)));         
         END;
+/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SET SERVEROUTPUT ON;
+CREATE OR REPLACE PACKAGE PACK_AGENCES_CREATION as
+    PROCEDURE AFFICHE_VILLE (Nom_Pays Pays.Nom%TYPE);
+    /*PROCEDURE AFFICHE_QUARTIER (Nom_ville Ville.Nom%TYPE);*/
+END PACK_AGENCES_CREATION;
+/
+CREATE OR REPLACE PACKAGE BODY PACK_AGENCES_CREATION AS
+    PROCEDURE AFFICHE_VILLE (Nom_Pays Pays.Nom%TYPE) IS
+    Compt PLS_INTEGER:=1;
+        CURSOR Curs IS
+            SELECT id
+            /*INTO Valeur_pays*/
+            FROM Pays
+            WHERE nom = nom_pays;    
+        Valeur VARCHAR2 (255);
+        BEGIN
+        OPEN Curs;
+            FETCH Curs
+                INTO Valeur;
+                    IF Curs%NOTFOUND THEN
+                         DBMS_OUTPUT.PUT_LINE('existe pas');
+                    ELSE
+                        DBMS_OUTPUT.PUT_LINE('les differences villes du pays selectionnes sont: ');
+                        FOR une_ville IN(
+                            SELECT Vi.nom "Nom"
+                            FROM Ville Vi
+                            JOIN Pays Pa
+                            on(Vi.id_pays=Pa.id)
+                            WHERE Vi.nom=AFFICHE_VILLE.Nom_Pays
+                            )
+                            LOOP
+                            DBMS_OUTPUT.PUT_LINE(Compt||'- le nom de la ville est:'||une_ville."Nom");
+                            Compt :=Compt+1; 
+                        END LOOP;
+                    END IF;
+        CLOSE Curs;
+    END AFFICHE_VILLE;
+END PACK_AGENCES_CREATION;
 /
