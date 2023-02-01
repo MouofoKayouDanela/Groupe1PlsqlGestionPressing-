@@ -8,6 +8,7 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENCE AS
     PROCEDURE PO_CONSULTER_AGENCE(id_pressing PRESSING.id%TYPE) IS
         compteur PLS_INTEGER := 1;
         CURSOR les_agences IS   SELECT  ag.date_creation "date_crea",
+                                        ag.statut "statut",
                                         qu.nom "quartier",
                                         vi.nom "ville",
                                         pa.nom "pays"
@@ -26,10 +27,12 @@ CREATE OR REPLACE PACKAGE BODY PA_CONSULTATION_AGENCE AS
             LOOP 
                 FETCH les_agences INTO une_agence;
                 EXIT WHEN les_agences%NOTFOUND;
-                DBMS_OUTPUT.PUT_LINE(compteur||' - Agence cree le '||une_agence."date_crea"
-                                    ||' dans le quartier : '||une_agence."quartier"||', de la ville : '
-                                    ||une_agence."ville"||', presente dans le pays : '||une_agence."pays");
-                compteur := compteur + 1;
+                IF une_agence."statut" IS NULL THEN
+                    DBMS_OUTPUT.PUT_LINE(compteur||' - Agence cree le '||une_agence."date_crea"
+                                        ||' dans le quartier : '||une_agence."quartier"||', de la ville : '
+                                        ||une_agence."ville"||', presente dans le pays : '||une_agence."pays");
+                    compteur := compteur + 1;
+                END IF;
             END LOOP;
             IF les_agences%ROWCOUNT = 0 THEN
                 DBMS_OUTPUT.PUT_LINE('Ce pressing ne comporte aucune agence !');

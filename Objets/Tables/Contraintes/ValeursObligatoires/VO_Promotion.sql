@@ -5,9 +5,9 @@ ALTER  TABLE PROMOTION
  MODIFY   date_Creation DATE NOT NULL
  MODIFY   date_Expiration DATE NOT NULL
  MODIFY   id_categorie_linge VARCHAR2(50) NOT NULL
- MODIFY   id_categorie_Service VARCHAR2(50) NOT NULL
  MODIFY    id_type_linge VARCHAR2(50) NOT NULL
+ MODIFY   id_categorie_Service VARCHAR2(50) NOT NULL
  MODIFY   id_type_service VARCHAR2(50) NOT NULL 
  MODIFY   id_agence_Linge  VARCHAR2(50) NOT NULL
- MODIFY   prix_unitaire FLOAT NOT NULL   
+ MODIFY   prix_unitaire FLOAT NOT NULL  
 ;

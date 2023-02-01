@@ -260,8 +260,7 @@ INSERT INTO OFFRE
    id_annonce 
 )   
 VALUES
-(
-    'CL002',
+( 'CL002',
     'CS003',
     'TL003',
     'AG002',
