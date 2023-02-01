@@ -14,6 +14,3 @@ CREATE OR REPLACE FUNCTION Generate_id(sequence_table INT,prefixe_initial varcha
 RETURN ID_FINAL;
 END ;  
 /
-
-     
-
