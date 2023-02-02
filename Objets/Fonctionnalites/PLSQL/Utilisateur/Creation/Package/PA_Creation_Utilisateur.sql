@@ -9,8 +9,7 @@ CREATE OR REPLACE PACKAGE PA_UTILISATEUR AS --Entete du package de creation d'un
         MAIL_USER UTILISATEUR.Email%TYPE,
         PHONE_USER UTILISATEUR.Telephone%TYPE,
         USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
-        PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
-        STATUT_USER UTILISATEUR.Statut%TYPE
+        PASSWORDS UTILISATEUR.Mot_de_passe%TYPE
         );
     FUNCTION Verify_mail         --Appel de la fonction associee de verification de l'email
         (mail UTILISATEUR.Email%TYPE) RETURN VARCHAR2;
@@ -27,8 +26,7 @@ CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS     --corps du package
         MAIL_USER UTILISATEUR.Email%TYPE,
         PHONE_USER UTILISATEUR.Telephone%TYPE,
         USERNAME UTILISATEUR.Nom_utilisateur%TYPE,
-        PASSWORDS UTILISATEUR.Mot_de_passe%TYPE,
-        STATUT_USER UTILISATEUR.Statut%TYPE
+        PASSWORDS UTILISATEUR.Mot_de_passe%TYPE
     )       
     IS 
     BEGIN
@@ -40,9 +38,8 @@ CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS     --corps du package
                             Email,
                             Telephone,
                             Nom_utilisateur,
-                            Mot_de_passe,
-                            Statut)
-    VALUES (ID_USER, 
+                            Mot_de_passe)
+    VALUES (Generate_id(seq_utilisateur.NEXTVAL,'UT'), 
             NOM_USER, 
             PRENOM_USER, 
             GENRE_USER,
@@ -50,8 +47,7 @@ CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS     --corps du package
             MAIL_USER,
             PHONE_USER,
             USERNAME,
-            PASSWORDS,
-            STATUT_USER);
+            PASSWORDS);
     END Add_user; 
     FUNCTION Verify_mail 
     (mail UTILISATEUR.Email%TYPE) 
@@ -76,21 +72,3 @@ CREATE OR REPLACE PACKAGE BODY PA_UTILISATEUR AS     --corps du package
     END Verify_mail;      
 END PA_UTILISATEUR;
 / 
-DECLARE   --main ou partie de declaration du package
-Resultat VARCHAR2(255) := PA_UTILISATEUR.Verify_mail('Valeur');
-BEGIN
-    PA_UTILISATEUR.Add_user    --declaration de la procedure avec les variables de substitution
-    (
-        'UT ||seq_utilisateur.NEXTVAL',
-        '&Votre_nom',
-        '&Votre_prenom',
-        '&Votre_genre',
-        '&Date_naissance',
-        '&Email_utilisateur',
-        TO_NUMBER('&Votre_Telephone'),
-        '&Nom_utilisateur',
-        '&Mot_de_passe',
-        'Actif'
-    );
-END;
-/

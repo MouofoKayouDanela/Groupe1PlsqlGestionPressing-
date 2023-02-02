@@ -10,7 +10,7 @@ END PA_CONNEXION_UTILISATEUR ;
 CREATE OR REPLACE PACKAGE BODY PA_CONNEXION_UTILISATEUR AS
     FUNCTION Verif_utilisateur(
       nom_utilisateur UTILISATEUR.Nom_utilisateur%TYPE,
-      mot_de_passe UTILISATEUR.Mot_de_passe%TYPE
+      mot_de_passe UTILISATEUR.Mot_de_passe%TYPEI
     ) RETURN VARCHAR2 
     IS
     -- curseur permettant de rechercher le mot de passe et le nom d'utilisateur de l'utilisateur-- 
@@ -44,7 +44,7 @@ BEGIN
    OPEN cus;
    FETCH cus INTO validite;
   --verification du statut de l'utilisateur étant authentifier--
-   if validite= 'actif'THEN
+   if validite!= 'bloque'THEN
    DBMS_OUTPUT.PUT_LINE('Vous etes connecte');
    elsif validite='bloqué' THEN
      DBMS_OUTPUT.PUT_LINE('Vous ne ouvez pas vous connecter car vous avez ete bloque');

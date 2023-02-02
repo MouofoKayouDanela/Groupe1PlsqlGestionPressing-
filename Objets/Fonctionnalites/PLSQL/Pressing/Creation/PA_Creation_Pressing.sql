@@ -17,7 +17,7 @@ CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS     --corps du package
         DateCreation_PRESS PRESSING.date_creation%TYPE,
         IdProprietaire_PRESS PRESSING.id_proprietaire%TYPE
     )       
-    IS 
+    IS                                                                          
     BEGIN
     INSERT INTO PRESSING 
         (
@@ -28,10 +28,10 @@ CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS     --corps du package
         )
     VALUES
         (
-            ID_PRESS, 
+            Generate_id(seq_pressing.NEXTVAL,'PR'), 
             NOM_PRESS, 
-            DateCreation_PRESS, 
-            IdProprietaire_PRESS
+            TO_DATE(CURRENT_DATE,'dd/mm/yyyy'), 
+            Generate_id(seq_utilisateur.CURRVAL,'UT')
         );
     END Add_pressing; 
     FUNCTION Verif_nom_pressing 
@@ -56,16 +56,4 @@ CREATE OR REPLACE PACKAGE BODY PA_PRESSING AS     --corps du package
         RETURN Valeur;
     END Verif_nom_pressing;   
 END PA_PRESSING;
-/ 
-DECLARE             --main ou partie de declaration du package
-Resultat VARCHAR2(255) := PA_PRESSING.Verif_nom_pressing('Valeur');
-BEGIN
-    PA_PRESSING.Add_pressing         --declaration de la procedure avec les variables de substitution
-    (
-        'PR||seq_pressing.NEXTVAL',
-        '&Nom_du_pressing',
-        SYSDATE,
-        'UT||seq_utilisateur.NEXTVAL'
-    );
-END;
 /        
