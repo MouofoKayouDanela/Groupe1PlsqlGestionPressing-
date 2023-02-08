@@ -44,7 +44,7 @@ BEGIN
    OPEN cus;
    FETCH cus INTO validite;
   --verification du statut de l'utilisateur étant authentifier--
-   if validite= 'actif'THEN
+   if validite!= 'bloque'THEN
    DBMS_OUTPUT.PUT_LINE('Vous etes connecte');
    elsif validite='bloqué' THEN
      DBMS_OUTPUT.PUT_LINE('Vous ne ouvez pas vous connecter car vous avez ete bloque');
