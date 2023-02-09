@@ -8,8 +8,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe ,
-    Statut
+    Mot_de_passe 
 )
 VALUES
 (
@@ -21,8 +20,7 @@ VALUES
     'Mouofodanela@gmail.com',
     650634979,
     'MouofoDanela',
-    'MD171983' ,
-    'actif' 
+    'MD171983'    
 );
 INSERT INTO UTILISATEUR
 (
@@ -34,8 +32,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe ,
-    Statut
+    Mot_de_passe   
 )
 VALUES
 (
@@ -47,8 +44,7 @@ VALUES
     'Kengnijohan@gmail.com',
     694044194,
     'KengniJohan',
-    'KJ161882',
-    'actif' 
+    'KJ161882'  
 );
 INSERT INTO UTILISATEUR
 (
@@ -60,8 +56,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-    Statut  
+    Mot_de_passe    
 )
 VALUES
 (
@@ -73,8 +68,7 @@ VALUES
     'tedongmovaldez@gmail.com',
     698792449,
     'Tedongmovaldez',
-    'TV151781' ,
-    'actif'
+    'TV151781'   
 );
 INSERT INTO UTILISATEUR
 (
@@ -86,8 +80,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-    Statut  
+    Mot_de_passe    
 )
 VALUES
 (
@@ -99,8 +92,7 @@ VALUES
     'zebazebravel@gmail.com',
     695536865,
     'ZebazeBravel',
-    'Zb141680',
-    'actif' 
+    'Zb141680'   
 );
 INSERT INTO UTILISATEUR
 (
@@ -112,8 +104,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-    Statut
+    Mot_de_passe  
 )
 VALUES
 (
@@ -125,8 +116,7 @@ VALUES
     'nikiledjiaurore@gmail.com',
     695523865,
     'NikiledjiAurore',
-    'NA131573' ,
-    'actif'
+    'NA131573'   
 );
 INSERT INTO UTILISATEUR
 (
@@ -138,8 +128,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-    Statut
+    Mot_de_passe  
 )
 VALUES
 (
@@ -151,8 +140,7 @@ VALUES
     'bavouaborel@gmail.com',
     695523123,
     'BavouaBorel',
-    'BB121463' ,
-    'actif'
+    'BB121463'   
 );
 INSERT INTO UTILISATEUR
 (
@@ -164,8 +152,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-    Statut
+    Mot_de_passe
 )
 VALUES
 (
@@ -177,8 +164,7 @@ VALUES
     'tchantchoujordan@gmail.com',
     695523190,
     'TchantchouJordan',
-    'TC111923' ,
-    'actif'
+    'TC111923'    
 );
 INSERT INTO UTILISATEUR
 (
@@ -190,8 +176,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-    Statut
+    Mot_de_passe   
 )
 VALUES
 (
@@ -203,8 +188,7 @@ VALUES
     'fossamaxime@gmail.com',
     690223190,
     'FossaMaxime',
-    'FM101951',
-    'actif' 
+    'FM101951'  
 );
 INSERT INTO UTILISATEUR
 (
@@ -216,8 +200,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-    Statut
+    Mot_de_passe  
 )
 VALUES
 (
@@ -229,8 +212,7 @@ VALUES
     'tiamdaniel@gmail.com',
     690294190,
     'TiamDaniel',
-    'TD091852',
-    'actif' 
+    'TD091852'   
 );
 INSERT INTO UTILISATEUR
 (
@@ -242,8 +224,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-    Statut
+    Mot_de_passe  
 )
 VALUES
 (
@@ -255,8 +236,7 @@ VALUES
     'malonjulaure@gmail.com',
     655205137,
     'MalonjuLaure',
-    'ML081255' ,
-    'actif'
+    'ML081255'   
 );
 INSERT INTO UTILISATEUR
 (
@@ -268,8 +248,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe ,
-    Statut
+    Mot_de_passe   
 )
 VALUES
 (
@@ -281,8 +260,7 @@ VALUES
     'djoudapatric@gmail.com',
     690456484,
     'DjoudaPatric',
-    'DP071021' ,
-    'actif'
+    'DP071021'    
 );
 INSERT INTO UTILISATEUR
 (
@@ -294,8 +272,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe ,
-    Statut
+    Mot_de_passe   
 )
 VALUES
 (
@@ -307,8 +284,7 @@ VALUES
     'tankoleila@gmail.com',
     655204455,
     'TankoLeila',
-    'TL060920' ,
-    'actif'
+    'TL060920'    
 );
 INSERT INTO UTILISATEUR
 (
@@ -320,8 +296,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe ,
-    Statut  
+    Mot_de_passe     
 )
 VALUES
 (
@@ -333,8 +308,7 @@ VALUES
     'nguiakamangele@gmail.com',
     655221209,
     'NguiakamAngele',
-    'NA050810' ,
-    'actif'
+    'NA050810'    
 );
 INSERT INTO UTILISATEUR
 (
@@ -346,8 +320,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe ,
-    Statut
+    Mot_de_passe   
 )
 VALUES
 (
@@ -359,8 +332,7 @@ VALUES
     'mbahjenny@gmail.com',
     651291009,
     'MbahJenny',
-    'MJ040211' ,
-    'actif'
+    'MJ040211'    
 );
 INSERT INTO UTILISATEUR
 (
@@ -372,8 +344,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe ,
-    Statut
+    Mot_de_passe    
 )
 VALUES
 (
@@ -385,8 +356,7 @@ VALUES
     'tchindayvana@gmail.com',
     656231909,
     'TchindaYvana',
-    'TY030114' ,
-    'actif'
+    'TY030114'    
 );
 INSERT INTO UTILISATEUR
 (
@@ -398,8 +368,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-   Statut
+    Mot_de_passe 
 )
 VALUES
 (
@@ -411,8 +380,7 @@ VALUES
     'tokoloic@gmail.com',
     696251909,
     'TokoLoic',
-    'TL030114' ,
-    'actif'
+    'TL030114'     
 );
 INSERT INTO UTILISATEUR
 (
@@ -424,8 +392,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe,
-   Statut
+    Mot_de_passe 
 )
 VALUES
 (
@@ -437,8 +404,7 @@ VALUES
     'rayemalik@gmail.com',
     671258888,
     'RayeMalik',
-    'RM290114' ,
-    'actif'
+    'RM290114'   
 );
 INSERT INTO UTILISATEUR
 (
@@ -450,8 +416,7 @@ INSERT INTO UTILISATEUR
     Email ,
     Telephone,
     Nom_utilisateur ,
-    Mot_de_passe ,
-    Statut
+    Mot_de_passe 
 )
 VALUES
 (
@@ -463,7 +428,6 @@ VALUES
     'naaroussel@gmail.com',
     696251909,
     'NaaRoussel',
-    'NR030114' ,
-    'actif'
+    'NR030114'   
 );
 

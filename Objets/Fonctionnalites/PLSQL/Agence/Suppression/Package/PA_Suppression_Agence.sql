@@ -91,7 +91,5 @@ END;
                         FROM AGENT
                         WHERE id_agence=Valeur
                     );
-
-execute PACK_SUPPRESSION_AGENCES.SUPPRESSION_AGENCE('&pressing','&lieu');
             
                     

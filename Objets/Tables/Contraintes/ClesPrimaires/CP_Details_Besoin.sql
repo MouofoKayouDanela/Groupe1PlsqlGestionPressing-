@@ -1,3 +1,3 @@
 ALTER TABLE DETAILS_BESOIN
 ADD CONSTRAINT cp_detail_besoin_id_detail_besoin
-PRIMARY KEY (id_besoin);
+PRIMARY KEY (id_besoin,id_categorie_linge,id_categorie_service,id_type_linge,id_type_service);
