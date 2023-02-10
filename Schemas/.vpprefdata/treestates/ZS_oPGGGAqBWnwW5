@@ -1,45 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ProjectTreeState projectID="0L65JKGGAqAuAQBO" projectPath="E:\plsql\projet open pressing\Groupe1PlsqlGestionPressing-\Schemas\OpenPressing_Analyse.vpp">
-	<TreeState name="ModelRepository" viewX="0" viewY="54">
+	<TreeState name="ModelRepository" viewX="0" viewY="648">
 		<ExpandedPath>ModelRepository</ExpandedPath>
 		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz</ExpandedPath>
-		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz,ET4tbGGGAqBwAQnv</ExpandedPath>
-		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz,ET4tbGGGAqBwAQnv,aVUdbGGGAqBwAQoT</ExpandedPath>
 		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz,9vYDbGGGAqBwAQsD</ExpandedPath>
-		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz,9vYDbGGGAqBwAQsD,P7WDbGGGAqBwAQs_</ExpandedPath>
-		<ExpandedPath>ModelRepository,b5dq3GGGAqG6AQeu</ExpandedPath>
-		<ExpandedPath>ModelRepository,b5dq3GGGAqG6AQeu,DTR5jGGGAqG6AQvl</ExpandedPath>
-		<ExpandedPath>ModelRepository,b5dq3GGGAqG6AQeu,DTR5jGGGAqG6AQvl,Y69pjGGGAqG6AQtb</ExpandedPath>
-		<ExpandedPath>ModelRepository,b5dq3GGGAqG6AQeu,DTR5jGGGAqG6AQvl,Y69pjGGGAqG6AQtb,6SfpjGGGAqG6AQtk</ExpandedPath>
+		<ExpandedPath>ModelRepository,DTR5jGGGAqG6AQvl</ExpandedPath>
+		<ExpandedPath>ModelRepository,DTR5jGGGAqG6AQvl,Y69pjGGGAqG6AQtb</ExpandedPath>
+		<ExpandedPath>ModelRepository,DTR5jGGGAqG6AQvl,Y69pjGGGAqG6AQtb,6SfpjGGGAqG6AQtk</ExpandedPath>
 		<ExpandedPath>ModelRepository,jMmCHGGGAqAEAQmy</ExpandedPath>
-		<ExpandedPath>ModelRepository,jMmCHGGGAqAEAQmy,0xIiHGGGAqAEAQm8</ExpandedPath>
-		<SelectedPath>ModelRepository,nzMtbGGGAqBwAQnz,9vYDbGGGAqBwAQsD</SelectedPath>
+		<ExpandedPath>ModelRepository,jMmCHGGGAqAEAQmy,Du_IPGGGAqAugQqI</ExpandedPath>
+		<ExpandedPath>ModelRepository,jMmCHGGGAqAEAQmy,Du_IPGGGAqAugQqI,9UKcPGGGAqAugQ7q</ExpandedPath>
+		<ExpandedPath>ModelRepository,jMmCHGGGAqAEAQmy,Du_IPGGGAqAugQqI,ecUoPGGGAqAugQqR</ExpandedPath>
+		<SelectedPath>ModelRepository,nHmTFGGGAqG6AQW6</SelectedPath>
 	</TreeState>
 	<TreeState name="DiagramNavigator" viewX="0" viewY="0">
 		<ExpandedPath>DiagramNavigator</ExpandedPath>
 		<ExpandedPath>DiagramNavigator,UML Diagrams</ExpandedPath>
 		<ExpandedPath>UseCaseDiagram</ExpandedPath>
-		<ExpandedPath>UseCaseDiagram,kiYCHGGGAqAEAQeK</ExpandedPath>
-		<ExpandedPath>UseCaseDiagram,kiYCHGGGAqAEAQeK,dMmCHGGGAqAEAQmx</ExpandedPath>
-		<ExpandedPath>UseCaseDiagram,kiYCHGGGAqAEAQeK,dMmCHGGGAqAEAQmx,UxIiHGGGAqAEAQm7</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Requirements Capturing</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Database Modeling</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Business Modeling</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,SysML</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Project Management</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Strategic Analysis</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Analysis Canvas</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Software Design</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Decision Analysis</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Quality Control</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Flowchart</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Engineering</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Cloud Architecture</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Data Visualization</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Network Design</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,General</ExpandedPath>
-		<ExpandedPath>DiagramNavigator,Others</ExpandedPath>
-		<SelectedPath>UseCaseDiagram,kiYCHGGGAqAEAQeK</SelectedPath>
+		<ExpandedPath>PackageDiagram</ExpandedPath>
+		<SelectedPath>UseCaseDiagram,CVrpPGGGAqBWnwuN</SelectedPath>
 	</TreeState>
 	<TreeState name="ClassBrowser" viewX="0" viewY="0"/>
 	<TreeState name="LogicalView" viewX="0" viewY="0"/>
