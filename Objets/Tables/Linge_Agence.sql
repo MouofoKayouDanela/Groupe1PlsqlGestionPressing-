@@ -3,5 +3,6 @@ CREATE TABLE LINGE_AGENCE(
     id_agence VARCHAR2(50),
     Date_ajout DATE,
     id_type VARCHAR2(50),
-    Date_retrait DATE   
+    Date_retrait DATE,
+    statut VARCHAR2   
 );
