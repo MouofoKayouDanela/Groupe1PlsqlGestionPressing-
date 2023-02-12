@@ -3,5 +3,6 @@ CREATE TABLE SERVICE_AGENCE(
      id_agence VARCHAR2(50),
      date_Ajout DATE,
      id_type VARCHAR2(50),
-     date_Retrait DATE
+     date_Retrait DATE,
+     statut VARCHAR2
 );
