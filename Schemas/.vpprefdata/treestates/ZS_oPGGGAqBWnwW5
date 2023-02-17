@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ProjectTreeState projectID="0L65JKGGAqAuAQBO" projectPath="E:\plsql\projet open pressing\Groupe1PlsqlGestionPressing-\Schemas\OpenPressing_Analyse.vpp">
-	<TreeState name="ModelRepository" viewX="0" viewY="140">
+	<TreeState name="ModelRepository" viewX="0" viewY="0">
 		<ExpandedPath>ModelRepository</ExpandedPath>
+		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz</ExpandedPath>
+		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz,ET4tbGGGAqBwAQnv</ExpandedPath>
+		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz,ET4tbGGGAqBwAQnv,aVUdbGGGAqBwAQoT</ExpandedPath>
+		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz,ET4tbGGGAqBwAQnv,SuXdbGGGAqBwAQp7</ExpandedPath>
+		<ExpandedPath>ModelRepository,nzMtbGGGAqBwAQnz,9vYDbGGGAqBwAQsD</ExpandedPath>
+		<SelectedPath>ModelRepository,nzMtbGGGAqBwAQnz,ET4tbGGGAqBwAQnv,SuXdbGGGAqBwAQp7</SelectedPath>
 	</TreeState>
 	<TreeState name="DiagramNavigator" viewX="0" viewY="0">
 		<ExpandedPath>DiagramNavigator</ExpandedPath>
 		<ExpandedPath>DiagramNavigator,UML Diagrams</ExpandedPath>
 		<ExpandedPath>UseCaseDiagram</ExpandedPath>
-		<ExpandedPath>PackageDiagram</ExpandedPath>
 		<ExpandedPath>DiagramNavigator,Requirements Capturing</ExpandedPath>
 		<ExpandedPath>DiagramNavigator,Database Modeling</ExpandedPath>
 		<ExpandedPath>DiagramNavigator,Business Modeling</ExpandedPath>
@@ -25,7 +30,7 @@
 		<ExpandedPath>DiagramNavigator,Network Design</ExpandedPath>
 		<ExpandedPath>DiagramNavigator,General</ExpandedPath>
 		<ExpandedPath>DiagramNavigator,Others</ExpandedPath>
-		<SelectedPath>PackageDiagram,uAl1bGGGAqBwAQnU</SelectedPath>
+		<SelectedPath>UseCaseDiagram,6BpIPGGGAqAugQmL</SelectedPath>
 	</TreeState>
 	<TreeState name="ClassBrowser" viewX="0" viewY="0"/>
 	<TreeState name="LogicalView" viewX="0" viewY="0"/>
